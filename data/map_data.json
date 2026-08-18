@@ -1,0 +1,5327 @@
+{
+ "refs": [
+  {
+   "key": "nyc",
+   "cls": "ref",
+   "shape": "star",
+   "name": "New York City",
+   "state": "NY",
+   "lat": 40.755,
+   "lon": -73.984,
+   "drive": "",
+   "acres": null,
+   "blurb": "Start of every drive estimate (Midtown).",
+   "links": []
+  },
+  {
+   "key": "squam",
+   "cls": "ref",
+   "shape": "ring",
+   "name": "Squam Lake (the archetype)",
+   "state": "NH",
+   "lat": 43.79,
+   "lon": -71.55,
+   "drive": "~4:50",
+   "acres": 6791,
+   "blurb": "The reference point. \u2264$2.5M buys no usable compound here \u2014 but see the live 159 Rt-113 assemblage listings.",
+   "links": [
+    [
+     "Squam Lakes Conservation Society",
+     "https://www.squamslandtrust.org/map-of-conserved-land/"
+    ]
+   ]
+  }
+ ],
+ "lakes": [
+  {
+   "key": "kezar",
+   "name": "Kezar Lake",
+   "state": "ME",
+   "lat": 44.2,
+   "lon": -70.89,
+   "acres": 2665,
+   "drive": "~5:35",
+   "tier": "t1",
+   "score": 9.5,
+   "blurb": "The truest Squam analog: oligotrophic, White Mtn backdrop, hushed. Thin market \u2014 and a live 16.6-ac Narrows parcel just surfaced.",
+   "links": [
+    [
+     "Watershed assn",
+     "https://kezarwatershed.org/kezar-lake"
+    ],
+    [
+     "Kezar Realty",
+     "https://www.kezarrealty.com/kezar-lake/kezar-lake-homes/"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "seymour",
+   "name": "Seymour Lake",
+   "state": "VT",
+   "lat": 44.933,
+   "lon": -71.956,
+   "acres": 1777,
+   "drive": "~6:15",
+   "tier": "t1",
+   "score": 9,
+   "blurb": "Best odds of executing: oligotrophic, invasive-free, wakesports zone, compound-grade comps ~$1.25M.",
+   "links": [
+    [
+     "Lake assn",
+     "https://seymourlake.org/water-quality-measurement/"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/vermont/lake-seymour"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "raquette",
+   "name": "Raquette Lake",
+   "state": "NY",
+   "lat": 43.845,
+   "lon": -74.655,
+   "acres": 5000,
+   "drive": "~5:20",
+   "tier": "t1",
+   "score": 8.5,
+   "blurb": "Great Camp birthplace; wild bays, attainable entries, APA levers for a cabin cluster.",
+   "links": [
+    [
+     "Listings",
+     "https://www.lakehouse.com/raquette-lake-new-york-lake-homes-for-sale-b4047.html"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "bigmoose",
+   "name": "Big Moose Lake",
+   "state": "NY",
+   "lat": 43.822,
+   "lon": -74.858,
+   "acres": 1286,
+   "drive": "~5:15",
+   "tier": "t1",
+   "score": 9,
+   "blurb": "Dark-timber old camps, near-zero ramp traffic. Two live listings: $1.2M boat-access and $1.1M road-access.",
+   "links": [
+    [
+     "Timm Associates",
+     "https://www.timmassociates.com/community/big-moose-twitchell-lake/"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "merrymeeting",
+   "name": "Merrymeeting Lake",
+   "state": "NH",
+   "lat": 43.466,
+   "lon": -71.125,
+   "acres": 1150,
+   "drive": "~4:45",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Spring-fed clear, no big public ramp \u2014 quietest archetype water near the city.",
+   "links": [
+    [
+     "Listings",
+     "https://www.lakehomes.com/new-hampshire/merrymeeting-lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "greateast",
+   "name": "Great East Lake",
+   "state": "NH/ME",
+   "lat": 43.642,
+   "lon": -70.975,
+   "acres": 1700,
+   "drive": "~4:50",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Secchi ~10 m. Inventory currently dry (one pending camp) \u2014 set alerts; cyanobacteria counts are the watch item.",
+   "links": [
+    [
+     "GELIA monitoring",
+     "https://www.greateastlake.org/water-quality-monitoring/"
+    ],
+    [
+     "Listings",
+     "https://www.lakesregionmenh.com/great-east-nh/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "caspian",
+   "name": "Caspian Lake",
+   "state": "VT",
+   "lat": 44.594,
+   "lon": -72.303,
+   "acres": 790,
+   "drive": "~5:45",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Greensboro \u2014 the NEK's Squam-in-miniature. A rare $2.25M north-shore estate parcel is live now.",
+   "links": [
+    [
+     "Jim Campbell RE",
+     "https://www.jimcampbellrealestate.com/lakes/caspian-lake/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "maidstone",
+   "name": "Maidstone Lake",
+   "state": "VT",
+   "lat": 44.64,
+   "lon": -71.648,
+   "acres": 756,
+   "drive": "~6:15",
+   "tier": "t2",
+   "score": 8,
+   "blurb": "State-forest ring, loons, one dirt road \u2014 the most Trout-Lake-WI place in New England.",
+   "links": [
+    [
+     "Maidstone State Forest",
+     "https://fpr.vermont.gov/maidstone-state-forest"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "usaranac",
+   "name": "Upper Saranac Lake",
+   "state": "NY",
+   "lat": 44.27,
+   "lon": -74.27,
+   "acres": 5000,
+   "drive": "~5:15",
+   "tier": "t2",
+   "score": 8,
+   "blurb": "The NY Squam. \u2264$2.5M buys one camp, not a compound \u2014 tour Panther Cove to calibrate.",
+   "links": [
+    [
+     "Milfoil program",
+     "https://usfoundation.net/programs/milfoil-control/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "chateaugay",
+   "name": "Upper Chateaugay Lake",
+   "state": "NY",
+   "lat": 44.755,
+   "lon": -73.932,
+   "acres": 2300,
+   "drive": "~5:50",
+   "tier": "t2",
+   "score": 8,
+   "blurb": "The value arbitrage: clear, cold, sleepy. $599K buys an 868-ft private cove.",
+   "links": [
+    [
+     "LaPoint Realty",
+     "https://lapointrealty.com/chateaugay-lake/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "piseco",
+   "name": "Piseco Lake",
+   "state": "NY",
+   "lat": 43.453,
+   "lon": -74.543,
+   "acres": 2900,
+   "drive": "~4:00",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Best drive-to-wildness ratio on the list; Forest Preserve ring, thin inventory.",
+   "links": [
+    [
+     "Area guide",
+     "https://www.adirondack.net/business/piseco-lake-12504/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "webb",
+   "name": "Webb Lake",
+   "state": "ME",
+   "lat": 44.688,
+   "lon": -70.457,
+   "acres": 2146,
+   "drive": "~6:20",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Mount Blue / Tumbledown wildness; the build-from-scratch canvas ($985K parcel live).",
+   "links": [
+    [
+     "Webb Lake listings",
+     "https://www.land.com/Webb-Lake-in-ME/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "newfound",
+   "name": "Newfound Lake",
+   "state": "NH",
+   "lat": 43.658,
+   "lon": -71.792,
+   "acres": 4451,
+   "drive": "~4:40",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "PROMOTED to Tier 2: world-class clarity and now real inventory \u2014 the $2.6M ten-room Kelby lodge plus $799K\u2013$1.5M owned waterfront. Watch the spiny water flea.",
+   "links": [
+    [
+     "NLRA water quality",
+     "https://www.newfoundlake.org/water-quality/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "conway",
+   "name": "Conway Lake",
+   "state": "NH",
+   "lat": 43.942,
+   "lon": -71.073,
+   "acres": 1298,
+   "drive": "~5:20",
+   "tier": "watch",
+   "score": 7.5,
+   "blurb": "Sleeper: conserved eastern shore, tiny launch, cheaper than its neighbors; $1.25M camp live.",
+   "links": [
+    [
+     "Overview",
+     "https://en.wikipedia.org/wiki/Conway_Lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "thompson",
+   "name": "Thompson Lake",
+   "state": "ME",
+   "lat": 44.028,
+   "lon": -70.489,
+   "acres": 4419,
+   "drive": "~5:20",
+   "tier": "watch",
+   "score": 7.8,
+   "blurb": "Archetype water, frontage drought continues \u2014 only access-rights homes live; set an alert.",
+   "links": [
+    [
+     "TLEA report",
+     "https://thompsonlake.org/wp-content/uploads/Thompson-Lake-2024-Water-Quality-Report.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "embden",
+   "name": "Embden Pond",
+   "state": "ME",
+   "lat": 44.952,
+   "lon": -69.958,
+   "acres": 1565,
+   "drive": "~6:25",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Cheapest clear water found: camps in the $400Ks; two live sub-$450K options.",
+   "links": [
+    [
+     "LandWatch Embden",
+     "https://www.landwatch.com/maine-land-for-sale/embden/waterfront-property"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "echo",
+   "name": "Echo Lake (Charleston)",
+   "state": "VT",
+   "lat": 44.845,
+   "lon": -71.94,
+   "acres": 547,
+   "drive": "~6:15",
+   "tier": "watch",
+   "score": 7.9,
+   "blurb": "Clearest Secchi in the VT dataset (8.8 m); pair with Seymour. Current entry pending.",
+   "links": [
+    [
+     "Lake assn",
+     "https://www.echolakeassociation.net/about-us/echo-lake/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "willoughby",
+   "name": "Lake Willoughby",
+   "state": "VT",
+   "lat": 44.728,
+   "lon": -72.057,
+   "acres": 1734,
+   "drive": "~6:00",
+   "tier": "watch",
+   "score": 7.5,
+   "blurb": "Spectacular fjord; frontage scarce \u2014 but the live combo ($929K 8BR waterfront lodge + LaCross parcels) is Vermont's best compound math.",
+   "links": [
+    [
+     "Overview",
+     "https://farmandforest.com/willoughby-lake/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "bonaparte",
+   "name": "Lake Bonaparte",
+   "state": "NY",
+   "lat": 44.153,
+   "lon": -75.363,
+   "acres": 1300,
+   "drive": "~5:45",
+   "tier": "watch",
+   "score": 7.3,
+   "blurb": "Islands, granite, generational camps; compound money goes far.",
+   "links": [
+    [
+     "Listings",
+     "https://www.lakehomes.com/new-york/lake-bonaparte"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "chazy",
+   "name": "Chazy Lake",
+   "state": "NY",
+   "lat": 44.755,
+   "lon": -73.826,
+   "acres": 1807,
+   "drive": "~5:00",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Clear, cold, sparse under Lyon Mtn; $265K entry live now.",
+   "links": [
+    [
+     "DEC page",
+     "https://dec.ny.gov/places/chazy-lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "averill",
+   "name": "Great Averill Pond",
+   "state": "VT",
+   "lat": 44.993,
+   "lon": -71.696,
+   "acres": 830,
+   "drive": "~6:30",
+   "tier": "watch",
+   "score": 7.6,
+   "blurb": "The NEK's best-kept secret \u2014 oligotrophic, forested, near-zero market (Quimby Country sold).",
+   "links": [
+    [
+     "VT public-waters rules",
+     "https://dec.vermont.gov/watershed/lakes-ponds/vermont-use-public-waters-rules"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "mooselook",
+   "name": "Mooselookmeguntic (edge)",
+   "state": "ME",
+   "lat": 44.883,
+   "lon": -70.8,
+   "acres": 16320,
+   "drive": "~6:45\u20137:15",
+   "tier": "watch",
+   "score": 7.8,
+   "blurb": "Truest Trout Lake analog east of Wisconsin \u2014 45 min over the drive line. Remarkable value.",
+   "links": [
+    [
+     "Listings",
+     "https://www.lakehouse.com/mooselookmeguntic-lake-maine-lake-homes-for-sale-b1356.html"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "rangeley",
+   "name": "Rangeley Lake (edge)",
+   "state": "ME",
+   "lat": 44.935,
+   "lon": -70.68,
+   "acres": 6000,
+   "drive": "~7:00",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Classic ski-camp town, over the drive cap; only if the rule softens.",
+   "links": [
+    [
+     "Morton & Furbish",
+     "https://www.morton-furbish.com/waterfront-listings/rangeley-lake/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "silver_madison",
+   "name": "Silver Lake (Madison)",
+   "state": "NH",
+   "lat": 43.874,
+   "lon": -71.19,
+   "acres": 996,
+   "drive": "~5:50",
+   "clarity": "Oligotrophic (NHDES/UNH LLMP); high transparency, active association monitoring",
+   "motors": "Unrestricted power/ski; PWC banned 2000; houseboats prohibited",
+   "tier": "t1",
+   "score": 9.0,
+   "blurb": "Quiet forested White-Mtn-edge archetype: clear water, ski-legal, jetski-free, real camps; compound via 2-3-parcel assembly is realistic.",
+   "links": [
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ],
+    [
+     "UNH LLMP 2021 report",
+     "https://scholars.unh.edu/extension/1370/"
+    ],
+    [
+     "Silver Lake Assoc",
+     "https://silverlakemadison.com/"
+    ]
+   ],
+   "cls": "t1",
+   "new": true
+  },
+  {
+   "key": "wentworth",
+   "name": "Lake Wentworth",
+   "state": "NH",
+   "lat": 43.598,
+   "lon": -71.147,
+   "acres": 3018,
+   "drive": "~5:30",
+   "clarity": "Oligotrophic (NHDES/Wentworth Watershed Assoc); consistently clear",
+   "motors": "Full towsports; PWC banned 1990",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Big, clear, PWC-free, wooded shores with islands; Wolfeboro amenities 5 min; frontage trades but compounds rare.",
+   "links": [
+    [
+     "WWA water quality",
+     "https://wentworthwatershed.org/water-quality/"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "pleasant_new_london",
+   "name": "Pleasant Lake (New London)",
+   "state": "NH",
+   "lat": 43.421,
+   "lon": -71.995,
+   "acres": 605,
+   "drive": "~4:10",
+   "clarity": "Oligotrophic, excellent clarity (NHDES VLAP)",
+   "motors": "Ski legal; PWC banned 1989",
+   "tier": "t2",
+   "score": 8.3,
+   "blurb": "Deep, gin-clear, Kearsarge backdrop, 4-hour drive; tradeoff is scarce, expensive frontage on a smaller lake.",
+   "links": [
+    [
+     "NHDES VLAP report",
+     "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2020-01/2019-pleasant-newlondon.pdf"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "highland_stoddard",
+   "name": "Highland Lake (Stoddard)",
+   "state": "NH",
+   "lat": 43.104,
+   "lon": -72.063,
+   "acres": 710,
+   "drive": "~4:00",
+   "clarity": "Mesotrophic (NHDES VLAP N+S stations); decent clarity, slight tea stain",
+   "motors": "Unrestricted; ski common; no PWC ban listed",
+   "tier": "t2",
+   "score": 8.0,
+   "blurb": "Wildest Monadnock big-lake: 7 miles of largely conserved forest, loons, cheap camps; water good-not-gin-clear.",
+   "links": [
+    [
+     "NHDES VLAP (South)",
+     "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2023-highland-south-stoddard.pdf"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "spofford",
+   "name": "Spofford Lake",
+   "state": "NH",
+   "lat": 42.904,
+   "lon": -72.402,
+   "acres": 739,
+   "drive": "~3:35",
+   "clarity": "Oligotrophic-leaning, clear (NHDES 2024 VLAP; watershed plan)",
+   "motors": "40 mph day/20 night; ski culture strong",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Closest passing lake to NYC; deep, clear, ski-friendly; tradeoff: fully ringed cottage road, little wild shore.",
+   "links": [
+    [
+     "NHDES 2024 VLAP",
+     "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2024-spofford-chesterfield.pdf"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "ossipee",
+   "name": "Ossipee Lake",
+   "state": "NH",
+   "lat": 43.77,
+   "lon": -71.163,
+   "acres": 3092,
+   "drive": "~5:35",
+   "clarity": "Oligotrophic, sandy-bottomed (Ossipee Lake Alliance/NHDES monitoring)",
+   "motors": "Unrestricted + 1,500-ft shore no-wake zones",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Huge clear sandy lake plus quiet bays (Broad/Leavitt/Berry); caveat: weekend sandbar party scene and campgrounds.",
+   "links": [
+    [
+     "OLA water quality",
+     "https://www.ossipeelake.org/programs/water-quality/"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "winnisquam",
+   "name": "Lake Winnisquam",
+   "state": "NH",
+   "lat": 43.552,
+   "lon": -71.508,
+   "acres": 4264,
+   "drive": "~4:40",
+   "clarity": "Oligotrophic per NHDES table; watershed plan active; good clarity",
+   "motors": "Full towsports; localized 6-mph/no-ski zones",
+   "tier": "t2",
+   "score": 7.8,
+   "blurb": "NH's 4th-largest, ski-perfect and affordable; Ferry Point 13BR lodge = instant compound; south end is busy Rt-3 corridor.",
+   "links": [
+    [
+     "Winnisquam Watershed Network",
+     "https://www.winnisquamwatershed.org/water-quality-monitoring"
+    ],
+    [
+     "Quality table",
+     "https://www.nhlakesrealty.com/lakes-info/water-quality/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "goose_pond_canaan",
+   "name": "Goose Pond (Canaan)",
+   "state": "NH",
+   "lat": 43.687,
+   "lon": -72.058,
+   "acres": 553,
+   "drive": "~4:40",
+   "clarity": "Oligo/mesotrophic, clear (GPLA/NHDES VLAP)",
+   "motors": "Ski legal; PWC banned 1989; Narrows no-wake",
+   "tier": "t2",
+   "score": 7.6,
+   "blurb": "Forested, jetski-free sleeper near Hanover; caveat: deep winter drawdown (2024 dam-work year extreme) and fewer services.",
+   "links": [
+    [
+     "GPLA water quality",
+     "https://www.gpla-goosepond.org/water-quality"
+    ],
+    [
+     "NHDES VLAP",
+     "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2023-goose-canaan.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "nubanusit",
+   "name": "Nubanusit Lake",
+   "state": "NH",
+   "lat": 42.996,
+   "lon": -72.028,
+   "acres": 718,
+   "drive": "~4:00",
+   "clarity": "Oligotrophic, deep coldwater; among region's clearest (NHDES VLAP)",
+   "motors": "Motors/ski legal; PWC banned 1988",
+   "tier": "watch",
+   "score": 8.6,
+   "blurb": "Trout-Lake-grade clarity, Harris-Center-conserved forest, 4 hours out \u2014 but frontage almost never trades; zero listings now.",
+   "links": [
+    [
+     "NHDES VLAP",
+     "https://www.des.nh.gov/sites/g/files/ehbemt341/files/documents/2023-nubanusit-nelson.pdf"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "little_squam",
+   "name": "Little Squam Lake",
+   "state": "NH",
+   "lat": 43.741,
+   "lon": -71.605,
+   "acres": 408,
+   "drive": "~4:55",
+   "clarity": "Shares Squam's oligotrophic clear system",
+   "motors": "Ski legal; PWC banned 1988; channel no-wake",
+   "tier": "watch",
+   "score": 8.2,
+   "blurb": "Size-exception justified: full boat access to Big Squam; watch = price and sub-450 acreage; Phase-0 homes exist.",
+   "links": [
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ],
+    [
+     "Quality table (Squam)",
+     "https://www.nhlakesrealty.com/lakes-info/water-quality/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "umbagog",
+   "name": "Lake Umbagog",
+   "state": "NH",
+   "lat": 44.76,
+   "lon": -71.045,
+   "acres": 7850,
+   "drive": "~7:00",
+   "clarity": "Mesotrophic, shallow, tannin-tinted; wild watershed (NWR)",
+   "motors": "Motorboating permitted incl. refuge waters; ski legal",
+   "tier": "watch",
+   "score": 8.0,
+   "blurb": "True wilderness (eagles, refuge shoreline) at edge-drive 7:00; scarce private frontage, stained shallow water; exceptional-fit override.",
+   "links": [
+    [
+     "USFWS motorized boating",
+     "https://www.fws.gov/refuge/umbagog/visit-us/activities/boating---motorized"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/new-hampshire/umbagog-lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "first_connecticut",
+   "name": "First Connecticut Lake",
+   "state": "NH",
+   "lat": 45.093,
+   "lon": -71.287,
+   "acres": 2807,
+   "drive": "~7:05",
+   "clarity": "Cold, clear oligotrophic salmon water (NHDES trend reporting)",
+   "motors": "Unrestricted; ski legal though water stays cold",
+   "tier": "watch",
+   "score": 7.9,
+   "blurb": "Spectacular timber-country lake; edge 7:05 drive, thin camp inventory, short cold season \u2014 exceptional-fit watch only.",
+   "links": [
+    [
+     "NHDES lake trends",
+     "https://www4.des.state.nh.us/OneStopPub/TrophicSurveys/r-wd-20-08.pdf"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/new-hampshire/first-connecticut-lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "sunapee",
+   "name": "Lake Sunapee",
+   "state": "NH",
+   "lat": 43.375,
+   "lon": -72.055,
+   "acres": 4085,
+   "drive": "~4:15",
+   "clarity": "Oligotrophic, very clear (NHDES; color 5)",
+   "motors": "Full towsports, 45 mph",
+   "tier": "watch",
+   "score": 7.8,
+   "blurb": "Water is superb but harbor/regatta scene reads borderline-busy and $2.5M buys one house, never a compound.",
+   "links": [
+    [
+     "Quality table",
+     "https://www.nhlakesrealty.com/lakes-info/water-quality/"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lovell_lake",
+   "name": "Lovell Lake",
+   "state": "NH",
+   "lat": 43.552,
+   "lon": -71.033,
+   "acres": 554,
+   "drive": "~5:10",
+   "clarity": "Oligotrophic; avg Secchi 6.3 m (AWWA)",
+   "motors": "Ski legal; no PWC ban listed",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Surprisingly clear Wakefield sleeper; watch: AWWA phosphorus/cyano-frequency project and Rt-109/village edge.",
+   "links": [
+    [
+     "AWWA Lovell profile",
+     "https://awwatersheds.org/lovell-lake/"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "bow_lake",
+   "name": "Bow Lake",
+   "state": "NH",
+   "lat": 43.303,
+   "lon": -71.132,
+   "acres": 1160,
+   "drive": "~4:45",
+   "clarity": "Mesotrophic, decent clarity; episodic cyanobacteria advisories (NHDES issued/removed)",
+   "motors": "Full towsports; minor 6-mph zones",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Right size/drive/ski culture; watch item is recurring short cyanobacteria advisories and busier southern-NH feel.",
+   "links": [
+    [
+     "NHDES advisory",
+     "https://www.des.nh.gov/news-and-media/state-issues-cyanobacteria-bloom-advisory-bow-lake-strafford-nh"
+    ],
+    [
+     "Town of Strafford",
+     "https://strafford.nh.gov/bow-lake/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "waukewan",
+   "name": "Lake Waukewan",
+   "state": "NH",
+   "lat": 43.64,
+   "lon": -71.523,
+   "acres": 912,
+   "drive": "~4:55",
+   "clarity": "Oligo/mesotrophic; Meredith water supply with formal cyanobacteria response plan (2025)",
+   "motors": "Ski legal; PWC banned 1989",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Pretty, jetski-free, near Squam; watch: drinking-water-supply politics and active cyano monitoring plan.",
+   "links": [
+    [
+     "Waukewan cyano plan",
+     "https://wwc.waukewan.org/uploads/1/3/8/7/13878202/final_lakewaukewan_cyanobacteriaplan_20250630_wattachments.pdf"
+    ],
+    [
+     "Watershed plan",
+     "https://winnipesaukeegateway.org/lake-management/plan-2/plan-2-waukewan-winona-watershed-restoration-plan/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "mascoma",
+   "name": "Mascoma Lake",
+   "state": "NH",
+   "lat": 43.649,
+   "lon": -72.162,
+   "acres": 1114,
+   "drive": "~4:25",
+   "clarity": "Mesotrophic, moderate clarity; variable milfoil documented (NHDES)",
+   "motors": "Ski legal; PWC banned weekends",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Shaker-village charm 15 min from Dartmouth; watch: milfoil history, I-89/rail-trail adjacency, colored water.",
+   "links": [
+    [
+     "Mascoma Lake Assoc WQ",
+     "https://mascomalakeassociation.org/water-quality-2/"
+    ],
+    [
+     "NHDES survey (milfoil noted)",
+     "https://www4.des.state.nh.us/OneStopPub/TrophicSurveys/2019-mascoma-enfield.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "pine_river_pond",
+   "name": "Pine River Pond",
+   "state": "NH",
+   "lat": 43.601,
+   "lon": -71.108,
+   "acres": 590,
+   "drive": "~5:15",
+   "clarity": "Mesotrophic, low color (NHDES table)",
+   "motors": "Ski legal; PWC prohibited",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "Wooded, jetski-free, honest camp lake; watch: dense small-lot ring, winter drawdown, limited wow-factor.",
+   "links": [
+    [
+     "Quality table",
+     "https://www.nhlakesrealty.com/lakes-info/water-quality/"
+    ],
+    [
+     "NHSP restricted waters",
+     "https://www.nhsp.dos.nh.gov/our-services/field-operations-bureau/marine-patrol/restricted-bodies-water"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "little_sunapee",
+   "name": "Little Lake Sunapee",
+   "state": "NH",
+   "lat": 43.432,
+   "lon": -72.03,
+   "acres": 471,
+   "drive": "~4:10",
+   "clarity": "Mesotrophic, good clarity (LLSPA monitoring)",
+   "motors": "Ski legal; PWC banned 1989",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "Quiet New London alternative when Pleasant is unobtainable; watch: barely 471 ac and near-zero inventory.",
+   "links": [
+    [
+     "LLSPA water quality",
+     "https://littlesunapee.org/water-quality/"
+    ],
+    [
+     "Acreage/quality table",
+     "https://waterfrontagent.net/lake-info/water-qualities-of-100-acre-lakes/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "parker_pond",
+   "name": "Parker Pond",
+   "state": "ME",
+   "lat": 44.48,
+   "lon": -70.01,
+   "acres": 1529,
+   "drive": "~6:15",
+   "clarity": "Oligo-meso; 2021 avg Secchi 8.2 m (hist 7.4), TP 4.8 ppb (30MRWA)",
+   "motors": "No HP cap; ski-legal (CMR ch.13 \u00a707 absent)",
+   "tier": "t1",
+   "score": 9.1,
+   "blurb": "1,500+ quiet acres, 8 m water, one restricted launch, loons, conserved headlands \u2014 Squam energy with live inventory.",
+   "links": [
+    [
+     "30MRWA WQ report",
+     "https://30mileriver.org/wp-content/uploads/2022/04/2021-Parker-Pond-WQ-Report.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-overview.html?m=5240"
+    ],
+    [
+     "Motor-restriction rule",
+     "https://www.law.cornell.edu/regulations/maine/09-137-C-M-R-ch-13-SS-07"
+    ]
+   ],
+   "cls": "t1",
+   "new": true
+  },
+  {
+   "key": "echo_lake_fayette",
+   "name": "Echo Lake (Fayette)",
+   "state": "ME",
+   "lat": 44.435,
+   "lon": -70.0,
+   "acres": 1109,
+   "drive": "~6:05",
+   "clarity": "2024 avg Secchi 7.2 m (hist 6.6), TP 6.2 ppb (30MRWA)",
+   "motors": "No restrictions (10-hp 'Echo Lake' is Mt. Desert's)",
+   "tier": "t1",
+   "score": 9.0,
+   "blurb": "Deep, clear, wooded Fayette water with YMCA camp heritage; affordable frontage; ideal ski loops.",
+   "links": [
+    [
+     "30MRWA 2024 report",
+     "https://30mileriver.org/echo-lake-report-2024/"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=5348"
+    ]
+   ],
+   "cls": "t1",
+   "new": true
+  },
+  {
+   "key": "lake_st_george",
+   "name": "Lake St. George",
+   "state": "ME",
+   "lat": 44.405,
+   "lon": -69.348,
+   "acres": 1017,
+   "drive": "~6:20",
+   "clarity": "Oligotrophic; 'crystal clear' (state park guide); salmon water",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.7,
+   "blurb": "Spring-fed, island-dotted, state-park anchored, Liberty prices: camp $395K, lots under $120K. Best value archetype.",
+   "links": [
+    [
+     "Park guide (clarity)",
+     "https://www.maine.gov/dacf/parksearch/PropertyGuides/PDF_GUIDE/lakestgeorgeguide.pdf"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/St._George_Lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "peabody_pond",
+   "name": "Peabody Pond",
+   "state": "ME",
+   "lat": 43.932,
+   "lon": -70.688,
+   "acres": 735,
+   "drive": "~5:30",
+   "clarity": "Avg Secchi 8.0 m, low P (LEA 2022); oligotrophic",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.7,
+   "blurb": "Closest truly pristine water: 8 m clarity, forested, no commercial anything. Inventory rare \u2014 patience or assemblage.",
+   "links": [
+    [
+     "LEA testing report",
+     "https://mainelakes.org/wp-content/uploads/2023/03/Chapter-1-Traditional-Water-Monitoring-Report.pdf"
+    ],
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/cumberland/peabody_pond.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "moose_pond_denmark",
+   "name": "Moose Pond",
+   "state": "ME",
+   "lat": 44.035,
+   "lon": -70.78,
+   "acres": 1697,
+   "drive": "~5:40",
+   "clarity": "Main basin avg Secchi 7.7 m (LEA 2022); stable; no invasives",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.6,
+   "blurb": "Three basins under Pleasant Mtn; classic kids-camp water (Winona/Wyonegonic). Tradeoff: ski-area base traffic.",
+   "links": [
+    [
+     "LEA report",
+     "https://mainelakes.org/wp-content/uploads/2023/03/Chapter-1-Traditional-Water-Monitoring-Report.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-overview.html?m=3134"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "pleasant_lake_otisfield",
+   "name": "Pleasant Lake (Otisfield)",
+   "state": "ME",
+   "lat": 44.012,
+   "lon": -70.488,
+   "acres": 1077,
+   "drive": "~5:35",
+   "clarity": "DEP 'excellent' class; spring-fed; high transparency",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.6,
+   "blurb": "Otisfield's quiet spring-fed gem; Seeds of Peace camp proves compound format. Tradeoff: tight inventory.",
+   "links": [
+    [
+     "MREC lake profile",
+     "https://www.mainerealestatechoice.com/lakes/pleasant-lake-casco-otisfield/"
+    ],
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/cumberland/pleasant_lake.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "clearwater_pond",
+   "name": "Clearwater Pond",
+   "state": "ME",
+   "lat": 44.72,
+   "lon": -70.075,
+   "acres": 751,
+   "drive": "~6:20",
+   "clarity": "Oligotrophic, 129 ft deep, wild lake trout; famously transparent",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Franklin County's clearest big pond; forested, lightly developed. Tradeoff: small market, few services.",
+   "links": [
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/franklin/clearwater_pond.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=5190"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "panther_pond",
+   "name": "Panther Pond",
+   "state": "ME",
+   "lat": 43.92,
+   "lon": -70.475,
+   "acres": 1439,
+   "drive": "~5:20",
+   "clarity": "2022 avg Secchi 7.0 m; oligo-meso, 30-yr stable (RWPA)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.4,
+   "blurb": "Camp Agawam water: clear, wooded, 25 min off the pike. Tradeoff: Raymond growth pressure.",
+   "links": [
+    [
+     "Raymond lakes WQ report",
+     "https://crescentlakemaine.org/wp-content/uploads/2025/05/Water_Quality_Report_Web-Version.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-overview.html?m=3694"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "porter_lake",
+   "name": "Porter Lake",
+   "state": "ME",
+   "lat": 44.775,
+   "lon": -70.15,
+   "acres": 527,
+   "drive": "~6:30",
+   "clarity": "Secchi 8.5\u20139.0 m 2017\u201321 (Porter Lake Assn); healthy",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.4,
+   "blurb": "Nine-meter water almost nobody knows; native lakers. Tradeoffs: 527 ac, remote-feeling, micro market.",
+   "links": [
+    [
+     "PLA water quality",
+     "https://www.porterlakeassociation.com/water-quality"
+    ],
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/franklin/porter_lake.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "highland_lake_bridgton",
+   "name": "Highland Lake (Bridgton)",
+   "state": "ME",
+   "lat": 44.078,
+   "lon": -70.73,
+   "acres": 1334,
+   "drive": "~5:45",
+   "clarity": "Avg Secchi 7.4 m (LEA 2022); mesotrophic",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.2,
+   "blurb": "Clear, islanded, 16-mi shoreline; north half quiet. Tradeoff: village beach/downtown at south end.",
+   "links": [
+    [
+     "LEA lake page",
+     "https://mainelakes.org/lake/highland-lake/"
+    ],
+    [
+     "LEA report",
+     "https://mainelakes.org/wp-content/uploads/2023/03/Chapter-1-Traditional-Water-Monitoring-Report.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "sheepscot_pond",
+   "name": "Sheepscot Pond",
+   "state": "ME",
+   "lat": 44.39,
+   "lon": -69.44,
+   "acres": 1215,
+   "drive": "~6:15",
+   "clarity": "TP 5\u201310 ppb, stable Secchi, no blooms ever (SLA/DEP); 150 ft deep",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.1,
+   "blurb": "Big, deep, healthy Palermo water with fish hatchery pedigree. Tradeoff: plainer shoreline market.",
+   "links": [
+    [
+     "SLA annual update",
+     "https://townline.org/community-commentary-sheepscot-lake-annual-water-quality-update/"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Sheepscot_Pond"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "long_pond_belgrade",
+   "name": "Long Pond (Belgrade)",
+   "state": "ME",
+   "lat": 44.505,
+   "lon": -69.9,
+   "acres": 2714,
+   "drive": "~6:00",
+   "clarity": "2024 Secchi 5.3\u20135.6 m, 'good all season' (7 Lakes Alliance)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.0,
+   "blurb": "Deep, mountain-framed Belgrade classic; Castle Island charm. Tradeoff: summer boat traffic.",
+   "links": [
+    [
+     "7LA 2024 summary",
+     "https://7lakesalliance.org/wp-content/uploads/2025/02/WeeklyReport-2024-08-30.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "maranacook_lake",
+   "name": "Maranacook Lake",
+   "state": "ME",
+   "lat": 44.36,
+   "lon": -69.985,
+   "acres": 1673,
+   "drive": "~5:50",
+   "clarity": "'One of the cleanest in Maine' (wiki); deep 118-ft south basin",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 8.0,
+   "blurb": "Clean two-basin lake, easy Augusta logistics. Tradeoff: heavier year-round development.",
+   "links": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Maranacook_Lake"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=5312"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "pocasset_lake",
+   "name": "Pocasset Lake",
+   "state": "ME",
+   "lat": 44.36,
+   "lon": -70.07,
+   "acres": 607,
+   "drive": "~6:00",
+   "clarity": "2024 avg Secchi 6.16 m (hist 5.7); meso, stable (30MRWA)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Wayne village charmer, quiet and clear. Tradeoff: modest 600 acres for serious cruising.",
+   "links": [
+    [
+     "30MRWA 2024 report",
+     "https://30mileriver.org/pocasset-lake-water-quality-report-2024/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "crescent_lake",
+   "name": "Crescent Lake",
+   "state": "ME",
+   "lat": 43.945,
+   "lon": -70.485,
+   "acres": 722,
+   "drive": "~5:20",
+   "clarity": "2022 avg Secchi 6.8 m; oligo-meso (RWPA)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Panther's connected twin; clear, calmer, camp-lined. Tradeoff: smaller water, Rt 85 exposure.",
+   "links": [
+    [
+     "Raymond lakes WQ report",
+     "https://crescentlakemaine.org/wp-content/uploads/2025/05/Water_Quality_Report_Web-Version.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "great_pond_belgrade",
+   "name": "Great Pond (Belgrade)",
+   "state": "ME",
+   "lat": 44.535,
+   "lon": -69.858,
+   "acres": 8533,
+   "drive": "~6:00",
+   "clarity": "2024 Secchi 5.7 m, good season (7LA); minor June scums",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.8,
+   "blurb": "The 'On Golden Pond' sea: huge cruising range, island camps. Tradeoff: liveliest Belgrade social scene.",
+   "links": [
+    [
+     "7LA 2024 summary",
+     "https://7lakesalliance.org/wp-content/uploads/2025/02/WeeklyReport-2024-08-30.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "crawford_pond",
+   "name": "Crawford Pond (Union)",
+   "state": "ME",
+   "lat": 44.185,
+   "lon": -69.285,
+   "acres": 596,
+   "drive": "~6:25",
+   "clarity": "'Above average' quality; 57 ft deep; 100-Acre Island preserve",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.7,
+   "blurb": "Midcoast sleeper with preserved island and clean water. Tradeoff: small, low turnover.",
+   "links": [
+    [
+     "Union ponds profile",
+     "https://blog.mrlakefront.net/2012/04/01/the-ponds-of-union-maine-seven-tree-crawford-and-round-pond/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "keoka_lake",
+   "name": "Keoka Lake",
+   "state": "ME",
+   "lat": 44.19,
+   "lon": -70.715,
+   "acres": 467,
+   "drive": "~5:50",
+   "clarity": "Avg Secchi 6.8 m (LEA 2022); meso",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.6,
+   "blurb": "Waterford village postcard, quiet and clear. Tradeoff: just clears the size bar.",
+   "links": [
+    [
+     "LEA report",
+     "https://mainelakes.org/wp-content/uploads/2023/03/Chapter-1-Traditional-Water-Monitoring-Report.pdf"
+    ],
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/oxford/keoka_lake.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "square_pond",
+   "name": "Square Pond",
+   "state": "ME",
+   "lat": 43.555,
+   "lon": -70.885,
+   "acres": 910,
+   "drive": "~4:55",
+   "clarity": "Meso, decent clarity (LSM); no bloom history",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Closest qualifying Maine water to NYC; solid ski pond. Tradeoff: dense camp shoreline, weekend buzz.",
+   "links": [
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=3916"
+    ],
+    [
+     "SPIA",
+     "https://squarepond.org/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "pemaquid_pond",
+   "name": "Pemaquid Pond",
+   "state": "ME",
+   "lat": 44.08,
+   "lon": -69.47,
+   "acres": 1515,
+   "drive": "~6:05",
+   "clarity": "Meso, mid-4s m Secchi (LSM); no chronic blooms",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Long, quiet, oyster-country lake near Damariscotta. Tradeoff: clarity a notch below the leaders.",
+   "links": [
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=5704"
+    ],
+    [
+     "IFW survey",
+     "https://www.maine.gov/ifw/docs/lake-survey-maps/lincoln/pemaquid_pond.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "wilson_lake_wilton",
+   "name": "Wilson Lake (Wilton)",
+   "state": "ME",
+   "lat": 44.585,
+   "lon": -70.23,
+   "acres": 563,
+   "drive": "~6:05",
+   "clarity": "Meso-clear; 88 ft deep, wild salmonids (FOWL)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Deep, tidy Wilton lake with active friends group. Tradeoff: town at south end, modest acreage.",
+   "links": [
+    [
+     "Friends of Wilson Lake",
+     "https://www.friendsofwilsonlake.org/lake-facts"
+    ],
+    [
+     "2026 assn meeting",
+     "https://www.centralmaine.com/2026/07/08/wilson-lake-group-sets-july-19-annual-meeting-in-wilton/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "wesserunsett",
+   "name": "Lake Wesserunsett",
+   "state": "ME",
+   "lat": 44.85,
+   "lon": -69.85,
+   "acres": 1446,
+   "drive": "~6:20",
+   "clarity": "Long-term Secchi 5.9 m; TP 8 ppb 'warrants concern' (LWA 2017)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Lakewood Theater lake; roomy and affordable. Tradeoff: phosphorus creeping toward bloom threshold.",
+   "links": [
+    [
+     "LWA WQ report",
+     "https://madisonmaine.com/images/WESSERUNSETT_WATER_QUALITY_REPORT_2017_final_122117.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "megunticook_lake",
+   "name": "Megunticook Lake",
+   "state": "ME",
+   "lat": 44.235,
+   "lon": -69.115,
+   "acres": 1328,
+   "drive": "~6:45",
+   "clarity": "Clear meso; monitored since 1975 (MWA); no invasives",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 8.3,
+   "blurb": "Camden Hills backdrop, Fernald's Neck preserve \u2014 the prettiest water here. Caveat: 6:45 drive, Camden pricing.",
+   "links": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Megunticook_Lake"
+    ],
+    [
+     "MWA",
+     "https://www.megunticook.org/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "damariscotta_lake",
+   "name": "Damariscotta Lake",
+   "state": "ME",
+   "lat": 44.185,
+   "lon": -69.525,
+   "acres": 4300,
+   "drive": "~6:05",
+   "clarity": "Meso ~5 m; Aug 2024 cyanotoxin advisory (south arm), cleared on retest",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 7.8,
+   "blurb": "14 miles of island-strewn midcoast water, alewife runs. Caveat: episodic localized cyanobacteria advisories.",
+   "links": [
+    [
+     "2024 alert",
+     "https://lcnme.com/currentnews/damariscotta-lake-water-quality-alert/"
+    ],
+    [
+     "Midcoast Conservancy",
+     "https://www.midcoastconservancy.org/damariscotta"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "richardson_lakes",
+   "name": "Richardson Lakes",
+   "state": "ME",
+   "lat": 44.785,
+   "lon": -70.87,
+   "acres": 7100,
+   "drive": "~7:00",
+   "clarity": "Secchi 4.5\u20137.5 m; 'no significant health concerns,' sparse development (RLHT 2024)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 7.8,
+   "blurb": "Wildest big water in scope; loon wilderness. Caveats: 7:00 drive, mostly leased timberland frontage.",
+   "links": [
+    [
+     "RLHT 2024 report",
+     "https://rlht.org/wp-content/uploads/2024/11/2024-Richardson-Lake-Water-Quality-Report.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "swan_lake",
+   "name": "Swan Lake",
+   "state": "ME",
+   "lat": 44.515,
+   "lon": -69.0,
+   "acres": 1370,
+   "drive": "~6:45",
+   "clarity": "Clear salmon lake; oligo-meso (LSM)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 7.6,
+   "blurb": "State-park lake above Belfast; 350 camps, honest prices. Caveats: drive edge, dam-level politics history.",
+   "links": [
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=5492"
+    ],
+    [
+     "Swan Lake Assn",
+     "http://swanlakemaine.org/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "trickey_pond",
+   "name": "Trickey Pond",
+   "state": "ME",
+   "lat": 43.945,
+   "lon": -70.59,
+   "acres": 315,
+   "drive": "~5:25",
+   "clarity": "Avg Secchi 9.7 m (LEA 2022) \u2014 clearest in region",
+   "motors": "No HP cap; ski-legal",
+   "tier": "watch",
+   "score": 7.5,
+   "blurb": "Caribbean-clear outlier. Caveat: 315 acres \u2014 under size bar, tight ski loops, tiny inventory.",
+   "links": [
+    [
+     "LEA report",
+     "https://mainelakes.org/wp-content/uploads/2023/03/Chapter-1-Traditional-Water-Monitoring-Report.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-overview.html?m=3382"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "alford_lake",
+   "name": "Alford Lake",
+   "state": "ME",
+   "lat": 44.235,
+   "lon": -69.18,
+   "acres": 570,
+   "drive": "~6:35",
+   "clarity": "Clear oligo-meso (LSM); Alford Lake Camp water",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 7.5,
+   "blurb": "Hope's clean, low-key lake with camp pedigree. Caveats: modest size, thin public data and inventory.",
+   "links": [
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=4798"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "messalonskee",
+   "name": "Messalonskee (Snow Pond)",
+   "state": "ME",
+   "lat": 44.495,
+   "lon": -69.755,
+   "acres": 3510,
+   "drive": "~6:05",
+   "clarity": "2024 Secchi 4.5 m, 'good all season' (7LA)",
+   "motors": "No restrictions; ski-legal; seaplane base",
+   "tier": "watch",
+   "score": 7.3,
+   "blurb": "Nine miles of cruising water, cheapest big-lake frontage in Belgrades. Caveats: mid clarity, busy Oakland end.",
+   "links": [
+    [
+     "7LA 2024 summary",
+     "https://7lakesalliance.org/wp-content/uploads/2025/02/WeeklyReport-2024-08-30.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "mousam_lake",
+   "name": "Mousam Lake",
+   "state": "ME",
+   "lat": 43.51,
+   "lon": -70.865,
+   "acres": 863,
+   "drive": "~4:55",
+   "clarity": "Recovered: delisted from impaired 2006; clarity +3 ft vs 1990s (EPA)",
+   "motors": "No restrictions; ski-legal",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Closest-in option with real depth. Caveats: 700-home shoreline, restoration-era water still mid-pack.",
+   "links": [
+    [
+     "EPA success story",
+     "https://www.epa.gov/sites/production/files/2015-11/documents/me_mousam.pdf"
+    ],
+    [
+     "Lakes of Maine",
+     "https://www.lakesofmaine.org/lake-water-quality.html?m=3838"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "blue_mountain",
+   "name": "Blue Mountain Lake",
+   "state": "NY",
+   "lat": 43.855,
+   "lon": -74.448,
+   "acres": 1220,
+   "drive": "~4:30",
+   "clarity": "Famously clear oligo/mesotrophic; 100-ft holes, trout/salmon water",
+   "motors": "NYS default (45 day, 5mph <100 ft); ski legal; launches limited to <20-ft boats",
+   "tier": "t2",
+   "score": 8.8,
+   "blurb": "The archetype: island-dotted, mostly private shore, museum-quiet hamlet; verges t1 whenever a camp actually lists.",
+   "links": [
+    [
+     "DEC Blue Mountain Lake",
+     "https://dec.ny.gov/places/blue-mountain-lake"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Blue_Mountain_Lake_(New_York_lake)"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "lower_saranac",
+   "name": "Lower Saranac Lake",
+   "state": "NY",
+   "lat": 44.31,
+   "lon": -74.19,
+   "acres": 2285,
+   "drive": "~4:55",
+   "clarity": "Mesotrophic, good clarity; island-and-ledge water",
+   "motors": "NYS default; ski legal; locks connect Middle/Oseetah",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Fifty-island beauty, state campsite culture keeps shores wild; Pinehurst enclave offers a real compound seed.",
+   "links": [
+    [
+     "DEC Saranac Islands",
+     "https://dec.ny.gov/places/saranac-lake-islands-campground-and-day-use-area"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Lower_Saranac_Lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "schroon",
+   "name": "Schroon Lake",
+   "state": "NY",
+   "lat": 43.793,
+   "lon": -73.759,
+   "acres": 4100,
+   "drive": "~3:55",
+   "clarity": "Mesotrophic, Grade B, Secchi ~5 m",
+   "motors": "NYS default; strong ski/cruise culture",
+   "tier": "t2",
+   "score": 8.4,
+   "blurb": "Big, clean, closest true ski lake; tradeoff is summer hamlet bustle and faint Northway hum on west shore.",
+   "links": [
+    [
+     "LakeQuality report",
+     "https://www.lakequality.org/lake/schroon-lake-essex-ny"
+    ],
+    [
+     "Schroon Lake Assn",
+     "https://schroonlakeassociation.com/our-lake-2"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "brant",
+   "name": "Brant Lake",
+   "state": "NY",
+   "lat": 43.708,
+   "lon": -73.688,
+   "acres": 1413,
+   "drive": "~4:00",
+   "clarity": "Clear mesotrophic; active milfoil control (ProcellaCOR)",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 8.2,
+   "blurb": "Quiet forested sleeve of water north of Lake George glitz; strong camp stock, milfoil program is the caveat.",
+   "links": [
+    [
+     "Warren Co. water data",
+     "https://www.warrencountyny.gov/water/brantlake"
+    ],
+    [
+     "Milfoil program",
+     "https://brantlakemilfoil.org/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "skaneateles",
+   "name": "Skaneateles Lake",
+   "state": "NY",
+   "lat": 42.858,
+   "lon": -76.393,
+   "acres": 8960,
+   "drive": "~4:20",
+   "clarity": "Ultra-oligotrophic Syracuse AA supply; Secchi ~8 m",
+   "motors": "NYS default; ski legal; watershed rules govern shoreline/septic",
+   "tier": "t2",
+   "score": 8.2,
+   "blurb": "Caribbean-clear but pastoral, pricey, and watershed-regulated; honest fit only if clarity outranks wilderness feel.",
+   "links": [
+    [
+     "Watershed rules",
+     "https://www.cayugacounty.us/DocumentCenter/View/3097/Skaneateles-Lake-Watershed-Rules-and-Regulations-PDF"
+    ],
+    [
+     "CSLAP",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt18skaneateln.pdf"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "lake_pleasant",
+   "name": "Lake Pleasant",
+   "state": "NY",
+   "lat": 43.47,
+   "lon": -74.4,
+   "acres": 1451,
+   "drive": "~3:50",
+   "clarity": "Clear mesotrophic (CSLAP-monitored)",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 8.1,
+   "blurb": "Speculator's home water: mountains, sand, short drive; Camp-of-the-Woods end lively, southwest shore quiet.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt16lpleasanth.pdf"
+    ],
+    [
+     "DEC Lake Pleasant",
+     "https://dec.ny.gov/places/lake-pleasant"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "sacandaga_speculator",
+   "name": "Sacandaga Lake (Speculator)",
+   "state": "NY",
+   "lat": 43.483,
+   "lon": -74.417,
+   "acres": 1559,
+   "drive": "~3:50",
+   "clarity": "Clear mesotrophic; 90 ft deep",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 8.0,
+   "blurb": "Pleasant's wilder twin: Forever-Wild shoreline stretches, islands, Moffitt Beach campground; closest credible compound water to NYC.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt18sacandagal.pdf"
+    ],
+    [
+     "DEC contour map",
+     "https://dec.ny.gov/places-to-go/maps/sacandaga-lake-contour-map-region-5"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "lake_clear",
+   "name": "Lake Clear",
+   "state": "NY",
+   "lat": 44.36,
+   "lon": -74.256,
+   "acres": 998,
+   "drive": "~5:10",
+   "clarity": "Mesoligotrophic; Secchi avg ~4.6 m (to 6.9)",
+   "motors": "No special restriction; NYS default; ski practical",
+   "tier": "t2",
+   "score": 8.0,
+   "blurb": "Lives up to its name: sand, spring-fed clarity, St. Regis canoe country next door; caveat\u2014adjacent regional airport, near-zero inventory.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt12lclear.pdf"
+    ],
+    [
+     "Adirondack.net profile",
+     "https://www.adirondack.net/towns/lake-placid-region/lake-clear/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "indian",
+   "name": "Indian Lake",
+   "state": "NY",
+   "lat": 43.703,
+   "lon": -74.343,
+   "acres": 4365,
+   "drive": "~4:10",
+   "clarity": "Mesotrophic, clear with light stain; CSLAP-monitored",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Fourteen wild miles, state island campsites, Sabael camp colony; dam-controlled winter drawdown is the honest tradeoff.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/data/IF/CSLAP/2021_CSLAPreport_Indian%20Lake(1301IND0167).html"
+    ],
+    [
+     "DEC Indian Lake",
+     "https://dec.ny.gov/places/indian-lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "paradox",
+   "name": "Paradox Lake",
+   "state": "NY",
+   "lat": 43.87,
+   "lon": -73.685,
+   "acres": 896,
+   "drive": "~4:05",
+   "clarity": "Clear mesotrophic",
+   "motors": "NYS default; ski fine in main basin",
+   "tier": "t2",
+   "score": 7.9,
+   "blurb": "Sleepy two-basin water over the hill from Schroon; Rt 74 touches north shore, otherwise deep-forest quiet.",
+   "links": [
+    [
+     "Paradox Lake Assn",
+     "https://paradox-lake.com/"
+    ],
+    [
+     "DEC Paradox Lake",
+     "https://dec.ny.gov/places/paradox-lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "long",
+   "name": "Long Lake",
+   "state": "NY",
+   "lat": 43.988,
+   "lon": -74.415,
+   "acres": 4077,
+   "drive": "~4:45",
+   "clarity": "Mesotrophic; shallow (13-ft avg) Raquette River flow-through, light tea",
+   "motors": "NYS default; ski/cruise culture, seaplane base",
+   "tier": "t2",
+   "score": 7.8,
+   "blurb": "Fjord-like 14-mile cruise water with affordable frontage; river current, wind and stain keep it below the clarity elite.",
+   "links": [
+    [
+     "Long Lake Assn WQ",
+     "http://www.longlakeassociation.org/water-quality.html"
+    ],
+    [
+     "DEC Long Lake",
+     "https://dec.ny.gov/places/long-lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "millsite",
+   "name": "Millsite Lake",
+   "state": "NY",
+   "lat": 44.245,
+   "lon": -75.74,
+   "acres": 506,
+   "drive": "~5:40",
+   "clarity": "Oligotrophic; Secchi 7.0 m avg (to 9.9)",
+   "motors": "NYS default; ski legal, no houseboats",
+   "tier": "t2",
+   "score": 7.8,
+   "blurb": "The Indian River sleeper: genuinely oligotrophic, granite-and-pine shores, tiny tight market; clarity rivals anything on this list.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt18millsitel.pdf"
+    ],
+    [
+     "IRLC profile",
+     "https://indianriverlakes.org/lake-association/millsite-lake/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "loon_chestertown",
+   "name": "Loon Lake (Chestertown)",
+   "state": "NY",
+   "lat": 43.649,
+   "lon": -73.898,
+   "acres": 602,
+   "drive": "~3:50",
+   "clarity": "Mesoligotrophic; Secchi ~3.7 m",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 7.6,
+   "blurb": "Island-dotted, close, decent water; smaller basin and denser cottages mean one busy-Saturday tradeoff.",
+   "links": [
+    [
+     "DEC LCI report",
+     "https://extapps.dec.ny.gov/docs/water_pdf/lci17rprtloonl.pdf"
+    ],
+    [
+     "Warren Co. water data",
+     "https://www.warrencountyny.gov/water/loonlake"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "loon_franklin",
+   "name": "Loon Lake (Franklin Co.)",
+   "state": "NY",
+   "lat": 44.556,
+   "lon": -74.062,
+   "acres": 1100,
+   "drive": "~5:20",
+   "clarity": "Mesotrophic, moderately clear",
+   "motors": "NYS default; ski legal",
+   "tier": "t2",
+   "score": 7.5,
+   "blurb": "Faded Gilded-Age resort lake, quiet and cheap for its size; watch the contested golf-course redevelopment next door.",
+   "links": [
+    [
+     "Lake-Link profile",
+     "https://www.lake-link.com/new-york-lakes/franklin-county/loon-lake/30361/"
+    ],
+    [
+     "Adirondack Explorer on development",
+     "https://www.adirondackexplorer.org/community-news/land-use/whats-going-on-in-loon-lake/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "canada_lake",
+   "name": "Canada Lake",
+   "state": "NY",
+   "lat": 43.17,
+   "lon": -74.507,
+   "acres": 554,
+   "drive": "~3:20",
+   "clarity": "Deep (70-ft mean), cold, clear trout water",
+   "motors": "NYS default; ski legal",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Closest qualifying lake to Midtown, deep and clear into West/Green lakes; caveat\u2014small century-old lots, compound assembly hard.",
+   "links": [
+    [
+     "Lake facts (LakeHomes)",
+     "https://www.lakehomes.com/new-york/canada-lake"
+    ],
+    [
+     "Caroga lakes plan",
+     "https://townofcaroga.com/lakes/lmp.htm"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "sylvia",
+   "name": "Sylvia Lake",
+   "state": "NY",
+   "lat": 44.275,
+   "lon": -75.405,
+   "acres": 317,
+   "drive": "~5:35",
+   "clarity": "Marble-basin spring water; locally billed clearest in NY",
+   "motors": "NYS default; ski legal",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Size-exception candidate: swimming-pool clarity over white marble; only 317 acres, cottage-ringed, listings rare.",
+   "links": [
+    [
+     "Sylvia Lake Assn",
+     "https://www.sylvialakeny.com/lake-association"
+    ],
+    [
+     "DEC Sylvia Lake",
+     "https://dec.ny.gov/places/sylvia-lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "keuka",
+   "name": "Keuka Lake",
+   "state": "NY",
+   "lat": 42.533,
+   "lon": -77.093,
+   "acres": 11584,
+   "drive": "~4:50",
+   "clarity": "Oligo-mesotrophic, clean; KLA-monitored",
+   "motors": "NYS default; big ski culture",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Cleanest crooked lake in wine country; caveat\u2014vineyard-pastoral not forested-wild, dense cottages, fast-moving market.",
+   "links": [
+    [
+     "KLA monitoring",
+     "https://www.keukalakeassociation.org/lake-monitoring.php"
+    ],
+    [
+     "2025 WQ update",
+     "https://keukasun.com/2025/07/24/keuka-lake-association-water-quality-update/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "fourth",
+   "name": "Fourth Lake (Fulton Chain)",
+   "state": "NY",
+   "lat": 43.752,
+   "lon": -74.877,
+   "acres": 2138,
+   "drive": "~4:40",
+   "clarity": "Mesotrophic, clear",
+   "motors": "NYS default; heavy summer traffic",
+   "tier": "watch",
+   "score": 7.3,
+   "blurb": "Honest verdict on the main chain: clear and handsome but Old Forge tourist wake culture; buy here for convenience, not Squam.",
+   "links": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Fourth_Lake_(New_York)"
+    ],
+    [
+     "CSLAP (Fulton Chain)",
+     "https://extapps.dec.ny.gov/docs/water_pdf/cslrpt18fulton2l.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "cranberry",
+   "name": "Cranberry Lake",
+   "state": "NY",
+   "lat": 44.183,
+   "lon": -74.836,
+   "acres": 6975,
+   "drive": "~5:50",
+   "clarity": "Tea-stained Oswegatchie water, low-nutrient but brown",
+   "motors": "NYS default; ski legal",
+   "tier": "watch",
+   "score": 7.3,
+   "blurb": "Wildest big lake in NY\u201475% state shoreline; caveats are real: dark water, long drive, thin hamlet market.",
+   "links": [
+    [
+     "DEC Cranberry Complex",
+     "https://dec.ny.gov/places/cranberry-lake-complex"
+    ],
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Cranberry_Lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "seventh",
+   "name": "Seventh Lake (Fulton Chain)",
+   "state": "NY",
+   "lat": 43.762,
+   "lon": -74.76,
+   "acres": 880,
+   "drive": "~4:55",
+   "clarity": "Mesotrophic, clear; wilder upper chain",
+   "motors": "NYS default; ski legal",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Quietest motorized link of the chain, state-forest south shore; caveat\u2014Rt 28 noise and a micro market.",
+   "links": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/Seventh_Lake"
+    ],
+    [
+     "6th & 7th Lakes Assn",
+     "https://sixthandseventhlakeassoc.org/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "otsego",
+   "name": "Otsego Lake",
+   "state": "NY",
+   "lat": 42.762,
+   "lon": -74.892,
+   "acres": 4046,
+   "drive": "~3:40",
+   "clarity": "Deep mesotrophic 'Glimmerglass'; cyanobacteria blooms recurring since 2022",
+   "motors": "NYS default; ski legal",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Closest big deep lake, estate shorelines; caveat\u2014late-summer HAB advisories now near-annual plus Cooperstown tourist churn.",
+   "links": [
+    [
+     "SUNY BFS monitoring",
+     "https://suny.oneonta.edu/biological-field-station/otsego-lake"
+    ],
+    [
+     "OLA on cyanobacteria",
+     "https://otsegolakeassociation.org/information-on-otsego-lake-and-cyanobacteria/"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lower_chateaugay",
+   "name": "Lower Chateaugay Lake",
+   "state": "NY",
+   "lat": 44.818,
+   "lon": -73.994,
+   "acres": 544,
+   "drive": "~5:55",
+   "clarity": "Late-mesotrophic; Secchi ~2.3 m",
+   "motors": "NYS default; navigable to Upper via Narrows",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "Cheap frontage and Narrows access to profiled Upper; caveat\u2014clarity clearly a notch below, buy Upper first.",
+   "links": [
+    [
+     "ALAP report",
+     "https://www.protectadks.org/wp-content/uploads/2014/04/ALAP-2013-Lower-Chateaugay-Lake.pdf"
+    ],
+    [
+     "Chateaugay Lake Foundation",
+     "https://chateaugaylakefoundation.org/wp-content/uploads/2023/07/Chateaugay-Lake-Aquatic-Plant-Report-2022.pdf"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "osgood",
+   "name": "Osgood Pond",
+   "state": "NY",
+   "lat": 44.447,
+   "lon": -74.227,
+   "acres": 511,
+   "drive": "~5:15",
+   "clarity": "Tea-stained (55 Pt-Co); Secchi ~2.5 m, stable mesotrophic",
+   "motors": "NYS default; shallow\u2014light motor use",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "White Pine Camp pedigree and Paul Smiths quiet; caveat\u2014real tea stain and modest depth temper towsports appeal.",
+   "links": [
+    [
+     "ALAP report",
+     "https://www.protectadks.org/wp-content/uploads/2015/03/ALAP-2014_Osgood-Pond.pdf"
+    ],
+    [
+     "Paddling profile",
+     "https://www.saranaclake.com/paddling/osgood-pond"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lake_of_the_isles",
+   "name": "Lake of the Isles (Wellesley Is.)",
+   "state": "NY",
+   "lat": 44.318,
+   "lon": -75.998,
+   "acres": 550,
+   "drive": "~5:50",
+   "clarity": "St. Lawrence-clear, warmest water on the river",
+   "motors": "NYS/river rules; ski legal in calm protected basin",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "Sheltered river lagoon with state-park shores; caveat\u2014it's the St. Lawrence, not a private forest lake.",
+   "links": [
+    [
+     "Open Water Data",
+     "https://www.openwaterdata.com/site/lake-of-the-isles"
+    ],
+    [
+     "Swim Guide",
+     "https://www.theswimguide.org/beach/1317"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "mountain_view_indian",
+   "name": "Mountain View + Indian (Duane)",
+   "state": "NY",
+   "lat": 44.688,
+   "lon": -74.263,
+   "acres": 543,
+   "drive": "~5:45",
+   "clarity": "Sandy, moderately clear",
+   "motors": "NYS default; ski practiced",
+   "tier": "watch",
+   "score": 6.9,
+   "blurb": "Two connected sandy lakes totaling ~540 acres, deeply quiet and cheap; caveat\u2014each basin under 300 acres.",
+   "links": [
+    [
+     "Mountain View Assn",
+     "https://mountainviewassn.com/"
+    ],
+    [
+     "Visit Malone profile",
+     "https://www.visitmalone.com/fishing/mountain-view-lake"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "placid",
+   "name": "Lake Placid",
+   "state": "NY",
+   "lat": 44.315,
+   "lon": -73.985,
+   "acres": 2173,
+   "drive": "~5:00",
+   "clarity": "Oligotrophic, superb clarity (CSLAP)",
+   "motors": "NYS default; active marina traffic",
+   "tier": "watch",
+   "score": 7.9,
+   "blurb": "Whiteface-view masterpiece that fails one test: no realistic \u2264$2.5M compound path\u2014entry camps start well above budget.",
+   "links": [
+    [
+     "CSLAP report",
+     "https://extapps.dec.ny.gov/data/IF/CSLAP/2020_CSLAPreport_Lake%20Placid(1004PLA0254).html"
+    ],
+    [
+     "Boating info",
+     "https://www.lakeplacid.com/do/outdoors/summerfall/boating"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lake_dunmore",
+   "name": "Lake Dunmore",
+   "state": "VT",
+   "lat": 43.903,
+   "lon": -73.074,
+   "acres": 985,
+   "drive": "~4:50",
+   "clarity": "Clear mesotrophic; Secchi ~5.5\u20136.5 m; 105 ft deep; milfoil actively managed (DEC LMP)",
+   "motors": "Unrestricted HP; traditional ski/tube statewide-exempt; on DEC 2026 wakesports-zone list",
+   "tier": "t2",
+   "score": 8.5,
+   "blurb": "Moosalamoo/GMNF wall of forest, real ski water, best drive-to-quality ratio; summer-busy shore and thin inventory.",
+   "links": [
+    [
+     "VT DEC wakesports list",
+     "https://dec.vermont.gov/watershed/lakes-ponds/vermont-use-public-waters-rules/wakeboats"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/vermont/lake-dunmore"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "crystal_lake_barton",
+   "name": "Crystal Lake (Barton)",
+   "state": "VT",
+   "lat": 44.735,
+   "lon": -72.158,
+   "acres": 763,
+   "drive": "~5:50",
+   "clarity": "Oligo-mesotrophic; Secchi ~6 m; 106 ft deep (DEC bathymetry); small milfoil population under treatment",
+   "motors": "Unrestricted HP; DEC wakesports zone designated",
+   "tier": "t2",
+   "score": 8.3,
+   "blurb": "Cliff-walled, deep and clear with true camp stock; Rt 5 west shore and village parks at north end temper it.",
+   "links": [
+    [
+     "DEC depth chart",
+     "https://dec.vermont.gov/sites/dec/files/wsm/lakes/docs/Depth/lp_crystal.pdf"
+    ],
+    [
+     "Listings",
+     "https://farmandforest.com/waterfront-homes/crystal-lake-homes-for-sale/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "harveys_lake",
+   "name": "Harvey's Lake (Barnet)",
+   "state": "VT",
+   "lat": 44.305,
+   "lon": -72.077,
+   "acres": 351,
+   "drive": "~5:10",
+   "clarity": "Meso-oligotrophic; ~140 ft deep; Secchi ~5.5\u20136.5 m; Cousteau's first dive; healthy native plants (VPR/DEC)",
+   "motors": "Motors unrestricted, high-speed legal (UPW table); DEC wakesports zone",
+   "tier": "t2",
+   "score": 7.8,
+   "blurb": "The small-gem exception: deep, clear, hushed West Barnet, closest NEK water; 351 ac means modest ski room.",
+   "links": [
+    [
+     "UPW rules table",
+     "https://dec.vermont.gov/sites/dec/files/wsm/lakes/docs/lp_Use_of_Public_Waters_Rules_Table.pdf"
+    ],
+    [
+     "VPR on clarity",
+     "https://www.vermontpublic.org/vpr-news/2019-09-05/under-harveys-lake-jacques-cousteau-native-plants-and-vermont-lake-health"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "little_averill",
+   "name": "Little Averill Pond",
+   "state": "VT",
+   "lat": 44.981,
+   "lon": -71.686,
+   "acres": 483,
+   "drive": "~7:00",
+   "clarity": "Oligotrophic reference-grade; Secchi ~7 m+; loon nesting lake",
+   "motors": "Unrestricted; DEC wakesports zone designated (2026 list)",
+   "tier": "watch",
+   "score": 7.4,
+   "blurb": "Wildest clear water on this list; 7-hour edge, rough camp roads, almost no market\u2014patience play beside Great Averill.",
+   "links": [
+    [
+     "Wakesports list",
+     "https://dec.vermont.gov/watershed/lakes-ponds/vermont-use-public-waters-rules/wakeboats"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lake_fairlee",
+   "name": "Lake Fairlee",
+   "state": "VT",
+   "lat": 43.899,
+   "lon": -72.219,
+   "acres": 457,
+   "drive": "~4:40",
+   "clarity": "Mesotrophic; Secchi starts high, declines through summer; internal P loading noted (DEC LMP 2023)",
+   "motors": "Unrestricted; NOT on 2026 wakesports list (trad ski/tube still legal)",
+   "tier": "watch",
+   "score": 7.3,
+   "blurb": "Forested, quiet, 4:40 out, youth-camp culture; squeaks the size bar and clarity is good-not-great.",
+   "links": [
+    [
+     "DEC 2023 LMP results",
+     "https://dec.vermont.gov/sites/dec/files/wsm/lakes/LMP/LMP%20&%20LaRosa%20Presentations/2023%20Lake%20Fairlee%20LMP%20and%20LPP%20Results.pdf"
+    ],
+    [
+     "Association",
+     "https://www.lakefairleevt.org/news-archives.html"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "island_pond",
+   "name": "Island Pond (Brighton)",
+   "state": "VT",
+   "lat": 44.805,
+   "lon": -71.861,
+   "acres": 626,
+   "drive": "~6:25",
+   "clarity": "Mesotrophic; Secchi ~4.5\u20135 m; forested south/east shores, state park",
+   "motors": "Unrestricted; DEC wakesports zone designated",
+   "tier": "watch",
+   "score": 7.2,
+   "blurb": "Big cheap water with Brighton SP forest; village, rail line and middling clarity keep it off the podium.",
+   "links": [
+    [
+     "Wakesports list",
+     "https://dec.vermont.gov/watershed/lakes-ponds/vermont-use-public-waters-rules/wakeboats"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/vermont/island-pond"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lake_salem",
+   "name": "Lake Salem (Derby)",
+   "state": "VT",
+   "lat": 44.92,
+   "lon": -72.073,
+   "acres": 767,
+   "drive": "~6:15",
+   "clarity": "Mesotrophic; Secchi ~4\u20135 m; milfoil-prevention program active; occasional bloom notices",
+   "motors": "Unrestricted; DEC wakesports zone designated",
+   "tier": "watch",
+   "score": 7.1,
+   "blurb": "Serious acreage and one true compound listing; Rt 105 shore, Derby sprawl and softer water are the caveats.",
+   "links": [
+    [
+     "Salem Lakes Assn",
+     "https://www.salemlakesvt.org/"
+    ],
+    [
+     "Listings",
+     "https://www.lakehomes.com/vermont/lake-salem"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "lake_morey",
+   "name": "Lake Morey",
+   "state": "VT",
+   "lat": 43.923,
+   "lon": -72.157,
+   "acres": 547,
+   "drive": "~4:35",
+   "clarity": "Mesotrophic, alum-treated (35-ft wakesports floor protects treatment); Secchi ~4.5 m",
+   "motors": "40 mph cap (UPW table)\u2014skiing fine; DEC wakesports zone",
+   "tier": "watch",
+   "score": 7.0,
+   "blurb": "Closest legal ski water with a zone; cottage-ringed resort lake, engineered water quality\u2014not the forested archetype.",
+   "links": [
+    [
+     "UPW rules table",
+     "https://dec.vermont.gov/sites/dec/files/wsm/lakes/docs/lp_Use_of_Public_Waters_Rules_Table.pdf"
+    ],
+    [
+     "Wakesports list",
+     "https://dec.vermont.gov/watershed/lakes-ponds/vermont-use-public-waters-rules/wakeboats"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  }
+ ],
+ "listings": [
+  {
+   "lakeKey": "webb",
+   "name": "Webb Lake build parcel \u2014 $985K",
+   "price": 985000,
+   "lat": 44.664,
+   "lon": -70.432,
+   "detail": "43.9 ac \u00b7 596 ft frontage \u00b7 no structures",
+   "status": "active",
+   "url": "https://www.landwatch.com/franklin-county-maine-timberland-property-for-sale/pid/423813299",
+   "fit": "Build the sketch from scratch; lodge near shore, cabins beyond the 250-ft zone",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "bigmoose",
+   "name": "215 Judson Rd \u2014 $1.2M",
+   "price": 1200000,
+   "lat": 43.816,
+   "lon": -74.832,
+   "detail": "10.4 ac \u00b7 200 ft \u00b7 4BR + bunkhouse \u00b7 boat-access-only",
+   "status": "active",
+   "url": "https://adkpp.com/properties/215-judson-road-eagle-bay-ny-13331/",
+   "fit": "Archetype lake; logistics are the debate",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "willoughby",
+   "name": "LaCross Ln compound \u2014 $1.2M",
+   "price": 1200000,
+   "lat": 44.705,
+   "lon": -72.043,
+   "detail": "97.7 ac \u00b7 4 dwellings + barns \u00b7 rehab needed",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-willoughby/283-318-319-320-lacross-lane-westmore-vt-05860-lhrmls-04187776",
+   "fit": "Lake VIEWS confirmed, frontage NOT \u2014 pair with a frontage parcel below",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "raquette",
+   "name": "Two-cabin property \u2014 $649K",
+   "price": 649000,
+   "lat": 43.812,
+   "lon": -74.662,
+   "detail": "4BR/4BA across 2 newer cabins, Raquette Shores",
+   "status": "active",
+   "url": "https://www.lakehouse.com/raquette-lake-new-york-lake-homes-for-sale-b4047.html",
+   "fit": "A compound seed on the Great Camp lake",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "chateaugay",
+   "name": "Private cove \u2014 $599K",
+   "price": 599000,
+   "lat": 44.771,
+   "lon": -73.947,
+   "detail": "4.3 ac \u00b7 868 ft frontage \u00b7 land",
+   "status": "active",
+   "url": "https://lapointrealty.com/homes-for-sale-2/",
+   "fit": "Pair with an adjacent camp for a sub-$2M compound",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "usaranac",
+   "name": "Pine Point Lodge, U. St. Regis \u2014 $2.6M",
+   "price": 2600000,
+   "lat": 44.418,
+   "lon": -74.263,
+   "detail": "12.75 ac \u00b7 1,330 ft \u00b7 1904 Tiffany lodge + 2 boathouses",
+   "status": "active",
+   "url": "https://www.adirondackestates.com/properties/53-saint-regis-carry-road-lake-clear-ny-12945/",
+   "fit": "Turnkey stretch; guideboat culture, small lake for wake sports",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "tupper",
+   "name": "Hamlin Bay parcels \u2014 $1.38M",
+   "price": 1380000,
+   "lat": 44.205,
+   "lon": -74.505,
+   "detail": "35.8 ac \u00b7 1,535 ft frontage \u00b7 two parcels",
+   "status": "active",
+   "url": "https://www.landwatch.com/new-york-land-for-sale/lakefront-property",
+   "fit": "Passes APA math for lodge + 5 cabins outright; tea-stained water",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "sacandaga_great",
+   "name": "Six-cabin colony, Gt. Sacandaga \u2014 $2.5M",
+   "price": 2500000,
+   "lat": 43.33,
+   "lon": -73.885,
+   "detail": "2.92 ac \u00b7 6 winterized 2BR cabins \u00b7 ~3:15 drive",
+   "status": "active",
+   "url": "https://www.adirondack.net/real-estate/mls/details/224-north-shore-road-202618350/",
+   "fit": "Turnkey program, wrong-culture lake \u2014 the program-first fallback",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "usaranac",
+   "name": "Panther Cove \u2014 $3.7M (benchmark)",
+   "price": 3700000,
+   "lat": 44.245,
+   "lon": -74.335,
+   "detail": "16.5 ac \u00b7 482 ft \u00b7 4 dwellings + 2 boathouses",
+   "status": "active",
+   "url": "https://adkpp.com/properties/144-county-rd-45panther-mt-road-tupper-lake-ny-12986/",
+   "fit": "Over budget \u2014 tour it to calibrate what done looks like",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "mooselook",
+   "name": "657 Bemis Rd \u2014 $725K (edge)",
+   "price": 725000,
+   "lat": 44.858,
+   "lon": -70.752,
+   "detail": "53.9 ac \u00b7 house + new barn \u00b7 ~7 h drive",
+   "status": "active",
+   "url": "https://www.lakehouse.com/657-bemis-rd-rangeley-plt-maine-04970-p7592484.html",
+   "fit": "The over-the-line bargain; verify exact frontage",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "winnisquam",
+   "name": "Ferry Point lodge, 13BR/250' \u2014 $3.0M",
+   "price": 2999999,
+   "lat": 43.545,
+   "lon": -71.525,
+   "detail": "13BR/13BA 6,818sf historic inn, 250' frontage, ~2 ac",
+   "status": "active",
+   "url": "https://www.realty.com/home-listings/339587466/100-Lower-Bay-Road-Sanbornton-NH-03269",
+   "fit": "Turnkey lodge sleeping all five couples day one; add bunkhouses later",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "winnisquam",
+   "name": "107 Cotton Hill Rd \u2014 $1.42M",
+   "price": 1415000,
+   "lat": 43.535,
+   "lon": -71.495,
+   "detail": "7.59 waterfront acres, 4BR, Belmont shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/lake-winnisquam/107-cotton-hill-road-belmont-nh-03220",
+   "fit": "Acreage to add cabins; rare land depth here",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "winnisquam",
+   "name": "58 Lower Bay Rd \u2014 $1.33M",
+   "price": 1330000,
+   "lat": 43.556,
+   "lon": -71.523,
+   "detail": "3.33 ac waterfront, 5BR, quiet Sanbornton side",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/lake-winnisquam/58-lower-bay-road-sanbornton-nh-03269",
+   "fit": "Phase-0 base near Ferry Point; assemble west shore",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "silver_madison",
+   "name": "748 Plains Rd camp \u2014 $549K",
+   "price": 549000,
+   "lat": 43.865,
+   "lon": -71.195,
+   "detail": "2BR waterfront camp, 0.28 ac",
+   "status": "active",
+   "url": "https://www.zillow.com/homedetails/748-Plains-Rd-Silver-Lake-NH-03875/86718097_zpid/",
+   "fit": "First frontage piece of a Silver assembly",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "silver_madison",
+   "name": "Caroline Rd WF land \u2014 $1.1M",
+   "price": 1100000,
+   "lat": 43.878,
+   "lon": -71.178,
+   "detail": "0.8 ac buildable waterfront lot",
+   "status": "active",
+   "url": "https://www.zillow.com/homedetails/0-Caroline-Rd-Madison-NH-03849/458095166_zpid/",
+   "fit": "Build the lodge; pair with camp purchases",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "silver_madison",
+   "name": "24 Rosewood Ln, 6BR \u2014 $1.45M",
+   "price": 1450000,
+   "lat": 43.88,
+   "lon": -71.18,
+   "detail": "6BR on 2.2 ac steps from lake",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-hampshire/silver-lake-belmont/24-rosewood-lane-madison-nh-03875",
+   "fit": "Near-lake lodge base while assembling frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "newfound",
+   "name": "The Kelby, 10-room lodge \u2014 $2.6M",
+   "price": 2595000,
+   "lat": 43.688,
+   "lon": -71.795,
+   "detail": "Renovated 10-room lodge, 19.5 ac, deeded lake access",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/newfound-lake/435-south-mayhew-turnpike-hebron-nh-03241-lhrmls-04335848",
+   "fit": "Instant 10-key compound; caveat deeded access, not owned frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "newfound",
+   "name": "998 West Shore Rd \u2014 $1.5M",
+   "price": 1495000,
+   "lat": 43.625,
+   "lon": -71.795,
+   "detail": "4BR direct waterfront, 0.6 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/newfound-lake/998-west-shore-road-bristol-nh-03222-lhrmls-04335846",
+   "fit": "Phase-0 waterfront base at cap",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "newfound",
+   "name": "139 Ledgeview Shores \u2014 $799K",
+   "price": 799000,
+   "lat": 43.632,
+   "lon": -71.8,
+   "detail": "3BR waterfront, 5 ac, Alexandria",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/newfound-lake/139-ledgeview-shores-drive-alexandria-nh-03222-lhrmls-04336255",
+   "fit": "Waterfront + acreage for cabins under $800K",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "squam",
+   "name": "159-A Rt 113, 5BR+ADU \u2014 $1.1M",
+   "price": 1095000,
+   "lat": 43.745,
+   "lon": -71.56,
+   "detail": "9.6 ac, 5BR + ADU near Cotton Cove; river dock option",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/squam-lake/159-a-new-hampshire-route-113-holderness-nh-03245-lhrmls-04293115",
+   "fit": "Cheapest credible Squam foothold; verify dock rights",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "squam",
+   "name": "159-B Rt 113, 27 ac \u2014 $1.7M",
+   "price": 1695000,
+   "lat": 43.746,
+   "lon": -71.558,
+   "detail": "27.3 ac with 5BR home, abuts 159-A",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/squam-lake/159-b-new-hampshire-route-113-holderness-nh-03245-lhrmls-04293121",
+   "fit": "Combine A+B: 37-ac Squam-side compound ~$2.8M",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "squam",
+   "name": "28 Potato Island cabin \u2014 $1.75M",
+   "price": 1750000,
+   "lat": 43.755,
+   "lon": -71.55,
+   "detail": "2BR island camp, 0.4 ac, owned frontage",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/squam-lake/28-potato-island-holderness-nh-03245-lhrmls-04223232",
+   "fit": "True Squam frontage; island logistics though",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "merrymeeting",
+   "name": "390 S Shore Rd \u2014 $2.3M",
+   "price": 2300000,
+   "lat": 43.462,
+   "lon": -71.105,
+   "detail": "Waterfront home, 0.88 ac; adjacent parcel sold separately",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/merrymeeting-lake/390-s-shore-road-new-durham-nh-03855-lhrmls-04426123",
+   "fit": "Buy both 390 parcels = two-lot compound seed",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "merrymeeting",
+   "name": "390 S Shore Rd (2nd parcel) \u2014 $1.8M",
+   "price": 1800000,
+   "lat": 43.461,
+   "lon": -71.104,
+   "detail": "Companion waterfront parcel, 0.28 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/merrymeeting-lake/390-s-shore-road-new-durham-nh-03855-lhrmls-04426133",
+   "fit": "Pair with main parcel; negotiate package",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "merrymeeting",
+   "name": "210 South Shore Rd \u2014 $1.15M",
+   "price": 1150000,
+   "lat": 43.458,
+   "lon": -71.122,
+   "detail": "2BR waterfront, 0.56 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/merrymeeting-lake/210-south-shore-road-new-durham-nh-03855-lhrmls-03970407",
+   "fit": "Phase-0 on NH's clearest ski-legal water",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "conway",
+   "name": "554 Mudgett Rd \u2014 $1.25M",
+   "price": 1250000,
+   "lat": 43.945,
+   "lon": -71.055,
+   "detail": "3BR waterfront camp, 0.3 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/conway-lake/554-mudgett-road-conway-nh-03818-lhrmls-04387434",
+   "fit": "Phase-0 on quiet, clear Conway",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "wentworth",
+   "name": "Camp Rd land, 370' \u2014 $595K",
+   "price": 595000,
+   "lat": 43.61,
+   "lon": -71.135,
+   "detail": "4.06 ac, 370' Wentworth shoreline, septic approved 4BR+ADU",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/lake-wentworth/camp-road-wolfeboro-nh-03894-lhrmls-03908263",
+   "fit": "Exact land-bank spec: 300'+ frontage under $600K",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "ossipee",
+   "name": "54 Weetamoe Rd \u2014 $1.4M",
+   "price": 1395000,
+   "lat": 43.76,
+   "lon": -71.18,
+   "detail": "4BR/3BA waterfront, 0.34 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/ossipee-lake/54-weetamoe-road-ossipee-nh-03814-lhrmls-04405052",
+   "fit": "Phase-0 base, sandy frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "ossipee",
+   "name": "44 Ossipee Lake Dr \u2014 $1.45M",
+   "price": 1450000,
+   "lat": 43.755,
+   "lon": -71.185,
+   "detail": "2BR waterfront, 0.34 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/ossipee-lake/44-ossipee-lake-drive-ossipee-nh-03814-lhrmls-04336221",
+   "fit": "Alternative Phase-0; big-water frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "ossipee",
+   "name": "9 Abenaki Dr (Freedom) \u2014 $675K",
+   "price": 675000,
+   "lat": 43.79,
+   "lon": -71.13,
+   "detail": "3BR waterfront, 0.54 ac, quieter Berry Bay side",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/ossipee-lake/9-abenaki-drive-freedom-nh-03836-lhrmls-03982990",
+   "fit": "Cheap toe-hold away from sandbar scene",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "pleasant_new_london",
+   "name": "736 Pleasant St, 5BR \u2014 $1.6M",
+   "price": 1595000,
+   "lat": 43.428,
+   "lon": -71.99,
+   "detail": "5BR waterfront, 3.21 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/pleasant-lake-new-london/736-pleasant-street-new-london-nh-03257-lhrmls-04138801",
+   "fit": "Rare acreage+frontage here; lodge with cabin room",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "spofford",
+   "name": "142 North Shore Rd \u2014 $975K",
+   "price": 975000,
+   "lat": 42.912,
+   "lon": -72.4,
+   "detail": "4BR waterfront, 0.21 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/spofford-lake/142-north-shore-road-chesterfield-nh-03462-lhrmls-04380333",
+   "fit": "Phase-0 at the 3:35 drive champion",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "highland_stoddard",
+   "name": "2167 Valley Rd WF \u2014 $450K",
+   "price": 450000,
+   "lat": 43.125,
+   "lon": -72.06,
+   "detail": "2BR waterfront cottage, Washington end",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/highland-lake/2167-valley-road-washington-nh-03280-lhrmls-04117642",
+   "fit": "Sub-$500K frontage shows assembly economics work",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "highland_stoddard",
+   "name": "15 Dead Brook Rd camp \u2014 $198K",
+   "price": 198000,
+   "lat": 43.095,
+   "lon": -72.065,
+   "detail": "1BR waterfront camp, 0.58 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/highland-lake/15-dead-brook-road-stoddard-nh-03464-lhrmls-04333082",
+   "fit": "Cheapest frontage found statewide; cabin-site bank",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "goose_pond_canaan",
+   "name": "775 Goose Pond Rd \u2014 $1.3M",
+   "price": 1300000,
+   "lat": 43.693,
+   "lon": -72.05,
+   "detail": "4BR waterfront, 4.51 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/goose-pond/775-goose-pond-road-canaan-nh-03741-lhrmls-03749262",
+   "fit": "Acreage for cabins on jetski-free water",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "goose_pond_canaan",
+   "name": "1006 Goose Pond Rd \u2014 $945K",
+   "price": 945000,
+   "lat": 43.696,
+   "lon": -72.04,
+   "detail": "4BR waterfront, 1.87 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/goose-pond/1006-goose-pond-road-canaan-nh-03741-lhrmls-04117641",
+   "fit": "Phase-0; pair with 775 for mini-compound",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "bow_lake",
+   "name": "58 Pointe Trinity Dr \u2014 $819K",
+   "price": 819000,
+   "lat": 43.31,
+   "lon": -71.125,
+   "detail": "3BR waterfront, 2.02 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/bow-lake/58-pointe-trinity-drive-strafford-nh-03884-lhrmls-04336175",
+   "fit": "Phase-0 with land depth if cyano trend clears",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "waukewan",
+   "name": "48 Forest Hill Rd \u2014 $649K",
+   "price": 649000,
+   "lat": 43.648,
+   "lon": -71.53,
+   "detail": "3BR waterfront, 3.26 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/lake-waukewan/48-forest-hill-road-meredith-nh-03253-lhrmls-04227580",
+   "fit": "Cheap acreage-frontage combo minutes from Squam",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "mascoma",
+   "name": "200 Shaker Blvd \u2014 $1.4M",
+   "price": 1395000,
+   "lat": 43.64,
+   "lon": -72.148,
+   "detail": "3BR waterfront by Shaker village, 0.7 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/mascoma-lake/200-shaker-boulevard-enfield-nh-03748-lhrmls-04163591",
+   "fit": "Phase-0 near Dartmouth amenities",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "mascoma",
+   "name": "15 Payne Rd \u2014 $295K",
+   "price": 295000,
+   "lat": 43.652,
+   "lon": -72.185,
+   "detail": "3BR waterfront, 1.41 ac, Lebanon end",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/mascoma-lake/15-payne-road-lebanon-nh-03766-lhrmls-04366707",
+   "fit": "Bargain frontage toe-hold",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lovell_lake",
+   "name": "60 N Roberts Cove \u2014 $999K",
+   "price": 999000,
+   "lat": 43.558,
+   "lon": -71.028,
+   "detail": "3BR waterfront, 0.33 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/lovell-lake/60-n-roberts-cove-road-wakefield-nh-03872-lhrmls-04426124",
+   "fit": "Phase-0 on 6.3m-Secchi sleeper",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "pine_river_pond",
+   "name": "75 Black Cove Rd \u2014 $700K",
+   "price": 700000,
+   "lat": 43.595,
+   "lon": -71.115,
+   "detail": "3BR waterfront camp, 0.28 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/pine-river-pond/75-black-cove-road-wakefield-nh-03872-lhrmls-04324009",
+   "fit": "Cheap quiet-water base near Great East",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "umbagog",
+   "name": "107 Lakeview Dr, 5 ac \u2014 $599K",
+   "price": 599000,
+   "lat": 44.77,
+   "lon": -71.075,
+   "detail": "3BR waterfront, 5 ac, Errol",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/umbagog-lake/107-lakeview-drive-errol-nh-03579-lhrmls-04043051",
+   "fit": "Wilderness compound seed; acreage for cabins",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "umbagog",
+   "name": "13 Lake Umbagog camp \u2014 $350K",
+   "price": 349900,
+   "lat": 44.765,
+   "lon": -71.07,
+   "detail": "3BR waterfront camp",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-hampshire/umbagog-lake/13-lake-umbagog-errol-nh-03579-lhrmls-04335707",
+   "fit": "Budget frontage on refuge water",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "first_connecticut",
+   "name": "126 Maple Mountain Rd \u2014 $659K",
+   "price": 659000,
+   "lat": 45.088,
+   "lon": -71.3,
+   "detail": "4BR waterfront, 0.49 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/first-connecticut-lake/126-maple-mountain-road-pittsburg-nh-03592-lhrmls-04335918",
+   "fit": "Rare owned frontage in Pittsburg",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "first_connecticut",
+   "name": "GP Boulevard WF lot \u2014 $130K",
+   "price": 130000,
+   "lat": 45.092,
+   "lon": -71.295,
+   "detail": "0.6-ac waterfront lot",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-hampshire/first-connecticut-lake/gp-boulevard-pittsburg-nh-03592-lhrmls-04335890",
+   "fit": "Land-bank beside the camp above",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "sunapee",
+   "name": "121 Garnet St \u2014 $1.4M",
+   "price": 1399000,
+   "lat": 43.387,
+   "lon": -72.088,
+   "detail": "3BR waterfront, 0.63 ac near harbor",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/sunapee-lake/121-garnet-street-sunapee-nh-03782-lhrmls-04335780",
+   "fit": "Only sub-$1.5M owned frontage; Phase-0 if Sunapee wins hearts",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "little_squam",
+   "name": "51 Leavitt Hill Rd \u2014 $1.5M",
+   "price": 1495000,
+   "lat": 43.738,
+   "lon": -71.618,
+   "detail": "4BR waterfront, 0.66 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/little-squam-lake/51-leavitt-hill-road-ashland-nh-03217-lhrmls-04390021",
+   "fit": "Phase-0 with full Squam-system boat access",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "little_squam",
+   "name": "114 River St \u2014 $995K",
+   "price": 995000,
+   "lat": 43.733,
+   "lon": -71.628,
+   "detail": "3BR waterfront, 1.14 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-hampshire/little-squam-lake/114-river-street-ashland-nh-03217-lhrmls-04289053",
+   "fit": "Sub-$1M entry to Squam waters",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "parker_pond",
+   "name": "Dolloff Woods Rd estate \u2014 $1.495M",
+   "price": 1495000,
+   "lat": 44.466,
+   "lon": -70.028,
+   "detail": "440 ft frontage \u00b7 4BR \u00b7 2.46 ac \u00b7 cut $1.695M\u2192$1.495M 7/21 \u00b7 verified active",
+   "status": "active",
+   "url": "https://www.landsearch.com/properties/147-dolloff-woods-rd-fayette-me-04352/5301040",
+   "fit": "Phase-0 flagship on quietest big water; room for bunkhouses",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "parker_pond",
+   "name": "Fellows Cove contemporary \u2014 $549K",
+   "price": 549000,
+   "lat": 44.47,
+   "lon": -70.022,
+   "detail": "5BR 3,300 sqft, 2 ac, shared 100-ft pond access; reduced 8/3/26",
+   "status": "active",
+   "url": "https://www.landsearch.com/properties/59-fellows-cove-rd-fayette-me-04349/5292204",
+   "fit": "Sleeps-12 capacity cheap; not true frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_st_george",
+   "name": "Marshall Shore camp \u2014 $395K",
+   "price": 395000,
+   "lat": 44.402,
+   "lon": -69.362,
+   "detail": "1BR/1BA 800 sqft camp on 2 waterfront acres",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/101-marshall-shore-rd-liberty-me-04949/4838190",
+   "fit": "Toehold; teardown/expand while assembling neighbors",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_st_george",
+   "name": "Fishtown Rd 29 ac \u2014 $100K",
+   "price": 99900,
+   "lat": 44.392,
+   "lon": -69.335,
+   "detail": "29 acres with water frontage, Liberty",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/41-fishtown-rd-liberty-me-04949/5291028",
+   "fit": "Land-bank; confirm which shoreline",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "messalonskee",
+   "name": "109 Sahagian Rd lodge \u2014 $849K",
+   "price": 849000,
+   "lat": 44.512,
+   "lon": -69.762,
+   "detail": "6BR/3.5BA 4,200 sqft on 7 shorefront acres",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/109-sahagian-rd-belgrade-me-04917/5404290",
+   "fit": "Instant lodge + cabin sites; confirm frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "long_pond_belgrade",
+   "name": "114 Loon Call Dr \u2014 $950K",
+   "price": 949900,
+   "lat": 44.512,
+   "lon": -69.897,
+   "detail": "4BR 4,503 sqft on 10.7 waterfront acres, Belgrade",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/114-loon-call-dr-belgrade-me-04917/5422357",
+   "fit": "Lodge-scale house + land; verify which pond",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "porter_lake",
+   "name": "Loon Cove cabin \u2014 $185K",
+   "price": 185000,
+   "lat": 44.777,
+   "lon": -70.152,
+   "detail": "Cabin on 1 ac, Loon Cove Ln, Strong",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/m-u10-l6-loon-cove-ln-strong-me-04983/5410862",
+   "fit": "Beachhead on 9-m-clarity sleeper",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "highland_lake_bridgton",
+   "name": "46 Holly Loop \u2014 $1.4M",
+   "price": 1400000,
+   "lat": 44.085,
+   "lon": -70.725,
+   "detail": "4BR on 4.5 ac; 300-ft shared assoc beach + slips; listed 8/10/26",
+   "status": "active",
+   "url": "https://www.landsearch.com/properties/46-holly-loop-bridgton-me-04009/5473786",
+   "fit": "Weak: association beach, not private frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "thompson",
+   "name": "46 Silvaqua Rd \u2014 $479K",
+   "price": 479000,
+   "lat": 44.045,
+   "lon": -70.5,
+   "detail": "3BR 2,691 sqft; deeded beaches + launch rights, no frontage",
+   "status": "active",
+   "url": "https://www.landsearch.com/properties/46-silvaqua-rd-otisfield-town-me-04270/5486605",
+   "fit": "Access-only base while hunting frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "embden",
+   "name": "14 Elk Dr camp \u2014 $435K",
+   "price": 435000,
+   "lat": 44.948,
+   "lon": -69.952,
+   "detail": "2BR camp, 1.84 waterfront acres",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/14-elk-dr-embden-me-04958/5358676",
+   "fit": "Starter camp on cheap, clear big pond",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "embden",
+   "name": "1066 Embden Pond Rd \u2014 $215K",
+   "price": 214900,
+   "lat": 44.935,
+   "lon": -69.958,
+   "detail": "2BR 833 sqft on 5.37 ac near pond",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/1066-embden-pond-rd-embden-me-04958/5356568",
+   "fit": "Budget base; confirm frontage vs near-shore",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "swan_lake",
+   "name": "79 Bear Mountain Way \u2014 $499K",
+   "price": 499000,
+   "lat": 44.523,
+   "lon": -69.015,
+   "detail": "3BR home + 92 acres, Swanville",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/79-bear-mountain-way-swanville-me-04915/",
+   "fit": "Acreage play near lake; verify water frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "webb",
+   "name": "324 Phillips Rd \u2014 $450K",
+   "price": 449900,
+   "lat": 44.7,
+   "lon": -70.43,
+   "detail": "1.5 ac waterfront-filtered listing, Weld",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/324-phillips-rd-weld-me-04285/5383419",
+   "fit": "Confirm Webb frontage; thin Weld inventory otherwise",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "wesserunsett",
+   "name": "Mallard Rd lots \u2014 $60K ea",
+   "price": 59900,
+   "lat": 44.855,
+   "lon": -69.84,
+   "detail": "1-ac waterfront-area lots, East Madison",
+   "status": "verify",
+   "url": "https://www.landsearch.com/properties/mallard-rd-l13-7-madison-me-04950/5258101",
+   "fit": "Cheap cabin sites if frontage confirms",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "bigmoose",
+   "name": "529 Higby Rd \u2014 $1.1M",
+   "price": 1100000,
+   "lat": 43.827,
+   "lon": -74.845,
+   "detail": "3BR on 4.5 ac, 192 ft frontage",
+   "status": "active",
+   "url": "https://www.lakehouse.com/big-moose-lake-new-york-lake-homes-for-sale-b8155.html",
+   "fit": "Phase-0 base; expand on acreage; road access unlike Judson",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "usaranac",
+   "name": "782 Bartlett Carry Rd \u2014 $2.975M",
+   "price": 2975000,
+   "lat": 44.253,
+   "lon": -74.343,
+   "detail": "~5,900 sf contemporary, Bartlett Carry enclave",
+   "status": "active",
+   "url": "https://www.adirondackestates.com/properties/782-bartlett-carry-road-saranac-lake-ny-12983/",
+   "fit": "Lodge-scale main house; add sleeping cabins",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "usaranac",
+   "name": "736 Bartlett Carry Rd camp \u2014 $179K",
+   "price": 179000,
+   "lat": 44.256,
+   "lon": -74.346,
+   "detail": "Rustic 1-bd camp on 5.5 acres",
+   "status": "verify",
+   "url": "https://www.lakehouse.com/upper-saranac-lake-new-york-lake-homes-for-sale-b5453.html",
+   "fit": "Cheap adjunct parcel near main-lodge candidate",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "tupper",
+   "name": "1601 State Route 30 \u2014 $895K",
+   "price": 895000,
+   "lat": 44.203,
+   "lon": -74.503,
+   "detail": "3-bd lakefront, recently reduced",
+   "status": "active",
+   "url": "https://www.adirondackestates.com/waterfront/tupper-lake/",
+   "fit": "Phase-0 base on big water",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "tupper",
+   "name": "6 Bluff Island camp \u2014 $749K",
+   "price": 749000,
+   "lat": 44.22,
+   "lon": -74.49,
+   "detail": "3-bd island camp on 3.39 acres",
+   "status": "active",
+   "url": "https://www.adirondackestates.com/waterfront/tupper-lake/",
+   "fit": "Character island annex for the group",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "piseco",
+   "name": "Camp Witney, 58 Arrowhead Rd \u2014 $1.795M",
+   "price": 1795000,
+   "lat": 43.41,
+   "lon": -74.545,
+   "detail": "Modern great-camp, 5-bd/5-ba on Piseco",
+   "status": "active",
+   "url": "https://www.lakehouse.com/piseco-lake-new-york-lake-homes-for-sale-b2632.html",
+   "fit": "Marquee main lodge; cabins added later",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "piseco",
+   "name": "241 Old Piseco Rd camp \u2014 $190K",
+   "price": 189500,
+   "lat": 43.42,
+   "lon": -74.555,
+   "detail": "Seasonal 2-bd, 700 ft shared sand beach",
+   "status": "active",
+   "url": "https://www.lakehouse.com/piseco-lake-new-york-lake-homes-for-sale-b2632.html",
+   "fit": "Budget bunk while compound builds",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "bonaparte",
+   "name": "8521 N Shore Rd \u2014 $895K",
+   "price": 895000,
+   "lat": 44.16,
+   "lon": -75.36,
+   "detail": "4-bd, 2,992 sf on 2.4 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/lake-bonaparte",
+   "fit": "Main base on granite-island watch lake",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "bonaparte",
+   "name": "14412 Round Island \u2014 $320K",
+   "price": 319900,
+   "lat": 44.15,
+   "lon": -75.37,
+   "detail": "Cabin on 3 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/lake-bonaparte",
+   "fit": "Cheap second cabin, acreage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "chazy",
+   "name": "2897 Rte 374 \u2014 $265K",
+   "price": 265000,
+   "lat": 44.76,
+   "lon": -73.83,
+   "detail": "3-bd, 1,836 sf year-round",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/chazy-lake",
+   "fit": "Bargain base under Lyon Mountain",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "chateaugay",
+   "name": "486 Lake Shore Rd \u2014 $1.01M",
+   "price": 1013000,
+   "lat": 44.752,
+   "lon": -74.008,
+   "detail": "4-bd, 3,756 sf on 1.87 lakefront acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/chateaugay-lake",
+   "fit": "Main-house scale at half-Adirondack pricing",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lower_chateaugay",
+   "name": "5125 SR 374, Merrill \u2014 $332K",
+   "price": 332000,
+   "lat": 44.823874951822205,
+   "lon": -73.9877839003173,
+   "detail": "5-bd near the Narrows",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/chateaugay-lake",
+   "fit": "Overflow cabin; boat to Upper",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_pleasant",
+   "name": "188 S Shore Rd \u2014 $749K",
+   "price": 749000,
+   "lat": 43.465,
+   "lon": -74.41,
+   "detail": "3-bd camp, 0.75 ac south shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/lake-pleasant",
+   "fit": "Phase-0 base, quiet shore",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_pleasant",
+   "name": "610 S Shore Rd \u2014 $199K",
+   "price": 199000,
+   "lat": 43.46,
+   "lon": -74.42,
+   "detail": "2-bd cottage, 0.44 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/lake-pleasant",
+   "fit": "Adjacent-parcel assembly starter",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "sacandaga_speculator",
+   "name": "107 Lakeside Ln \u2014 $849K",
+   "price": 849000,
+   "lat": 43.487,
+   "lon": -74.41,
+   "detail": "100+ ft frontage facing Forever-Wild preserve",
+   "status": "active",
+   "url": "https://www.lakehouse.com/sacandaga-lake-hamilton-county-new-york-lake-homes-for-sale-b4822.html",
+   "fit": "Phase-0 with protected-view frontage",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "indian",
+   "name": "5088 SR 30 \u2014 $795K",
+   "price": 795000,
+   "lat": 43.71,
+   "lon": -74.35,
+   "detail": "6-bd/6-ba, 3,500 sf on 3.09 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/indian-lake",
+   "fit": "Ready-made lodge; ten-sleeper day one",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "indian",
+   "name": "5297 SR 30 \u2014 $379K",
+   "price": 379000,
+   "lat": 43.695,
+   "lon": -74.335,
+   "detail": "4-bd on 2.79 acres, Sabael shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/indian-lake",
+   "fit": "Cheap second cabin with land",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "long",
+   "name": "965 Deerland Rd \u2014 $1.0M",
+   "price": 999979,
+   "lat": 43.975,
+   "lon": -74.425,
+   "detail": "4,455 sf lakefront near hamlet",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/long-lake",
+   "fit": "Lodge candidate near seaplane base",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "long",
+   "name": "20 Lakewold \u2014 $895K",
+   "price": 895000,
+   "lat": 43.995,
+   "lon": -74.405,
+   "detail": "3-bd classic camp, new listing",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/long-lake",
+   "fit": "Clean base; sunset shoreline",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "schroon",
+   "name": "536 East Shore Dr \u2014 $1.75M",
+   "price": 1749900,
+   "lat": 43.8,
+   "lon": -73.75,
+   "detail": "6-bd, 3,591 sf, 1.02 ac east shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/schroon-lake",
+   "fit": "Lodge seed on the quiet shore",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "schroon",
+   "name": "20 Pharaoh Dr \u2014 $998K",
+   "price": 998000,
+   "lat": 43.788,
+   "lon": -73.765,
+   "detail": "4-bd, 0.6 ac waterfront",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/schroon-lake",
+   "fit": "Strong Phase-0 base",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "schroon",
+   "name": "57 Sugar Hill Way \u2014 $799K",
+   "price": 799000,
+   "lat": 43.785,
+   "lon": -73.752,
+   "detail": "4-bd camp on 2.4 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/schroon-lake",
+   "fit": "Acreage supports added cabins",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "brant",
+   "name": "7783 State Route 8 \u2014 $1.5M",
+   "price": 1500000,
+   "lat": 43.712,
+   "lon": -73.682,
+   "detail": "3-bd, 2,204 sf, 0.75 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/brant-lake",
+   "fit": "Prime mid-lake base at cap",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "brant",
+   "name": "9 Chippewa Loop \u2014 $525K",
+   "price": 525000,
+   "lat": 43.705,
+   "lon": -73.695,
+   "detail": "4-bd cottage",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/brant-lake",
+   "fit": "Budget second cabin",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "paradox",
+   "name": "25 Gorman Rd \u2014 $1.795M",
+   "price": 1795000,
+   "lat": 43.873,
+   "lon": -73.68,
+   "detail": "4-bd, 2,650 sf on 1.79 waterfront acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/paradox-lake",
+   "fit": "Main house with bunkhouse room",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "paradox",
+   "name": "48 Whits End Way \u2014 $675K",
+   "price": 675000,
+   "lat": 43.867,
+   "lon": -73.692,
+   "detail": "2-bd on 1.34 acres, new listing",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/paradox-lake",
+   "fit": "Second cabin with land",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "loon_chestertown",
+   "name": "185 Chester Shores \u2014 $925K",
+   "price": 924900,
+   "lat": 43.652,
+   "lon": -73.902,
+   "detail": "4-bd lakefront",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/loon-lake-chestertown",
+   "fit": "Base on island-dotted water",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "loon_chestertown",
+   "name": "26 Emily Ln \u2014 $819K",
+   "price": 819000,
+   "lat": 43.645,
+   "lon": -73.893,
+   "detail": "3-bd, 1.4k sf",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/loon-lake-chestertown",
+   "fit": "Second cabin option",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "loon_franklin",
+   "name": "3368 County Route 26 \u2014 $520K",
+   "price": 520000,
+   "lat": 44.55,
+   "lon": -74.068,
+   "detail": "4-bd, 3,622 sf, reduced",
+   "status": "active",
+   "url": "https://www.adirondackestates.com/waterfront/loon-lake/",
+   "fit": "Big square footage per dollar",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "fourth",
+   "name": "112 Holiday Dr \u2014 $1.3M",
+   "price": 1299900,
+   "lat": 43.748,
+   "lon": -74.885,
+   "detail": "6-bd, 4-ba on clear busy water",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/fourth-lake",
+   "fit": "Sleeps-many base if traffic accepted",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "fourth",
+   "name": "8 Rocky Point Cir, Inlet \u2014 $1.2M",
+   "price": 1199900,
+   "lat": 43.758,
+   "lon": -74.865,
+   "detail": "3-bd at quieter Inlet end",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/fourth-lake",
+   "fit": "Calmer east-end alternative",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "canada_lake",
+   "name": "1088 Stewart Landing Rd \u2014 $280K",
+   "price": 279500,
+   "lat": 43.165,
+   "lon": -74.515,
+   "detail": "2-bd on 1.89 acres, new listing",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/canada-lake",
+   "fit": "Cheapest toehold 3:20 from Midtown",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "canada_lake",
+   "name": "226 Sand Point Rd \u2014 $1.25M",
+   "price": 1250000,
+   "lat": 43.175,
+   "lon": -74.5,
+   "detail": "5-bd, 1.52 ac sand point; pending",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-york/canada-lake",
+   "fit": "Backup-offer target; best parcel type",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "otsego",
+   "name": "6 Westridge Rd \u2014 $1.2M",
+   "price": 1200000,
+   "lat": 42.768,
+   "lon": -74.898,
+   "detail": "8-bd/8-ba, 5,670 sf on 2.97 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/otsego-lake",
+   "fit": "True lodge scale; monitor HAB trend",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "otsego",
+   "name": "153 Reiss Rd \u2014 $900K",
+   "price": 899900,
+   "lat": 42.755,
+   "lon": -74.885,
+   "detail": "4-bd, 3,080 sf on 5.05 acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/otsego-lake",
+   "fit": "Acreage for added cabins",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "skaneateles",
+   "name": "West Lake Rd land, Niles \u2014 $1.394M",
+   "price": 1394000,
+   "lat": 42.85,
+   "lon": -76.4,
+   "detail": "11.1 vacant acres, west shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/skaneateles-lake",
+   "fit": "Rare acreage; build cluster under watershed rules",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "skaneateles",
+   "name": "2287 Bockes Rd, Spafford \u2014 $1.595M",
+   "price": 1595000,
+   "lat": 42.866,
+   "lon": -76.386,
+   "detail": "Small cottage, 1.65 lakefront acres",
+   "status": "active",
+   "url": "https://www.lakehomes.com/new-york/skaneateles-lake",
+   "fit": "Frontage buy with rebuild potential",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "keuka",
+   "name": "14051 Keuka Village Rd \u2014 $1.199M",
+   "price": 1199000,
+   "lat": 42.54,
+   "lon": -77.1,
+   "detail": "3-bd lakefront; sale pending",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-york/keuka-lake",
+   "fit": "Shows price point; market moves fast",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "cranberry",
+   "name": "1 Chair Rock \u2014 $300K",
+   "price": 300000,
+   "lat": 44.19,
+   "lon": -74.83,
+   "detail": "7-bd, 2,768 sf on 2 acres; pending",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/new-york/cranberry-lake",
+   "fit": "Lodge-for-nothing if deal collapses",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "28 Valley Rd, Morgan \u2014 $525K",
+   "price": 525000,
+   "lat": 44.891,
+   "lon": -71.976,
+   "detail": "10BR/7BA, 3,688 sf lodge-scale waterfront building",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/vermont/lake-seymour/28-valley-road-morgan-vt-05853-lhrmls-03977865",
+   "fit": "Instant lodge if pending falls through; backup-offer worthy",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "841 Morgan Charleston Rd \u2014 $615K",
+   "price": 615000,
+   "lat": 44.898,
+   "lon": -71.986,
+   "detail": "3BR/3BA, 2,078 sf, 0.62 ac waterfront",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/vermont/lake-seymour/841-morgan-charleston-road-morgan-vt-05853-lhrmls-04163587",
+   "fit": "Phase-0 base; under contract\u2014monitor",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "27 Birch Point S \u2014 $279K",
+   "price": 279000,
+   "lat": 44.884,
+   "lon": -71.95,
+   "detail": "Small camp, 0.69 ac, Birch Point",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-seymour/27-birch-point-s-morgan-vt-05853-lhrmls-04177352",
+   "fit": "Cabin #1 / toehold while assembling",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "436 Seymour East \u2014 $199K",
+   "price": 199000,
+   "lat": 44.888,
+   "lon": -71.945,
+   "detail": "1BR camp, 0.34 ac east shore",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-seymour/436-seymour-east-morgan-vt-05853-lhrmls-04077511",
+   "fit": "Cheap adjacency piece for multi-parcel assembly",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "caspian",
+   "name": "824 North Shore Rd, Greensboro \u2014 $2.25M",
+   "price": 2250000,
+   "lat": 44.588,
+   "lon": -72.303,
+   "detail": "LandVest; 3BR, 3.24 ac, prime north-shore frontage",
+   "status": "active",
+   "url": "https://farmandforest.com/waterfront-homes/caspian-lake-homes/",
+   "fit": "Estate parcel = lodge + room for cabins; at budget cap",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "maidstone",
+   "name": "26 Private West 4 \u2014 $625K",
+   "price": 625000,
+   "lat": 44.643,
+   "lon": -71.654,
+   "detail": "5BR/3BA, 2,456 sf west-shore waterfront",
+   "status": "verify",
+   "url": "https://farmandforest.com/search-waterfront-properties/maidstone-lake-vt-real-estate/",
+   "fit": "Under contract 470 DOM\u2014test if revivable",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "echo",
+   "name": "1593 E Echo Lake Rd \u2014 $450K",
+   "price": 450000,
+   "lat": 44.846,
+   "lon": -71.982,
+   "detail": "4BR turnkey cottage, dock, boat included",
+   "status": "verify",
+   "url": "https://farmandforest.com/property/1593-e-echo-lake-road-charleston-vt-05872/107673508/",
+   "fit": "Pending; Phase-0 scale only",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "willoughby",
+   "name": "3204 US-5A: house + 4 cabins \u2014 $929K",
+   "price": 929000,
+   "lat": 44.766,
+   "lon": -72.048,
+   "detail": "Main house + 4 cabins \u00b7 120 ft DIRECT frontage \u00b7 0.4 ac \u00b7 verified active 8/17",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-willoughby/3204-us-rt-5a-westmore-vt-05860-lhrmls-04400686",
+   "fit": "Five-building waterfront compound at $929K \u2014 now the best live listing in the whole search",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "willoughby",
+   "name": "25 Songadeewin Ln \u2014 $825K",
+   "price": 825000,
+   "lat": 44.73,
+   "lon": -72.058,
+   "detail": "3BR/2BA, 0.97 ac waterfront",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-willoughby/25-songadeewin-lane-westmore-vt-05860-lhrmls-04103748",
+   "fit": "Frontage piece to anchor the LaCross compound",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "willoughby",
+   "name": "178+210 LaCross Ln \u2014 $448K",
+   "price": 448000,
+   "lat": 44.753,
+   "lon": -72.072,
+   "detail": "2 camps on 16.2 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-willoughby/178-210-lacross-lane-westmore-vt-05860-lhrmls-04046600",
+   "fit": "Cabin cluster add-on parcel beside the 97-ac compound",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "crystal_lake_barton",
+   "name": "1661+1662 Pageant Park Rd \u2014 $1.175M",
+   "price": 1175000,
+   "lat": 44.729,
+   "lon": -72.146,
+   "detail": "Two dwellings, 5BR/5BA, 3,207 sf, 215' frontage, sand beach",
+   "status": "active",
+   "url": "https://farmandforest.com/property/1661-pageant-park-road-barton-vt-05822/105499843/",
+   "fit": "Two-house compound seed on the quiet east shore",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "crystal_lake_barton",
+   "name": "1027 South Barton Rd \u2014 $700K",
+   "price": 699900,
+   "lat": 44.721,
+   "lon": -72.165,
+   "detail": "2BR/1BA, 1,575 sf, 0.57 ac waterfront",
+   "status": "active",
+   "url": "https://farmandforest.com/waterfront-homes/crystal-lake-homes-for-sale/",
+   "fit": "South-end frontage, expandable",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "crystal_lake_barton",
+   "name": "225 Redfield Rd \u2014 $379K",
+   "price": 379000,
+   "lat": 44.74,
+   "lon": -72.15,
+   "detail": "2BR camp, 1.6 ac, new listing",
+   "status": "active",
+   "url": "https://farmandforest.com/waterfront-homes/crystal-lake-homes-for-sale/",
+   "fit": "Cabin/guest piece with land",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_dunmore",
+   "name": "2935 Lake Dunmore Rd \u2014 $849K",
+   "price": 849000,
+   "lat": 43.914,
+   "lon": -73.07,
+   "detail": "3BR/2BA direct waterfront",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-dunmore/2935-lake-dunmore-road-salisbury-vt-05769-lhrmls-04436752",
+   "fit": "Phase-0 base on tight-inventory lake",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_dunmore",
+   "name": "146 Pine Ln \u2014 $599K",
+   "price": 599000,
+   "lat": 43.909,
+   "lon": -73.078,
+   "detail": "2BR waterfront bungalow, Moosalamoo views",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-dunmore/146-pine-lane-salisbury-vt-05769-lhrmls-04417251",
+   "fit": "Adjacent-parcel strategy starter",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "island_pond",
+   "name": "665 Lakeshore Dr \u2014 $598K",
+   "price": 598000,
+   "lat": 44.812,
+   "lon": -71.87,
+   "detail": "3BR waterfront on Lakeshore Drive",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/island-pond/665-lakeshore-drive-brighton-vt-05846-lhrmls-03276475",
+   "fit": "Best frontage currently on the pond",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "island_pond",
+   "name": "Pleasant St land, 24.6 ac \u2014 $128K",
+   "price": 128000,
+   "lat": 44.816,
+   "lon": -71.873,
+   "detail": "24.6-acre parcel near lake/village",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/vermont/island-pond/00-pleasant-street-brighton-vt-05846-lhrmls-04108412",
+   "fit": "Cheap acreage; confirm water access",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_salem",
+   "name": "1784 Nelson Hill Rd \u2014 $1.5M",
+   "price": 1499999,
+   "lat": 44.928,
+   "lon": -72.06,
+   "detail": "5BR/5BA on 85.7 ac (14.8-ac waterfront cut $1.3M)",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-salem/1784-nelson-hill-road-derby-vt-05829-lhrmls-04362976",
+   "fit": "True compound acreage + frontage under budget",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_salem",
+   "name": "2459 VT-105 \u2014 $599K",
+   "price": 599000,
+   "lat": 44.913,
+   "lon": -72.085,
+   "detail": "3BR/4BA, 0.72 ac waterfront",
+   "status": "active",
+   "url": "https://www.lakehomes.com/vermont/lake-salem/2459-vt-route-105-derby-vt-05829-lhrmls-04349761",
+   "fit": "Phase-0; road-side shore though",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "unity_pond",
+   "lakeName": "Unity Pond (Lake Winnecook)",
+   "state": "ME",
+   "name": "Lodge & Cabins at Lake Winnecook \u2014 $1.65M",
+   "price": 1650000,
+   "lat": 44.66,
+   "lon": -69.35,
+   "detail": "2 ac, 333' sand beach, central lodge + 6 remodeled cabins; MLS 1662749 \u00b7 verified active 8/17",
+   "status": "active",
+   "url": "https://www.landwatch.com/waldo-county-maine-commercial-property-for-sale/pid/427890535",
+   "fit": "Literal lodge+6-cabins program under $2M \u2014 BUT Unity Pond fails the water bar (bloom history); tour to calibrate, buy only with eyes open",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "tupper",
+   "lakeName": "Tupper Lake (Raquette Pond)",
+   "state": "NY",
+   "name": "1616 NY-30 cottage colony \u2014 $1.1M",
+   "price": 1100000,
+   "lat": 44.24,
+   "lon": -74.48,
+   "detail": "7.22 ac waterfront, 19 buildings/20 units: house, duplex, fireplace cabins; MLS 207529 \u00b7 verified active 8/4",
+   "status": "active",
+   "url": "https://www.landwatch.com/franklin-county-new-york-commercial-property-for-sale/pid/427026535",
+   "fit": "Ready-made cabin colony on ski-legal Tupper; pick best 6, remove rest; tea-stained water caveat",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "rainbow_lake",
+   "lakeName": "Rainbow Lake / Clear Pond",
+   "state": "NY",
+   "name": "345 Meenahga Mountain Rd \u2014 $2.725M",
+   "price": 2725000,
+   "lat": 44.47,
+   "lon": -74.17,
+   "detail": "21 ac, 580' frontage, 8BR lodge + 7BR bunkhouse, solar/geothermal",
+   "status": "active",
+   "url": "https://www.landwatch.com/franklin-county-new-york-lakefront-property-for-sale/pid/426977643",
+   "fit": "Stretch: turnkey two-building camp sleeping 5 couples day one; bog-stained water is the tradeoff",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lower_saranac",
+   "lakeName": "Lower Saranac Lake",
+   "state": "NY",
+   "name": "2 Pinehurst Rd \u2014 $2.249M",
+   "price": 2249000,
+   "lat": 44.32,
+   "lon": -74.17,
+   "detail": "20.5 ac, 216' level shore, sandy beach, 3BR ranch",
+   "status": "active",
+   "url": "https://www.landwatch.com/franklin-county-new-york-lakefront-property-for-sale/pid/426873767",
+   "fit": "Rare 20-ac canvas on marquee-quality quiet lake; cabin build-out potential",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "friends_lake",
+   "lakeName": "Friends Lake",
+   "state": "NY",
+   "name": "773 Atateka Dr, Chestertown \u2014 $799K",
+   "price": 799000,
+   "lat": 43.64,
+   "lon": -73.84,
+   "detail": "3.42 ac, 439' shoreline with private cove, 1945 2BR camp, boathouse",
+   "status": "active",
+   "url": "https://landvest.com/listing/202618520/773-atateka-drive-chestertown-ny-12817/",
+   "fit": "400+ ft frontage 3.75h out on a sub-bar (386 ac) but pleasant lake; cove anchors future cabin cluster",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "loon_franklin",
+   "lakeName": "Loon Lake (Franklin Co.)",
+   "state": "NY",
+   "name": "9 Loon Lake Terrace Victorian \u2014 $599K",
+   "price": 599000,
+   "lat": 44.55,
+   "lon": -74.06,
+   "detail": "9BR/7.5BA 6,527 sqft award-winning 1905 lodge, 1.95 ac, deeded lake access",
+   "status": "active",
+   "url": "https://www.landwatch.com/franklin-county-new-york-lakefront-property-for-sale/pid/426911381",
+   "fit": "Instant 5-couple lodge on quiet motor lake; deeded access, not owned frontage \u2014 flag",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "kezar",
+   "lakeName": "Kezar Lake",
+   "state": "ME",
+   "name": "Blackberry Hill, The Narrows, Lovell \u2014 $1.5M",
+   "price": 1500000,
+   "lat": 44.2,
+   "lon": -70.93,
+   "detail": "16.66 ac on the Narrows, 1953 architect-built 3BR cottage, meadow site \u00b7 verified active 8/14",
+   "status": "active",
+   "url": "https://www.landwatch.com/oxford-county-maine-recreational-property-for-sale/pid/427874621",
+   "fit": "Big-parcel prize on the premier quiet ski lake; cabin sites abound",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "moose_pond_denmark",
+   "lakeName": "Moose Pond",
+   "state": "ME",
+   "name": "41 Hunter Dr, Denmark 9BR log lodge \u2014 $720K",
+   "price": 720000,
+   "lat": 43.99,
+   "lon": -70.86,
+   "detail": "4,000 sqft log home, 5BR annex wing, 3.9 ac; frontage verify",
+   "status": "verify",
+   "url": "https://www.homes.com/property/41-hunter-dr-denmark-me/pbyw574zyl8w5/",
+   "fit": "Lodge + annex sleeps group now on ski-active Moose Pond",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "lake_bomoseen",
+   "lakeName": "Lake Bomoseen",
+   "state": "VT",
+   "name": "111 Prospect Point Rd \u2014 $2.75M",
+   "price": 2750000,
+   "lat": 43.68,
+   "lon": -73.23,
+   "detail": "60.3 ac lakefront ex-9-hole golf course, clubhouse building, 2 docks",
+   "status": "active",
+   "url": "https://www.landwatch.com/rutland-county-vermont-lakefront-property-for-sale/pid/425711869",
+   "fit": "60-ac waterfront canvas 3.9h out \u2014 but Bomoseen failed the quiet bar; only if scale beats hush",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "bloomingdale_ponds",
+   "lakeName": "Private twin ponds, Bloomingdale NY",
+   "state": "NY",
+   "name": "2292 Gillespie Dr, 295 ac \u2014 $2.495M",
+   "price": 2495000,
+   "lat": 44.43,
+   "lon": -74.05,
+   "detail": "295 ac, 2 private lakes, waterfall brook, 3 dwellings, subdividable",
+   "status": "active",
+   "url": "https://www.landwatch.com/essex-county-new-york-lakefront-property-for-sale/pid/427459501",
+   "fit": "WILDCARD: extraordinary 3-dwelling kingdom; private ponds too small to ski \u2014 pair with big-lake boat storage",
+   "cls": "listing",
+   "new": true
+  }
+ ],
+ "excluded": {
+  "New Hampshire": [
+   {
+    "name": "Lake Winnipesaukee",
+    "reason": "Marquee-busy; excluded by brief"
+   },
+   {
+    "name": "Massabesic Lake",
+    "reason": "Manchester water supply; no body contact"
+   },
+   {
+    "name": "Province Lake",
+    "reason": "Very shallow, windswept; repeat cyanobacteria advisories"
+   },
+   {
+    "name": "Lake Kanasatka",
+    "reason": "371 ac; chronic cyanobacteria despite 2024 alum treatment"
+   },
+   {
+    "name": "Pawtuckaway Lake",
+    "reason": "Recurring cyanobacteria (May 2026 bloom); park crowds"
+   },
+   {
+    "name": "Northwood Lake",
+    "reason": "Repeated cyano advisories; Route 4 noise"
+   },
+   {
+    "name": "Webster Lake",
+    "reason": "Dense cottage ring, town-beach scene, modest size"
+   },
+   {
+    "name": "Halfmoon Lake",
+    "reason": "280 ac; under size bar"
+   },
+   {
+    "name": "Suncook Lakes (Upper/Lower)",
+    "reason": "Twin ponds each under 300 ac"
+   },
+   {
+    "name": "Crystal Lake (Gilmanton)",
+    "reason": "441 ac; pleasant but not exceptional enough"
+   },
+   {
+    "name": "Lake Massasecum",
+    "reason": "401 ac; under size bar"
+   },
+   {
+    "name": "Mendums Pond",
+    "reason": "~250 ac; UNH-dominated shoreline"
+   },
+   {
+    "name": "White Oak Pond",
+    "reason": "7.5-hp limit kills towsports"
+   },
+   {
+    "name": "Grafton Pond",
+    "reason": "6-hp/no-gas rule; conserved, no frontage"
+   },
+   {
+    "name": "Lake Winona",
+    "reason": "178 ac; under size bar"
+   },
+   {
+    "name": "Post Pond (Lyme)",
+    "reason": "~170 ac; under size bar"
+   },
+   {
+    "name": "Granite Lake",
+    "reason": "220 ac; gorgeous but far under bar"
+   },
+   {
+    "name": "Silver Lake (Harrisville)",
+    "reason": "216 ac; under size bar"
+   },
+   {
+    "name": "Dublin Lake",
+    "reason": "239 ac; no public compound path"
+   },
+   {
+    "name": "Stinson Lake",
+    "reason": "346 ac; under bar, not exceptional"
+   },
+   {
+    "name": "Lake Tarleton",
+    "reason": "315 ac; mostly state/USFS shoreline"
+   },
+   {
+    "name": "Pleasant Lake (Deerfield)",
+    "reason": "Cyano warnings; zero market depth currently"
+   },
+   {
+    "name": "Swains Lake",
+    "reason": "405 ac; under size bar"
+   },
+   {
+    "name": "Big Island Pond",
+    "reason": "Suburban powerboat density; character fail"
+   },
+   {
+    "name": "Franklin Pierce Lake",
+    "reason": "Tea-stained impoundment; Rt 9 adjacency"
+   },
+   {
+    "name": "Horace Lake (Weare)",
+    "reason": "323 ac; under size bar"
+   },
+   {
+    "name": "Partridge Lake (Littleton)",
+    "reason": "Chronic year-round cyanobacteria; treatment pending"
+   },
+   {
+    "name": "Milton Three Ponds",
+    "reason": "Milfoil-treated chain; Rt 16/125 corridor"
+   },
+   {
+    "name": "Balch Lake",
+    "reason": "Dense small-lot camps; shallow coves"
+   },
+   {
+    "name": "Moore/Comerford Reservoirs",
+    "reason": "Hydro drawdowns; essentially no private frontage"
+   },
+   {
+    "name": "Opechee/Paugus Bays",
+    "reason": "Urban Laconia arms of Winnipesaukee"
+   },
+   {
+    "name": "Lake Francis",
+    "reason": "~7 h; fluctuating stained reservoir; scarce frontage"
+   },
+   {
+    "name": "Second Connecticut Lake",
+    "reason": "~7:15 drive; beyond edge; scarce frontage"
+   },
+   {
+    "name": "Third Connecticut Lake",
+    "reason": "278 ac; ~7:20 drive"
+   },
+   {
+    "name": "Back Lake",
+    "reason": "350 ac; ~7 h; 10-mph windows"
+   },
+   {
+    "name": "Akers Pond",
+    "reason": "~290 ac; ~7 h drive"
+   },
+   {
+    "name": "Big/Little Diamond Ponds",
+    "reason": "Small, remote; ~6:50 drive"
+   },
+   {
+    "name": "Success Pond",
+    "reason": "Gravel-road remote; leased-land camps"
+   },
+   {
+    "name": "Lake Wicwas",
+    "reason": "328 ac; under size bar"
+   },
+   {
+    "name": "Eastman Pond",
+    "reason": "335 ac; gas motors prohibited (association)"
+   },
+   {
+    "name": "Highland Lake (Andover)",
+    "reason": "210 ac; under size bar"
+   },
+   {
+    "name": "Arlington Mill Reservoir",
+    "reason": "Suburban Salem; water-supply constraints"
+   }
+  ],
+  "Maine": [
+   {
+    "name": "Long Lake (Naples)",
+    "reason": "Clarity fine (6.4\u20136.7 m) but Naples causeway wake-boat corridor"
+   },
+   {
+    "name": "Sebago Lake (big basin)",
+    "reason": "Marquee busy water; excluded by brief"
+   },
+   {
+    "name": "Kezar Pond (Fryeburg)",
+    "reason": "Shallow, marshy, Saco-influenced"
+   },
+   {
+    "name": "Lovewell Pond",
+    "reason": "Saco backflow floods; warmwater; modest clarity"
+   },
+   {
+    "name": "Woods Pond (Bridgton)",
+    "reason": "Shallow; 5.7 m; stronger neighbors"
+   },
+   {
+    "name": "Bear Pond (Waterford)",
+    "reason": "~257 ac \u2014 under size bar"
+   },
+   {
+    "name": "Hancock Pond",
+    "reason": "~232 ac \u2014 under size bar"
+   },
+   {
+    "name": "Sand Pond",
+    "reason": "~269 ac \u2014 under size bar"
+   },
+   {
+    "name": "Papoose Pond",
+    "reason": "Tiny; 3.5 m clarity; campground"
+   },
+   {
+    "name": "McWain Pond",
+    "reason": "~450 ac; 6.3 m; micro market"
+   },
+   {
+    "name": "Wilson Lake (Acton)",
+    "reason": "308 ac \u2014 under size (oligotrophic but small)"
+   },
+   {
+    "name": "Horn Pond (Acton)",
+    "reason": "~214 ac \u2014 under size bar"
+   },
+   {
+    "name": "Little Ossipee Lake",
+    "reason": "Sandbar party scene; suburban York County"
+   },
+   {
+    "name": "Province Lake",
+    "reason": "17 ft max; HAB advisories"
+   },
+   {
+    "name": "Bryant Pond",
+    "reason": "276 ac \u2014 under size bar"
+   },
+   {
+    "name": "Varnum Pond",
+    "reason": "~215 ac \u2014 under size bar"
+   },
+   {
+    "name": "Flying Pond",
+    "reason": "403 ac; TP 11 ppb nearing bloom threshold"
+   },
+   {
+    "name": "Minnehonk Lake",
+    "reason": "Only 99 ac (clear, but tiny)"
+   },
+   {
+    "name": "Lovejoy Pond (Fayette)",
+    "reason": "~320 ac \u2014 under size bar"
+   },
+   {
+    "name": "Torsey Pond",
+    "reason": "Shallow; modest clarity"
+   },
+   {
+    "name": "Androscoggin Lake",
+    "reason": "15-ft mean depth; recent algal blooms"
+   },
+   {
+    "name": "North Pond (Belgrades)",
+    "reason": "Chronic HABs; July 2024 advisory"
+   },
+   {
+    "name": "East Pond (Belgrades)",
+    "reason": "Bloom history; 2024 clarity crashed below 2 m"
+   },
+   {
+    "name": "Salmon Lake/McGrath Pond",
+    "reason": "Late-summer bloom tendency; 4.7 m"
+   },
+   {
+    "name": "Cobbosseecontee Lake",
+    "reason": "Sept 2023 bloom; busy developed shoreline"
+   },
+   {
+    "name": "Annabessacook Lake",
+    "reason": "Legacy eutrophication and blooms"
+   },
+   {
+    "name": "Webber Pond",
+    "reason": "Eutrophic; recurring blooms"
+   },
+   {
+    "name": "Threemile Pond",
+    "reason": "Eutrophic; recurring blooms"
+   },
+   {
+    "name": "Togus Pond",
+    "reason": "Recurring cyanobacteria blooms"
+   },
+   {
+    "name": "China Lake",
+    "reason": "Eutrophic legacy; blooms"
+   },
+   {
+    "name": "Unity Pond",
+    "reason": "Eutrophic; blooms"
+   },
+   {
+    "name": "Sabattus Pond",
+    "reason": "Eutrophic; blooms"
+   },
+   {
+    "name": "Lake Auburn",
+    "reason": "Body contact banned (water supply)"
+   },
+   {
+    "name": "Little Sebago",
+    "reason": "Suburban, busy; gloeotrichia events"
+   },
+   {
+    "name": "Highland Lake (Windham)",
+    "reason": "Suburban; bloom history"
+   },
+   {
+    "name": "Tripp Pond (Poland)",
+    "reason": "Bloom history"
+   },
+   {
+    "name": "Taylor Pond (Auburn)",
+    "reason": "Suburban; modest clarity"
+   },
+   {
+    "name": "Pleasant Pond (Richmond)",
+    "reason": "Mid-clarity meso; data thin; better peers"
+   },
+   {
+    "name": "Lake Anasagunticook",
+    "reason": "Meso mid-clarity; Rt 108 corridor"
+   },
+   {
+    "name": "Seven Tree Pond",
+    "reason": "Below-average water quality"
+   },
+   {
+    "name": "Sennebec Pond",
+    "reason": "Shallow; modest clarity"
+   },
+   {
+    "name": "Norton Pond (Lincolnville)",
+    "reason": "Stained, shallower Megunticook sibling"
+   },
+   {
+    "name": "Lermond Pond",
+    "reason": "~500 ac; modest clarity vs neighbors"
+   },
+   {
+    "name": "Quantabacook Lake",
+    "reason": "693 ac but tannic, ~4 m"
+   },
+   {
+    "name": "Dyer Long Pond",
+    "reason": "~359 ac \u2014 under size; shallow"
+   },
+   {
+    "name": "Biscay Pond",
+    "reason": "~357 ac \u2014 under size bar"
+   },
+   {
+    "name": "Great Moose Lake",
+    "reason": "Stained, shallow, bloom-prone; 6:45+"
+   },
+   {
+    "name": "Lake Wassookeag (Dexter)",
+    "reason": "Reputedly clear but ~7 h \u2014 outside band"
+   },
+   {
+    "name": "Sebec Lake",
+    "reason": "7 h+; outside region scope"
+   },
+   {
+    "name": "Flagstaff Lake",
+    "reason": "Drawdown reservoir; 7 h+"
+   },
+   {
+    "name": "Aziscohos Lake",
+    "reason": "Big drawdowns; leased-lot shorefront; ~6:50+"
+   },
+   {
+    "name": "Kennebago Lake",
+    "reason": "Gated private road; fly-only culture; ~7:15"
+   },
+   {
+    "name": "Cupsuptic Lake",
+    "reason": "Same waterbody as Mooselookmeguntic (profiled)"
+   }
+  ],
+  "New York": [
+   {
+    "name": "Little Tupper Lake",
+    "reason": "Certified: motors banned (Whitney Wilderness)"
+   },
+   {
+    "name": "Lows Lake",
+    "reason": "Certified: motorless; floatplanes banned too"
+   },
+   {
+    "name": "Mirror Lake",
+    "reason": "Certified: village law bans motorboats"
+   },
+   {
+    "name": "Massawepie Lake",
+    "reason": "Certified: Scout reservation; closed, no market"
+   },
+   {
+    "name": "Pyramid Lake",
+    "reason": "Certified: motorless private retreat lake"
+   },
+   {
+    "name": "Thirteenth Lake",
+    "reason": "~330 ac; gas-motor ban advanced by DEC"
+   },
+   {
+    "name": "Big Wolf Lake",
+    "reason": "Private preserve; non-motorized only"
+   },
+   {
+    "name": "Lake Ozonia",
+    "reason": "10-hp limit kills towsports"
+   },
+   {
+    "name": "Lewey Lake",
+    "reason": "~100 ac; state campground"
+   },
+   {
+    "name": "Eagle Lake (Blue Mtn chain)",
+    "reason": "~180 ac"
+   },
+   {
+    "name": "Utowana Lake",
+    "reason": "~370 ac; preserve shoreline, no-wake channel culture"
+   },
+   {
+    "name": "Forked Lake",
+    "reason": "State-campground paddle lake; scant private frontage"
+   },
+   {
+    "name": "Horseshoe Lake",
+    "reason": "State/leased shores; no real market"
+   },
+   {
+    "name": "Twitchell Lake",
+    "reason": "259 ac, below bar"
+   },
+   {
+    "name": "Stillwater Reservoir",
+    "reason": "Big drawdown, dark tea, boat-access camps"
+   },
+   {
+    "name": "Big Otter Lake",
+    "reason": "236 ac, roadless"
+   },
+   {
+    "name": "First\u2013Third Lakes (Fulton)",
+    "reason": "Busy Old Forge channel corridor"
+   },
+   {
+    "name": "Fifth & Sixth Lakes",
+    "reason": "Tiny channel ponds"
+   },
+   {
+    "name": "Eighth Lake",
+    "reason": "State campground; no private frontage"
+   },
+   {
+    "name": "Limekiln Lake",
+    "reason": "Campground lake; sliver of private camps"
+   },
+   {
+    "name": "White Lake (Woodgate)",
+    "reason": "Only 240 ac per association"
+   },
+   {
+    "name": "North & South Lakes",
+    "reason": "Remote dirt-road drawdown reservoirs, sub-450"
+   },
+   {
+    "name": "Red Lake (Theresa)",
+    "reason": "Stained warmwater fishery"
+   },
+   {
+    "name": "Butterfield Lake",
+    "reason": "CSLAP: frequent algal blooms"
+   },
+   {
+    "name": "Sixberry Lake",
+    "reason": "123 ac; 10-hp limit"
+   },
+   {
+    "name": "Grass Lake (Theresa)",
+    "reason": "Small, marshy, thin market"
+   },
+   {
+    "name": "Yellow Lake",
+    "reason": "Small, undeveloped"
+   },
+   {
+    "name": "Star Lake",
+    "reason": "~230 ac"
+   },
+   {
+    "name": "Meacham Lake",
+    "reason": "Shoreline essentially 100% state"
+   },
+   {
+    "name": "Lake Kushaqua",
+    "reason": "~377 ac; state campground shoreline"
+   },
+   {
+    "name": "Rainbow Lake (Franklin)",
+    "reason": "Bog-stained flow-through water"
+   },
+   {
+    "name": "Clear Pond (Adk)",
+    "reason": "Under 300 ac; limited access"
+   },
+   {
+    "name": "Spitfire Lake",
+    "reason": "271 ac, below bar"
+   },
+   {
+    "name": "Lower St. Regis Lake",
+    "reason": "376 ac; college waterfront hub"
+   },
+   {
+    "name": "Middle Saranac Lake",
+    "reason": "State-ringed; no realistic private frontage"
+   },
+   {
+    "name": "Kiwassa Lake",
+    "reason": "271 ac"
+   },
+   {
+    "name": "Lake Colby",
+    "reason": "286 ac; village/hospital shore"
+   },
+   {
+    "name": "Eagle Lake (Ticonderoga)",
+    "reason": "~440 ac; Rt 74 on shoreline"
+   },
+   {
+    "name": "Friends Lake",
+    "reason": "386 ac; good, not extraordinary"
+   },
+   {
+    "name": "Garnet Lake",
+    "reason": "~250 ac"
+   },
+   {
+    "name": "Lake Luzerne",
+    "reason": "~110 ac"
+   },
+   {
+    "name": "Lake Titus",
+    "reason": "432 ac; fine but not exceptional"
+   },
+   {
+    "name": "Honnedaga / Little Moose",
+    "reason": "Adirondack League Club private, motor-restricted"
+   },
+   {
+    "name": "Lake Lila / Follensby",
+    "reason": "Motorless state / private preserves"
+   },
+   {
+    "name": "Great Sacandaga Lake",
+    "reason": "Certified: huge drawdown reservoir, busy, exposed"
+   },
+   {
+    "name": "Lake George",
+    "reason": "Certified: marquee-busy, priced out"
+   },
+   {
+    "name": "Saratoga Lake",
+    "reason": "Suburban, busy, HAB history"
+   },
+   {
+    "name": "Lake Champlain",
+    "reason": "Big open water; not intimate archetype"
+   },
+   {
+    "name": "Canadarago Lake",
+    "reason": "Ag watershed; bloom-prone"
+   },
+   {
+    "name": "Cazenovia Lake",
+    "reason": "Chronic HAB closures"
+   },
+   {
+    "name": "Owasco Lake",
+    "reason": "Annual HAB advisories"
+   },
+   {
+    "name": "Otisco Lake",
+    "reason": "Turbid, HAB-prone"
+   },
+   {
+    "name": "Honeoye Lake",
+    "reason": "Certified: shallow eutrophic, chronic HABs"
+   },
+   {
+    "name": "Canandaigua Lake",
+    "reason": "Certified: developed, busy, priced out"
+   },
+   {
+    "name": "Hemlock & Canadice",
+    "reason": "Rochester water supply; no private frontage"
+   },
+   {
+    "name": "Seneca & Cayuga",
+    "reason": "Vast wine-country water; rising HAB advisories"
+   },
+   {
+    "name": "Conesus Lake",
+    "reason": "Dense shores, HABs"
+   },
+   {
+    "name": "Oneida Lake",
+    "reason": "Shallow, windy, HAB-prone"
+   },
+   {
+    "name": "Tully Lake",
+    "reason": "~260 ac"
+   },
+   {
+    "name": "DeRuyter Reservoir",
+    "reason": "Small drawdown reservoir, HABs"
+   },
+   {
+    "name": "Song Lake",
+    "reason": "~100 ac"
+   },
+   {
+    "name": "Black Lake",
+    "reason": "Stained, weedy fishing lake"
+   },
+   {
+    "name": "Chautauqua Lake",
+    "reason": "Chronic HABs; ~7 h drive"
+   },
+   {
+    "name": "Hinckley/Delta/Kayuta/Salmon R./Carry Falls",
+    "reason": "Drawdown river reservoirs, stained"
+   },
+   {
+    "name": "Catskills: NYC reservoirs",
+    "reason": "Certified: no private frontage, no gas motors"
+   },
+   {
+    "name": "Swinging Bridge Reservoir",
+    "reason": "Certified: hydro drawdown impoundment"
+   },
+   {
+    "name": "Toronto Reservoir",
+    "reason": "Certified: extended drawdowns; access limits"
+   },
+   {
+    "name": "White Lake (Bethel)",
+    "reason": "~330 ac; busy resort hamlet"
+   },
+   {
+    "name": "Highland/Kauneonga (Sullivan)",
+    "reason": "Small; motor limits"
+   }
+  ],
+  "Vermont + southern New England / PA / NJ / MD": [
+   {
+    "name": "Lake Memphremagog",
+    "reason": "Chronic cyanobacteria closures, urban Newport arm; not the archetype"
+   },
+   {
+    "name": "Norton Pond",
+    "reason": "~6:45 drive; stained, shallow north half; better peers nearer"
+   },
+   {
+    "name": "Joe's Pond",
+    "reason": "396 ac; cottage-dense, Rt 2 shoreline; not extraordinary"
+   },
+   {
+    "name": "Lake Groton",
+    "reason": "414 ac; state-campground bustle; middling clarity"
+   },
+   {
+    "name": "Peacham Pond",
+    "reason": "~340 ac; no ski room; modest clarity"
+   },
+   {
+    "name": "Green River Reservoir",
+    "reason": "Certified: no gas motors, 5 mph (UPW table)"
+   },
+   {
+    "name": "Chittenden Reservoir",
+    "reason": "Certified: waterskiing prohibited (UPW table)"
+   },
+   {
+    "name": "Waterbury Reservoir",
+    "reason": "State-owned shoreline, drawdown history; no private frontage"
+   },
+   {
+    "name": "Somerset Reservoir",
+    "reason": "Certified: remote hydro pool, utility shoreline, dirt access"
+   },
+   {
+    "name": "Harriman/Whitingham",
+    "reason": "Certified: utility-owned shore, drawdowns; no buildable frontage"
+   },
+   {
+    "name": "Lake Bomoseen",
+    "reason": "Honest: big but busy, PWC scene, milfoil; not quiet"
+   },
+   {
+    "name": "Lake St. Catherine",
+    "reason": "Honest: dense cottages, milfoil, weekend traffic"
+   },
+   {
+    "name": "Lake Hortonia",
+    "reason": "479 ac but heavy milfoil, cottage-ringed"
+   },
+   {
+    "name": "Lake Carmi",
+    "reason": "Eutrophic, HAB-chronic; disqualified on water"
+   },
+   {
+    "name": "Lake Iroquois",
+    "reason": "HAB-prone and 243 ac"
+   },
+   {
+    "name": "Fairfield Pond",
+    "reason": "Algal farm-country water despite wakesports listing"
+   },
+   {
+    "name": "Lake Champlain",
+    "reason": "Inland-sea exposure, HAB bays; wrong archetype"
+   },
+   {
+    "name": "Arrowhead Mountain Lake",
+    "reason": "Hydro fluctuation, blooms"
+   },
+   {
+    "name": "Shelburne Pond",
+    "reason": "Eutrophic natural area, no development"
+   },
+   {
+    "name": "Molly's Falls Pond",
+    "reason": "411 ac; undeveloped state-park shoreline"
+   },
+   {
+    "name": "Derby Lake",
+    "reason": "Well under size bar; shallow, village-adjacent"
+   },
+   {
+    "name": "Little Salem Lake",
+    "reason": "~200 ac appendage of Salem"
+   },
+   {
+    "name": "Shadow Lake (Glover)",
+    "reason": "Gin-clear but 210 ac; no ski room"
+   },
+   {
+    "name": "Lake Parker",
+    "reason": "~250 ac"
+   },
+   {
+    "name": "Daniels Pond",
+    "reason": "~90 ac"
+   },
+   {
+    "name": "Miles Pond",
+    "reason": "~180 ac"
+   },
+   {
+    "name": "Shadow Lake (Concord)",
+    "reason": "~50 ac"
+   },
+   {
+    "name": "Neal Pond",
+    "reason": "~200 ac"
+   },
+   {
+    "name": "Lake Elmore",
+    "reason": "219 ac"
+   },
+   {
+    "name": "Lake Eden",
+    "reason": "194 ac"
+   },
+   {
+    "name": "Long Ponds (Westmore/Greensboro)",
+    "reason": "Tiny; Westmore capped 5 mph (UPW)"
+   },
+   {
+    "name": "Nichols Pond",
+    "reason": "171 ac; 5 mph cap"
+   },
+   {
+    "name": "Wolcott Pond",
+    "reason": "~70 ac"
+   },
+   {
+    "name": "Zack Woods Pond",
+    "reason": "Certified: no gas motors, 27 ac"
+   },
+   {
+    "name": "Hardwick Lake / Mackville Pond",
+    "reason": "Village millponds, ~40-50 ac"
+   },
+   {
+    "name": "Number 10 Pond",
+    "reason": "5 mph/no-wake; 80 ac"
+   },
+   {
+    "name": "Curtis Pond",
+    "reason": "~80 ac paddler pond"
+   },
+   {
+    "name": "Forest Lake/Nelson Pond (Calais)",
+    "reason": "~60 ac"
+   },
+   {
+    "name": "Sabin/Woodbury + Buck",
+    "reason": "142/39 ac"
+   },
+   {
+    "name": "'Wells' (Groton SF)",
+    "reason": "No large 'Wells' exists; SF ponds tiny/no-motor"
+   },
+   {
+    "name": "Ricker/Osmore Ponds",
+    "reason": "95/48 ac Groton SF paddle water"
+   },
+   {
+    "name": "Lake Mansfield",
+    "reason": "Certified: no gas motors, 5 mph, Trout Club"
+   },
+   {
+    "name": "Sunset Lake (Benson)",
+    "reason": "202 ac"
+   },
+   {
+    "name": "Echo Lake (Hubbardton)",
+    "reason": "52 ac"
+   },
+   {
+    "name": "Beebe Pond",
+    "reason": "110 ac"
+   },
+   {
+    "name": "Fern Lake",
+    "reason": "69 ac"
+   },
+   {
+    "name": "Lake Raponda",
+    "reason": "120 ac"
+   },
+   {
+    "name": "Sadawga Pond",
+    "reason": "194 ac, shallow, floating bog"
+   },
+   {
+    "name": "Candlewood (CT)",
+    "reason": "Suburban-busy, PWC-heavy, drawdowns; zero quiet"
+   },
+   {
+    "name": "Twin Lakes/Salisbury (CT)",
+    "reason": "Closest CT miss: crowded, cottage-dense, compound-priced out"
+   },
+   {
+    "name": "Bantam (CT)",
+    "reason": "Shallow, weedy, bloom-prone, busy"
+   },
+   {
+    "name": "Waramaug (CT)",
+    "reason": "Celebrity-priced; recovering eutrophy"
+   },
+   {
+    "name": "Highland Lake (CT)",
+    "reason": "444 ac, dense cottages, busy"
+   },
+   {
+    "name": "Winchester Lake (CT)",
+    "reason": "246 ac, motor-restricted"
+   },
+   {
+    "name": "Quassapaug (CT)",
+    "reason": "296 ac, private association, priced"
+   },
+   {
+    "name": "Onota (MA)",
+    "reason": "City-edge Pittsfield, blooms, busy"
+   },
+   {
+    "name": "Pontoosuc (MA)",
+    "reason": "Urban-adjacent, HABs, busy"
+   },
+   {
+    "name": "Stockbridge Bowl (MA)",
+    "reason": "372 ac, weedy, Tanglewood-priced"
+   },
+   {
+    "name": "Otis Reservoir (MA)",
+    "reason": "Closest MA miss: dense camps, deep drawdown, crowded"
+   },
+   {
+    "name": "Lake Garfield (MA)",
+    "reason": "262 ac"
+   },
+   {
+    "name": "Quabbin & Wachusett (MA)",
+    "reason": "Certified: no private boats or frontage"
+   },
+   {
+    "name": "Webster Lake (MA)",
+    "reason": "Party-busy, densely ringed"
+   },
+   {
+    "name": "Singletary (MA)",
+    "reason": "330 ac, suburban"
+   },
+   {
+    "name": "Rhode Island (all)",
+    "reason": "Certified: no clear forested ski lake exists"
+   },
+   {
+    "name": "Wallenpaupack (PA)",
+    "reason": "Leased PPL shoreline, crowded weekends"
+   },
+   {
+    "name": "Harveys Lake (PA)",
+    "reason": "Mansion-ringed, dock-dense; no compound path"
+   },
+   {
+    "name": "Eagles Mere (PA)",
+    "reason": "No motorboats; club lake"
+   },
+   {
+    "name": "Raystown (PA)",
+    "reason": "Corps lake: zero private frontage"
+   },
+   {
+    "name": "Deep Creek (MD)",
+    "reason": "~6h; resort-busy; state-owned buffer strip"
+   },
+   {
+    "name": "Hopatcong (NJ)",
+    "reason": "HAB-chronic, dense suburban"
+   },
+   {
+    "name": "Greenwood (NJ/NY)",
+    "reason": "HABs, dense, party traffic"
+   },
+   {
+    "name": "Mohawk (NJ)",
+    "reason": "Private club, 260 ac, blooms"
+   },
+   {
+    "name": "Culver (NJ)",
+    "reason": "Club lake, dense cottages, no compounds"
+   },
+   {
+    "name": "Swartswood (NJ)",
+    "reason": "State-park/cottage mix; no compound market"
+   },
+   {
+    "name": "Highland Lakes (NJ)",
+    "reason": "Private club, small, dense"
+   }
+  ]
+ },
+ "updated": "August 18, 2026"
+}
