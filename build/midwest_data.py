@@ -118,10 +118,10 @@ lake("fence_lake", "Fence Lake (Lac du Flambeau chain)", "WI", 45.978, -89.828, 
      "3,555 acres on the ten-lake Lac du Flambeau chain: unmatched cruising, genuinely mixed water quality, and a shoreline substantially within the Lac du Flambeau Band's reservation, where non-member purchase and leasing rules are their own diligence project. Enter only with counsel who has done it before.",
      []),
 
-lake("lac_du_lune", "Lac du Lune", "WI", 46.140, -89.250, 470, "~6:00", "watch", 7.0,
-     "Clear.",
+lake("lac_du_lune", "Lac du Lune", "WI", 46.140, -89.250, 442, "~6:00", "watch", 7.5,
+     "Clear — nearly 20 ft of transparency, 68 ft max.",
      "Full motor; very low traffic.",
-     "Small (470 ac) but clear and almost undeveloped, near Land O'Lakes. On the list only because of one extraordinary listing: 27+ acres with 1,181 ft of frontage at $1.35M — the largest single-owner frontage assemblage found in Vilas County this sweep.",
+     "442 acres, 68 feet deep and nearly 20 feet of clarity near Land O'Lakes — better water than its size suggests. On the list chiefly for one extraordinary listing: 27.1 acres with 1,181 ft of sand frontage at $1.35M, the largest single-owner frontage assemblage found in Vilas County this sweep.",
      []),
 
 lake("dunn_lake", "Dunn Lake", "WI", 46.212, -89.760, 300, "~6:05", "watch", 6.0,
@@ -193,10 +193,11 @@ lake("franklin_butternut", "Franklin & Butternut Lakes", "WI", 45.955, -88.978, 
 
 # ---- Wisconsin · Sawyer / Bayfield / Douglas ------------------------------
 lake("grindstone", "Grindstone Lake", "WI", 45.978, -91.300, 3176, "~6:20", "t1", 9.5,
-     "Elite — Secchi averaged 23 ft across 1993–2005 monitoring. 60 ft max, 10.5 mi of shoreline.",
+     "Elite — volunteer Secchi averaged 23 ft across 1993–2005; the DNR fishery plan gives 19 ft with a 11–33 ft range. Oligotrophic, 60 ft max, 10.5 mi of shoreline. (Acreage is cited as 3,117 by DNR and 3,176 elsewhere.)",
      "Full motor, no cap; low traffic, one landing. Skiing legal and normal.",
      "The truest Squam analog west of Lake Michigan: 3,176 acres, thirteen years of 23-foot Secchi readings, sand beaches, and a shoreline shared between old family camps and the Lac Courte Oreilles Band. Big enough for five boats, quiet enough to hear loons at noon. Live inventory exists — a chalet-plus-guest-cottage pairing is on the market now.",
-     [["Grindstone Lake Association", "https://grindstonelake.org/the-lake/"]]),
+     [["Grindstone Lake Association", "https://grindstonelake.org/the-lake/"],
+      ["WI DNR water quality", "https://apps.dnr.wi.gov/lakes/lakepages/LakeDetail.aspx?wbic=2391200&page=waterquality"]]),
 
 lake("lco", "Lac Courte Oreilles", "WI", 45.900, -91.352, 5039, "~6:20", "t1", 9.0,
      "Very clear per DNR; 90 ft max, 25.4 mi of shoreline.",
@@ -207,7 +208,7 @@ lake("lco", "Lac Courte Oreilles", "WI", 45.900, -91.352, 5039, "~6:20", "t1", 9
 lake("round_lake_sawyer", "Round Lake", "WI", 45.982, -91.098, 3294, "~6:25", "t1", 9.0,
      "Clear; 74 ft max, ~33 ft mean.",
      "Full motor, no cap; Chequamegon National Forest shoreline keeps development low.",
-     "3,294 acres wrapped by national forest northeast of Hayward — the buildable Trout Lake. Two live paths at once: a cabin-and-guest-cottage at $1.95M, and Moose Jaw Resort — 17 acres of federal-forest-adjacent frontage with a working cabin cluster — at $2.75M.",
+     "3,294 acres wrapped by national forest northeast of Hayward — the buildable Trout Lake, on the water. The market is the problem: the one two-building listing (12391 W Moreland Rd, $1.95M) went pending on Sep 1, and nothing else is live. A relationships-and-letters lake, like Kezar in the Northeast report.",
      [["Hayward Lakes", "https://haywardlakes.com/activities/lakes/"]]),
 
 lake("teal_lost_land", "Teal & Lost Land Lakes", "WI", 46.042, -91.098, 2300, "~6:25", "t2", 8.0,
@@ -476,7 +477,7 @@ lake("clear_lake_oneida", "Clear Lake (Oneida)", "WI", 45.808, -89.518, 470, "~5
      "470 acres of genuinely clear water near Lake Tomahawk. Well under the size bar; a strong second lake for a Tomahawk purchase.",
      []),
 
-lake("moen_chain", "Moen Chain", "WI", 45.752, -89.372, 1100, "~5:20", "watch", 7.0,
+lake("moen_chain", "Moen Chain", "WI", 45.660, -89.310, 1100, "~5:20", "watch", 7.0,
      "Moderate across four connected basins.",
      "Full motor; connected chain.",
      "Four connected lakes north of Rhinelander with reasonable cruising and prices below the Minocqua belt. Ordinary water.",
@@ -589,10 +590,11 @@ def listing(lakeKey, name, price, lat, lon, detail, url, fit, status="active", l
     LI.append(d)
 
 # --- the program plays: whole cabin clusters -------------------------------
-listing("round_lake_sawyer", "Moose Jaw Resort, Round Lake — $2.75M", 2750000, 45.985, -91.088,
-        "17 ac in the Chequamegon National Forest; working cabin cluster + lodge building",
-        "https://www.landsearch.com/resort/wisconsin",
-        "The thesis in one listing: a grandfathered multi-cabin cluster, already zoned for it, on a 3,294-acre clear ski lake ringed by national forest. Tour this first.", new=True)
+listing("round_lake_price", "Moose Jaw Resort & Campground — $2.75M", 2750000, 45.9183, -90.0794,
+        "W770 Wind Song Ln, Park Falls (Price Co.); MLS 2028977; 17 ac, 8 cabins, 18 campsites, 24 boat slips, bar & restaurant; founded 1887",
+        "https://www.jmdsproperties.com/wi-resorts-for-sale/w770-wind-song-lane-road-other-price-wisconsin-54552/",
+        "CORRECTED Sep 1: this is Round Lake of the Pike Chain in PRICE County, not the 3,294-acre Round Lake near Hayward. Eight cabins and a licensed bar on 17 national-forest acres is a real program — but the lake is 726 ac, 24 ft deep and root-beer coloured. Program yes, water no.",
+        lakeName="Round Lake (Pike Chain, Price Co.)", state="WI", new=True)
 listing("north_twin", "Coady's Point of View Resort, North Twin — $2.8M", 2800000, 46.078, -89.108,
         "Resort + campground on the Twin Lakes chain; family-run since 1897",
         "https://www.lakeplace.com/forsale/wi-county/vilas/",
@@ -614,10 +616,10 @@ listing("pelican_lake", "Pelican Lake resort — $724.9K", 724900, 45.492, -89.2
         "~9 ac with 204 ft of frontage; cabin cluster",
         "https://www.commercialzip.com/wi/resorts/",
         "Under $750K for nine acres and a cabin cluster on 3,585 acres of ski water at five hours flat. Budget for a full rebuild; the entitlements are the buy.")
-listing("moen_chain", "Pine Valley Lodge, Rhinelander — $1.5M", 1499999, 45.748, -89.352,
-        "27 ac with 1,900 ft of direct frontage on the Moen Lake Chain; historic lodge, rec hall, cabins",
-        "https://www.commercialzip.com/resorts/wi/",
-        "Twenty-seven acres and 1,900 feet of chain frontage for $1.5M — on pure frontage-per-dollar, the best land basis in the sweep. Moen's water is ordinary; the entitlements and the shoreline are not.", new=True)
+listing("moen_chain", "Pine Valley Lodge, Rhinelander — $1.5M", 1499999, 45.655, -89.335,
+        "4000 Lakeshore Dr; MLS 217391; 27 ac with 1,900 ft on the 5-lake Moen Chain; 1920s lodge w/ full liquor licence, 5,000 sf rec hall, guest cabins, owner's residence, sand beach",
+        "https://www.shorewest.com/WI/Oneida/Rhinelander/4000-Lakeshore-Dr-Rhinelander-WI-54501/217391-GNMLS",
+        "Twenty-seven acres and 1,900 feet of chain frontage for $1.5M — on pure frontage-per-dollar, the best land basis in the sweep, and the buildings are already there. Moen's 1,100 acres are ordinary water; the entitlements and the shoreline are not. One source quotes $1.6M — confirm.", new=True)
 listing("herendeene_lake", "Northern Michigan cabin resort (Herendeene Lake) — $2.5M", 2500000, 44.782, -85.902,
         "430–450 ft frontage; hand-hewn 5BR log home + 6BR farmhouse + 6 remodeled cabins",
         "https://www.traversenorth.com/property-search/waterfront-resorts-and-businesses.html",
@@ -640,10 +642,10 @@ listing("crooked_lake_lakemi", "Crooked Lake Resort, Lake MI — verify price", 
         status="verify", lakeName="Crooked Lake (Lake, MI)", state="MI")
 
 # --- the land plays: frontage to build on ---------------------------------
-listing("lac_du_lune", "Lac du Lune assemblage — $1.35M", 1350000, 46.142, -89.248,
-        "27+ ac with 1,181 ft of frontage on clear water",
-        "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
-        "The largest single-owner frontage assemblage found in Vilas County: 1,181 ft is enough for a lodge and five separately-lotted cabins under county shoreland math. Build the sketch exactly.", new=True)
+listing("lac_du_lune", "Lt 11-15 Briar Ln, Land O'Lakes — $1.35M", 1350000, 46.142, -89.248,
+        "MLS 218079; 27.1 ac with 1,181 ft of sand frontage, and it wraps a separate 13-acre pond",
+        "https://landvest.com/listing/218079/lt-11-15-briar-lane-land-o-lakes-wi-54540/",
+        "The largest single-owner frontage assemblage found in Vilas County: 1,181 ft is enough for a lodge and five separately-lotted cabins under county shoreland math, on a 442-acre lake with nearly 20 ft of clarity. Build the sketch exactly.", new=True)
 listing("dunn_lake", "Dunn Lake parcel, Presque Isle — $347.5K", 347500, 46.215, -89.756,
         "14+ ac with over 1,000 ft of lake frontage",
         "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
@@ -682,10 +684,11 @@ listing("black_oak", "6024 Black Oak Lake Rd S — $699K", 699000, 46.122, -89.3
         "3BR/2BA year-round home on Wisconsin's clearest lake",
         "https://www.lakehomes.com/wisconsin/black-oak-lake-land-olakes",
         "One of very few homes that trade on Black Oak in any year. A beachhead on the best water in the state; add cabins on an adjacent lot as they surface.")
-listing("round_lake_sawyer", "12391 W Moreland Rd, Hayward — $1.95M", 1950000, 45.976, -91.104,
-        "Furnished lakeside cabin + guest cottage; sugar-sand frontage, sunset exposure",
-        "https://www.lakeplace.com/forsale/wi-county/sawyer/",
-        "Two dwellings already standing on 3,294 acres of clear ski water. The cleanest two-building start in Wisconsin; add cabins behind the setback line.")
+listing("round_lake_sawyer", "12391 W Moreland Rd, Hayward — $1.95M (PENDING)", 1950000, 45.976, -91.104,
+        "4BR/4BA, 3,037 sf on 1.04 ac; furnished cabin + guest cottage, sugar-sand frontage",
+        "https://www.lakehomes.com/wisconsin/round-lake-hayward",
+        "Went PENDING as of Sep 1 — the only two-building listing on clear Round Lake, and it is spoken for. Ask the Hayward brokers to flag you if it falls through, and treat Round Lake as an off-market campaign until then.",
+        status="verify")
 listing("lco", "Lac Courte Oreilles legacy estate — $2.495M", 2495000, 45.908, -91.342,
         "10.82 ac with 320 ft of level, sandy shoreline",
         "https://www.lakeplace.com/forsale/wi-county/sawyer/",
@@ -797,10 +800,10 @@ listing("mi_dnr_auction", "Michigan DNR surplus land auction 2026", None, 45.292
         status="verify", lakeName="Statewide (MI DNR)", state="MI")
 
 # --- second-pass listings: the resort market, county by county -------------
-listing("turtle_flambeau", "Donner's Bay Resort, Turtle–Flambeau — $1.57M", 1570000, 46.088, -90.142,
-        "6 updated year-round cabins + owner's home + 1,500 sf bar & grill, Butternut WI",
-        "https://www.commercialzip.com/resorts/wi/",
-        "THE HEADLINE: six year-round cabins, an owner's lodge and a licensed bar, under $1.6M, on 12,942 acres of state Scenic Waters. The literal program, in budget, on genuinely wild water. Stained water is the only real objection.", new=True)
+listing("turtle_flambeau", "Donner's Bay Resort, Turtle–Flambeau — $1.57M", 1570000, 46.040, -90.280,
+        "2974N Hiawatha Rd, Butternut; MLS 210365; 7,334 sf of buildings — 6–7 year-round cabin units (sources differ) + owner's home + 1,500 sf bar & grill; 74 years in one family",
+        "https://www.shorewest.com/WI/Iron/Butternut/2974n-Hiawatha-Rd-Butternut-WI-54514/210365-GNMLS",
+        "THE HEADLINE: a full cabin row, an owner's lodge and a licensed bar for under $1.6M on 12,942 acres of state Scenic Waters. The literal program, in budget, on genuinely wild water. Confirm the cabin count and lot size (1.31 vs 3.1 ac) with the broker; asking price is quoted at both $1.57M and $1.595M. Stained water is the only real objection.", new=True)
 listing("butternut_lake_price", "Butternut Lake resort — $849K", 849000, 46.022, -90.492,
         "2.70 ac with on-site dining and multiple cabins, direct lake access",
         "https://www.commercialzip.com/resorts/wi/",
