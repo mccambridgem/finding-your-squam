@@ -1,0 +1,3539 @@
+{
+ "refs": [
+  {
+   "key": "chicago",
+   "cls": "ref",
+   "shape": "star",
+   "name": "Chicago",
+   "state": "IL",
+   "lat": 41.882,
+   "lon": -87.628,
+   "drive": "",
+   "acres": null,
+   "blurb": "Start of every drive estimate (the Loop). The 4-hour ring is the near edge of the brief: everything inside it is weekend-cottage country, not the archetype.",
+   "links": []
+  },
+  {
+   "key": "trout",
+   "cls": "ref",
+   "shape": "ring",
+   "name": "Trout Lake (the archetype)",
+   "state": "WI",
+   "lat": 46.03,
+   "lon": -89.665,
+   "drive": "~5:50",
+   "acres": 3816,
+   "blurb": "The reference point, and the one lake here you already know. 3,816 acres, 117 ft deep, gin-clear, wrapped almost entirely by the 236,000-acre Northern Highland–American Legion State Forest. Almost no private frontage exists — and none was for sale this month.",
+   "links": [
+    [
+     "Northern Highland–American Legion State Forest",
+     "https://vilaswi.com/your-guide-to-the-northern-highland-american-legion-state-forest/"
+    ],
+    [
+     "Trout Lake waterfront (Gold Bar)",
+     "https://www.goldbarrealty.com/lakes/troutlake"
+    ]
+   ]
+  }
+ ],
+ "lakes": [
+  {
+   "key": "black_oak",
+   "name": "Black Oak Lake",
+   "state": "WI",
+   "lat": 46.128,
+   "lon": -89.297,
+   "acres": 564,
+   "drive": "~6:00",
+   "tier": "t2",
+   "score": 9.5,
+   "clarity": "Widely cited as Wisconsin's clearest — Secchi routinely 25–30 ft. 85 ft max, 34 ft mean.",
+   "motors": "Full-motor lake, no horsepower cap. Skiing legal and practiced; small landing keeps traffic low.",
+   "blurb": "The clearest water in the state and the closest thing here to Squam's gin-clarity. Sub-bar at 564 acres — a real constraint for five boats — but the water quality is unmatched and the culture is old Land O'Lakes camps. Inventory is famously thin; one 3BR is live at $699K.",
+   "links": [
+    [
+     "Black Oak Lake listings",
+     "https://www.lakehomes.com/wisconsin/black-oak-lake-land-olakes"
+    ],
+    [
+     "Why it's the cleanest",
+     "https://www.islands.com/1999520/black-oak-lake-wisconsin-cleanest-lake-crystal-clear-scenic-day-trip-getaway/"
+    ],
+    [
+     "Land O'Lakes lake listings",
+     "https://www.lakeplace.com/forsale/wi/land-o-lakes/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "presque_isle_lake",
+   "name": "Presque Isle Lake",
+   "state": "WI",
+   "lat": 46.198,
+   "lon": -89.72,
+   "acres": 1165,
+   "drive": "~6:05",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Clear, deep (103 ft), spring-fed; among the better Vilas readings.",
+   "motors": "Full motor; the town's ethos is quiet, and the lake sits at the end of the road.",
+   "blurb": "1,165 acres and 103 feet deep at the top-left corner of Vilas County, half an hour past where day-trippers turn around. State and county forest on much of the shore, an understated summer-camp culture, and a market that actually trades — 30 active listings countywide this summer, average ask ~$520K.",
+   "links": [
+    [
+     "Presque Isle lake property",
+     "https://www.lakeplace.com/forsale/wi/presque-isle/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Presque_Isle_Lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "big_muskellunge",
+   "name": "Big Muskellunge Lake",
+   "state": "WI",
+   "lat": 46.021,
+   "lon": -89.617,
+   "acres": 897,
+   "drive": "~5:50",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Clear; part of the NTL-LTER long-term research set (the most-studied water in the Midwest). 70 ft max.",
+   "motors": "Full motor, no horsepower cap; NHAL landing only.",
+   "blurb": "Trout Lake's smaller neighbor, and nearly its equal on water: deep, clear, forest-ringed. Same problem — state forest owns most of the shore, so listings are events, not inventory. Set alerts and be ready.",
+   "links": [
+    [
+     "Big Muskellunge Lake",
+     "https://vilaswi.com/lake-river/big-muskellunge-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Big_Muskellunge_Lake"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "plum_lake",
+   "name": "Plum Lake",
+   "state": "WI",
+   "lat": 45.955,
+   "lon": -89.51,
+   "acres": 1057,
+   "drive": "~5:45",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "DNR classifies it very clear; 57 ft max.",
+   "motors": "Full motor; connected to Big St. Germain via the Plum–Star chain.",
+   "blurb": "Sayner's lake, and one of the oldest continuous summer colonies in the Northwoods — the kind of place where the same six families have held frontage since the 1890s. Clear water, decent size, and a real (if small) market. Plum Lake Public Library and the Sayner store are the entire downtown.",
+   "links": [
+    [
+     "Plum Lake",
+     "https://www.starlake.org/topic/plum"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Plum_Lake_(Wisconsin)"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "star_lake_vilas",
+   "name": "Star Lake",
+   "state": "WI",
+   "lat": 45.963,
+   "lon": -89.487,
+   "acres": 1206,
+   "drive": "~5:45",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Clear, 68 ft max; long-term monitoring by the Plum–Star association.",
+   "motors": "Full motor; NHAL forest landing, no marina.",
+   "blurb": "1,206 acres inside the state forest, with the historic Star Lake hamlet (population ~40) at one end and virtually nothing at the other. The quietest big water in Vilas County that still has private frontage on it.",
+   "links": [
+    [
+     "Plum & Star Lakes association",
+     "https://www.starlake.org/topic/plum"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Star_Lake_(Vilas_County,_Wisconsin)"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "north_twin",
+   "name": "North Twin Lake",
+   "state": "WI",
+   "lat": 46.088,
+   "lon": -89.1,
+   "acres": 2871,
+   "drive": "~5:45",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Moderately clear; 60 ft max, 28 ft mean. Class-A musky water.",
+   "motors": "Full motor, no cap; connected by channel to South Twin (628 ac, very clear).",
+   "blurb": "Phelps' big lake — 2,871 acres with real running room, a channel to a clearer 628-acre second basin, and the most active high-end frontage market in the county (a 61-acre, 1,022-ft assemblage listed at $5.2M this year). Also home to a live 1897 resort at $2.8M.",
+   "links": [
+    [
+     "North Twin Lake",
+     "https://vilaswi.com/lake-river/north-twin-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/North_Twin_Lake_(Phelps,_Wisconsin)"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "long_lake_phelps",
+   "name": "Long Lake (Phelps)",
+   "state": "WI",
+   "lat": 46.048,
+   "lon": -89.048,
+   "acres": 886,
+   "drive": "~5:45",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Clear and unusually deep for its size — 88 ft max.",
+   "motors": "Full motor; quiet, few public amenities.",
+   "blurb": "886 acres and 88 feet deep east of Phelps, hard against the Michigan line and the Nicolet National Forest. Deep-and-clear on a small footprint; the trade is a shorter ski fetch.",
+   "links": [
+    [
+     "Eagle River lake listings",
+     "https://www.lakeplace.com/forsale/wi/eagle-river/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "lac_vieux_desert",
+   "name": "Lac Vieux Desert",
+   "state": "WI/MI",
+   "lat": 46.128,
+   "lon": -89.13,
+   "acres": 4017,
+   "drive": "~6:05",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Moderately clear; shallow for its size (38 ft max) so it warms and colors by August.",
+   "motors": "Full motor; straddles the state line — carry both registrations if you keep a boat here.",
+   "blurb": "The headwater of the Wisconsin River, 4,017 acres straddling the border at Land O'Lakes. Plenty of water for five boats and prices well under the Vilas average, but it is not archetype-clear — mark it a size-and-value play, not a water play.",
+   "links": [
+    [
+     "Land O'Lakes lake listings",
+     "https://www.lakeplace.com/forsale/wi/land-o-lakes/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "big_st_germain",
+   "name": "Big St. Germain Lake",
+   "state": "WI",
+   "lat": 45.925,
+   "lon": -89.492,
+   "acres": 1617,
+   "drive": "~5:40",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Moderately clear; 42 ft max.",
+   "motors": "Full motor; busy channel to Little St. Germain.",
+   "blurb": "1,617 acres with a genuine ski culture and the best restaurant density in the region. Honest tradeoff: this is the Northwoods at its most trafficked — pontoon-heavy weekends, a big landing, and a bar-and-grill shoreline. Program-friendly, atmosphere-compromised.",
+   "links": [
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "big_arbor_vitae",
+   "name": "Big Arbor Vitae Lake",
+   "state": "WI",
+   "lat": 45.925,
+   "lon": -89.66,
+   "acres": 1070,
+   "drive": "~5:35",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; 42 ft max, weedier bays.",
+   "motors": "Full motor; heavy summer traffic from Woodruff/Minocqua.",
+   "blurb": "1,070 acres 10 minutes from Minocqua — which is exactly the problem. Listed for completeness and for the one live 34.5-acre multi-dwelling property on it ($3.25M).",
+   "links": [
+    [
+     "Minocqua lake listings",
+     "https://www.lakeplace.com/forsale/wi/minocqua/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "high_fishtrap",
+   "name": "High & Fishtrap Lakes",
+   "state": "WI",
+   "lat": 46.152,
+   "lon": -89.442,
+   "acres": 700,
+   "drive": "~5:55",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Clear; part of the Headwaters chain.",
+   "motors": "Full motor; connected chain, low traffic.",
+   "blurb": "A quiet connected chain between Land O'Lakes and Boulder Junction, deep in the forest. A live 5BR/3.5BA on High Lake at $1.03M is the sort of beachhead this strategy wants.",
+   "links": [
+    [
+     "Land O'Lakes lake listings",
+     "https://www.lakeplace.com/forsale/wi/land-o-lakes/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "big_portage",
+   "name": "Big Portage Lake",
+   "state": "WI",
+   "lat": 46.052,
+   "lon": -89.362,
+   "acres": 1000,
+   "drive": "~5:55",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderately clear.",
+   "motors": "Full motor.",
+   "blurb": "1,000 quiet acres northeast of Boulder Junction with state forest holdings on part of the shore. Modest inventory; a reasonable second-choice if the Trout/Muskellunge cluster stays dry.",
+   "links": [
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "fence_lake",
+   "name": "Fence Lake (Lac du Flambeau chain)",
+   "state": "WI",
+   "lat": 45.978,
+   "lon": -89.828,
+   "acres": 3555,
+   "drive": "~5:40",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; the chain's ten lakes vary widely.",
+   "motors": "Full motor, big connected chain — the most ski-friendly water in the county.",
+   "blurb": "3,555 acres on the ten-lake Lac du Flambeau chain: unmatched cruising, genuinely mixed water quality, and a shoreline substantially within the Lac du Flambeau Band's reservation, where non-member purchase and leasing rules are their own diligence project. Enter only with counsel who has done it before.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Flambeau_Lake"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "lac_du_lune",
+   "name": "Lac du Lune",
+   "state": "WI",
+   "lat": 46.14,
+   "lon": -89.25,
+   "acres": 470,
+   "drive": "~6:00",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Clear.",
+   "motors": "Full motor; very low traffic.",
+   "blurb": "Small (470 ac) but clear and almost undeveloped, near Land O'Lakes. On the list only because of one extraordinary listing: 27+ acres with 1,181 ft of frontage at $1.35M — the largest single-owner frontage assemblage found in Vilas County this sweep.",
+   "links": [
+    [
+     "Land O'Lakes lake listings",
+     "https://www.lakeplace.com/forsale/wi/land-o-lakes/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "dunn_lake",
+   "name": "Dunn Lake",
+   "state": "WI",
+   "lat": 46.212,
+   "lon": -89.76,
+   "acres": 300,
+   "drive": "~6:05",
+   "tier": "watch",
+   "score": 6.0,
+   "clarity": "Clear, small.",
+   "motors": "Full motor but too small to ski properly.",
+   "blurb": "Well under the size bar and included for one reason: a 14+ acre parcel with over 1,000 ft of frontage at $347.5K. Cheapest big-frontage canvas in the sweep — pair it with boat storage on Presque Isle Lake, five minutes away.",
+   "links": [
+    [
+     "Presque Isle lake listings",
+     "https://www.lakeplace.com/forsale/wi/presque-isle/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "tomahawk_lake",
+   "name": "Lake Tomahawk",
+   "state": "WI",
+   "lat": 45.832,
+   "lon": -89.622,
+   "acres": 3392,
+   "drive": "~5:30",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Clear; 84 ft max — one of the deeper big lakes in Oneida County.",
+   "motors": "Full motor, no cap. Real ski culture; slow-no-wake within 100 ft of shore.",
+   "blurb": "The best size-clarity-drive combination in Wisconsin: 3,392 acres, 84 feet deep, an hour closer than the Vilas cluster, and a market with actual compound-scale product — a legacy estate with main home plus furnished cabins and multiple docks is live at $3.3M. Busier than Trout, quieter than Minocqua.",
+   "links": [
+    [
+     "Lake Tomahawk",
+     "https://www.lake-link.com/wisconsin-lakes/oneida-county/tomahawk-lake/3444/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Tomahawk_Lake_(Wisconsin)"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "willow_flowage",
+   "name": "Willow Flowage",
+   "state": "WI",
+   "lat": 45.748,
+   "lon": -89.848,
+   "acres": 6306,
+   "drive": "~5:25",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Moderately clear, tannin-tinted; shallow at 30 ft max.",
+   "motors": "Full motor; no wake within 100 ft. Very few docks, almost no development.",
+   "blurb": "6,306 acres of state-designated Scenic Waters — the most undeveloped big water within 5½ hours of Chicago, with eagles, no shoreline lighting, and a drawdown regime. Frontage is scarce because the state owns most of it, and the water is bog-tinted rather than clear. Pure atmosphere, compromised on the water bar.",
+   "links": [
+    [
+     "Willow Flowage Scenic Waters Area",
+     "https://dnr.wisconsin.gov/topic/lands/willowflowage"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Willow_Reservoir"
+    ],
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "squirrel_lake",
+   "name": "Squirrel Lake",
+   "state": "WI",
+   "lat": 45.882,
+   "lon": -89.752,
+   "acres": 1309,
+   "drive": "~5:35",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Moderately clear; 46 ft max.",
+   "motors": "Full motor; modest traffic.",
+   "blurb": "1,309 quiet acres between Minocqua and Lac du Flambeau with a low-key camp shoreline and prices below the Minocqua premium. A sensible value fallback.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Squirrel_Lake"
+    ],
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "two_sisters",
+   "name": "Two Sisters Lake",
+   "state": "WI",
+   "lat": 45.85,
+   "lon": -89.552,
+   "acres": 719,
+   "drive": "~5:30",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Clear; county forest on part of the shore.",
+   "motors": "Full motor.",
+   "blurb": "719 clear acres ringed partly by Oneida County forest. Under the size bar for five boats but a strong second lake if you buy nearby.",
+   "links": [
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "pelican_lake",
+   "name": "Pelican Lake",
+   "state": "WI",
+   "lat": 45.498,
+   "lon": -89.2,
+   "acres": 3585,
+   "drive": "~5:00",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Moderate; 40 ft max.",
+   "motors": "Full motor, no cap; the closest genuinely big ski lake to Chicago in this report.",
+   "blurb": "3,585 acres at five hours flat — the best drive-to-size ratio in Wisconsin. The water is good rather than elite and the shore is more developed than Vilas, but a nine-acre resort with 204 ft of frontage is live here at $724.9K, which is compound math almost nobody else offers.",
+   "links": [
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "sugar_camp_chain",
+   "name": "Sugar Camp Chain",
+   "state": "WI",
+   "lat": 45.882,
+   "lon": -89.322,
+   "acres": 1200,
+   "drive": "~5:35",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Mixed across the five lakes.",
+   "motors": "Full motor; connected chain.",
+   "blurb": "Five connected lakes northeast of Rhinelander with real cruising and a live $1.499M frontage listing. Water quality varies lake to lake — sample before you commit.",
+   "links": [
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "turtle_flambeau",
+   "name": "Turtle–Flambeau Flowage",
+   "state": "WI",
+   "lat": 46.1,
+   "lon": -90.15,
+   "acres": 12942,
+   "drive": "~6:15",
+   "tier": "t1",
+   "score": 8.0,
+   "clarity": "Moderately clear, tannin-stained; ~50 ft max.",
+   "motors": "Full motor; 195 islands and enormous open water. Slow-no-wake near shore only.",
+   "blurb": "Wisconsin's seventh-largest lake and its wildest — 12,942 acres, 195 islands, and a state Scenic Waters designation that keeps virtually the entire shoreline undeveloped. If your five couples want the feeling of being alone on big water, nothing in this report beats it. The water is tea-colored, not gin: an honest, deliberate trade.",
+   "links": [
+    [
+     "Turtle-Flambeau Flowage",
+     "https://dnr.wisconsin.gov/topic/Lands/TurtleFlambeau/history.html"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Turtle-Flambeau_Flowage"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "pike_lake_chain",
+   "name": "Pike Lake Chain",
+   "state": "WI",
+   "lat": 46.112,
+   "lon": -90.05,
+   "acres": 1400,
+   "drive": "~6:15",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderately clear.",
+   "motors": "Full motor; five connected lakes.",
+   "blurb": "A quiet five-lake chain outside Mercer with low prices and low traffic. Not archetype water, but the cheapest connected cruising in the sweep.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Gile_Flowage"
+    ],
+    [
+     "Northern Wisconsin lake listings",
+     "https://www.lakeplace.com/forsale/wi/northern/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "metonga",
+   "name": "Lake Metonga",
+   "state": "WI",
+   "lat": 45.572,
+   "lon": -88.9,
+   "acres": 2157,
+   "drive": "~5:15",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Clear; 80 ft max — one of the clearest lakes in the Nicolet.",
+   "motors": "Full motor, no cap.",
+   "blurb": "2,157 acres and 80 feet deep at Crandon, five and a quarter hours out — clear, deep, underpriced, and almost entirely absent from Chicago's mental map of the Northwoods. The sweep's best-kept secret on the Wisconsin side.",
+   "links": [
+    [
+     "Northern Wisconsin lake listings",
+     "https://www.lakeplace.com/forsale/wi/northern/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "franklin_butternut",
+   "name": "Franklin & Butternut Lakes",
+   "state": "WI",
+   "lat": 45.955,
+   "lon": -88.978,
+   "acres": 1200,
+   "drive": "~5:35",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Franklin is notably clear (spring-fed, 65 ft); Butternut is larger and moderate.",
+   "motors": "Full motor on Butternut; Franklin is small and quiet.",
+   "blurb": "The Anvil/Franklin corner of the Chequamegon-Nicolet National Forest east of Eagle River: federal forest on nearly all the shoreline, old CCC-era camps, and the best hiking within a mile of the water anywhere in this report.",
+   "links": [
+    [
+     "Eagle River lake listings",
+     "https://www.lakeplace.com/forsale/wi/eagle-river/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "grindstone",
+   "name": "Grindstone Lake",
+   "state": "WI",
+   "lat": 45.978,
+   "lon": -91.3,
+   "acres": 3176,
+   "drive": "~6:20",
+   "tier": "t1",
+   "score": 9.5,
+   "clarity": "Elite — Secchi averaged 23 ft across 1993–2005 monitoring. 60 ft max, 10.5 mi of shoreline.",
+   "motors": "Full motor, no cap; low traffic, one landing. Skiing legal and normal.",
+   "blurb": "The truest Squam analog west of Lake Michigan: 3,176 acres, thirteen years of 23-foot Secchi readings, sand beaches, and a shoreline shared between old family camps and the Lac Courte Oreilles Band. Big enough for five boats, quiet enough to hear loons at noon. Live inventory exists — a chalet-plus-guest-cottage pairing is on the market now.",
+   "links": [
+    [
+     "Grindstone Lake Association",
+     "https://grindstonelake.org/the-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Grindstone_Lake_(Wisconsin)"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "lco",
+   "name": "Lac Courte Oreilles",
+   "state": "WI",
+   "lat": 45.9,
+   "lon": -91.352,
+   "acres": 5039,
+   "drive": "~6:20",
+   "tier": "t1",
+   "score": 9.0,
+   "clarity": "Very clear per DNR; 90 ft max, 25.4 mi of shoreline.",
+   "motors": "Full motor, no cap; big enough that traffic disperses.",
+   "blurb": "5,039 acres and 90 feet deep — the largest genuinely clear ski lake in this report that still trades at compound prices. Twenty-five miles of shoreline means real variety: quiet coves, sand beaches, and one legacy estate live at $2.495M with 10.82 acres and 320 ft of level sand. Note the reservation boundary and title questions on parts of the shore; use a Hayward attorney.",
+   "links": [
+    [
+     "Hayward Lakes — LCO",
+     "https://haywardlakes.com/activities/lakes/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lac_Courte_Oreilles"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "round_lake_sawyer",
+   "name": "Round Lake",
+   "state": "WI",
+   "lat": 45.982,
+   "lon": -91.098,
+   "acres": 3294,
+   "drive": "~6:25",
+   "tier": "t1",
+   "score": 9.0,
+   "clarity": "Clear; 74 ft max, ~33 ft mean.",
+   "motors": "Full motor, no cap; Chequamegon National Forest shoreline keeps development low.",
+   "blurb": "3,294 acres wrapped by national forest northeast of Hayward — the buildable Trout Lake. Two live paths at once: a cabin-and-guest-cottage at $1.95M, and Moose Jaw Resort — 17 acres of federal-forest-adjacent frontage with a working cabin cluster — at $2.75M.",
+   "links": [
+    [
+     "Hayward Lakes",
+     "https://haywardlakes.com/activities/lakes/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Round_Lake_(Wisconsin)"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "teal_lost_land",
+   "name": "Teal & Lost Land Lakes",
+   "state": "WI",
+   "lat": 46.042,
+   "lon": -91.098,
+   "acres": 2300,
+   "drive": "~6:25",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Moderately clear; connected pair.",
+   "motors": "Full motor; connected by a navigable thoroughfare.",
+   "blurb": "A connected 2,300-acre pair inside the Chequamegon National Forest, historically resort country — which means grandfathered cabin clusters, the exact product this brief is hunting.",
+   "links": [
+    [
+     "Sawyer County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/sawyer/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "spider_chain",
+   "name": "Spider Lake Chain",
+   "state": "WI",
+   "lat": 46.028,
+   "lon": -91.15,
+   "acres": 1500,
+   "drive": "~6:25",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Moderately clear across the five basins.",
+   "motors": "Full motor; connected chain.",
+   "blurb": "Five connected lakes in the national forest north of Hayward with an old resort economy and one of the highest densities of multi-cabin properties in the state.",
+   "links": [
+    [
+     "Sawyer County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/sawyer/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "chippewa_flowage",
+   "name": "Chippewa Flowage",
+   "state": "WI",
+   "lat": 45.9,
+   "lon": -91.1,
+   "acres": 15300,
+   "drive": "~6:20",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Moderate, tannin-stained; 92 ft max.",
+   "motors": "Full motor; 200+ miles of shoreline, most of it undeveloped.",
+   "blurb": "15,300 acres, 140 islands, and more than 200 miles of shoreline that will never be built on — Wisconsin's third-largest lake and its most convincing wilderness. Stumps, drawdowns and stained water are the price of admission; five couples who want scale over sparkle should look hard here.",
+   "links": [
+    [
+     "Chippewa Flowage",
+     "https://dnr.wisconsin.gov/topic/lands/chippewaflowage"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "big_sissabagama",
+   "name": "Big Sissabagama Lake",
+   "state": "WI",
+   "lat": 45.952,
+   "lon": -91.252,
+   "acres": 805,
+   "drive": "~6:15",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Clear; 48 ft max.",
+   "motors": "Full motor.",
+   "blurb": "805 clear acres near Stone Lake with a quiet, almost entirely residential shore. Under the size bar; a good second lake.",
+   "links": [
+    [
+     "Sawyer County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/sawyer/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "nelson_lake",
+   "name": "Nelson Lake",
+   "state": "WI",
+   "lat": 46.06,
+   "lon": -91.3,
+   "acres": 2500,
+   "drive": "~6:25",
+   "tier": "watch",
+   "score": 6.0,
+   "clarity": "Stained and shallow — fails the water bar.",
+   "motors": "Full motor; wide open.",
+   "blurb": "2,500 acres of cheap frontage near Hayward. Big and boat-friendly, but tea-dark and shallow. In the report for price transparency, not as a recommendation.",
+   "links": [
+    [
+     "Hayward lake listings",
+     "https://www.lakeplace.com/forsale/wi/hayward/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "lake_owen",
+   "name": "Lake Owen",
+   "state": "WI",
+   "lat": 46.352,
+   "lon": -91.3,
+   "acres": 1250,
+   "drive": "~6:45",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Elite — Secchi ~24.6 ft, graded A. 95 ft max. DNR classifies it very clear.",
+   "motors": "Full motor, no cap; Chequamegon National Forest landing, minimal traffic.",
+   "blurb": "The northern jewel: 1,250 acres, 95 feet deep, 24.6-foot clarity, and national forest on most of the shore south of Cable. Smaller than the bar wants and priced accordingly at the top (a 5.3-acre, 350-ft retreat is asking $3M) — but the water and the hush are Squam-grade.",
+   "links": [
+    [
+     "Lake Owen listings",
+     "https://www.zillow.com/cable-wi/lake-owen_att/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "namekagon_lake",
+   "name": "Lake Namakagon",
+   "state": "WI",
+   "lat": 46.222,
+   "lon": -91.052,
+   "acres": 2897,
+   "drive": "~6:35",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Clear; shallow-ish for its size at 51 ft max, 16 ft mean.",
+   "motors": "Full motor, no cap; national forest shoreline.",
+   "blurb": "2,897 acres in the Chequamegon-Nicolet National Forest above Cable — the headwater of the Namekagon National Scenic Riverway, with real running room and prices well under the Vilas/Antrim premium (Bayfield County average ask ~$627K). Shallower than the depth-lovers want.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Namakagon"
+    ],
+    [
+     "Cable-area listings",
+     "https://www.lakeplace.com/forsale/wi-county/bayfield/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "eau_claire_lakes",
+   "name": "Eau Claire Lakes chain",
+   "state": "WI",
+   "lat": 46.348,
+   "lon": -91.5,
+   "acres": 1100,
+   "drive": "~7:00",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Clear; three connected basins with sand bottoms.",
+   "motors": "Full motor; connected chain, low traffic.",
+   "blurb": "Three connected clear-water basins in far Bayfield County — sand bottoms, pines, and almost no through traffic. Sub-bar individually, credible as a chain.",
+   "links": [
+    [
+     "Bayfield County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/bayfield/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "nebagamon",
+   "name": "Lake Nebagamon",
+   "state": "WI",
+   "lat": 46.512,
+   "lon": -91.7,
+   "acres": 981,
+   "drive": "~7:15",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Clear; sand-bottomed.",
+   "motors": "Full motor; village lake with a genuine summer-colony culture.",
+   "blurb": "981 acres and a hundred-year-old summer village an hour from Duluth. Sub-bar on size but archetype-grade on culture, and among the cheapest clear frontage in the sweep.",
+   "links": [
+    [
+     "Bayfield County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/bayfield/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "crystal_lake_benzie",
+   "name": "Crystal Lake",
+   "state": "MI",
+   "lat": 44.66,
+   "lon": -86.15,
+   "acres": 9854,
+   "drive": "~5:15",
+   "tier": "t1",
+   "score": 9.5,
+   "clarity": "Elite — marl-bottomed, 165 ft max, 70 ft mean; the 'Caribbean of the North'.",
+   "motors": "Full motor, no cap; Michigan's statewide no-wake band is 100 ft from shore / under 3 ft depth.",
+   "blurb": "Michigan's ninth-largest inland lake and one of its two clearest: 9,854 acres, 165 feet deep, 21 miles of shoreline, and turquoise water over white marl. Five and a quarter hours from the Loop — the best water-to-drive ratio in this entire report. The trade is price and pace: Beulah frontage runs $1.2M–$1.9M for ordinary cottages, and a compound means assembling.",
+   "links": [
+    [
+     "Crystal Lake Watershed Association",
+     "https://crystallakewatershed.org/watershed-facts/"
+    ],
+    [
+     "Crystal Lake listings",
+     "https://www.lakehomes.com/michigan/crystal-lake-beulah"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Crystal_Lake_(Benzie_County,_Michigan)"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "big_glen",
+   "name": "Big Glen Lake",
+   "state": "MI",
+   "lat": 44.878,
+   "lon": -85.972,
+   "acres": 4871,
+   "drive": "~5:30",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Excellent — Secchi just over 19 ft in the Leelanau Conservancy dataset; 130 ft max.",
+   "motors": "Full motor, no cap; the narrows to Little Glen are no-wake.",
+   "blurb": "4,871 acres inside Sleeping Bear Dunes National Lakeshore — federal land on a large share of the shore, water that photographs like the Caribbean, and dunes for a backdrop. The most beautiful lake in this report. Also among the most expensive and the most supply-constrained: very few homes trade in any year, and $3M is an ordinary ask.",
+   "links": [
+    [
+     "Leelanau Conservancy Secchi data",
+     "https://leelanauconservancy.org/wp-content/uploads/2012/01/Secchi_meanMinMax_allLakes_allyears.pdf"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Glen_Lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "lake_leelanau",
+   "name": "Lake Leelanau (N & S)",
+   "state": "MI",
+   "lat": 45.02,
+   "lon": -85.72,
+   "acres": 8607,
+   "drive": "~5:30",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Good; North basin 121 ft max, South 62 ft.",
+   "motors": "Full motor; the narrows at Leland Township are no-wake. Active wake-boat debate — Lake Leelanau Lake Association is a lead advocate for 500-ft setbacks.",
+   "blurb": "8,607 acres across two connected basins in the middle of Leelanau's wine country — big water, good clarity, real running room, and a shore that mixes orchards with cottages. Cheaper than Glen, busier than Crystal.",
+   "links": [
+    [
+     "Lake Leelanau Association on wake boats",
+     "https://lakeleelanau.org/wake-boats/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Leelanau"
+    ],
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "long_lake_gt",
+   "name": "Long Lake (Grand Traverse)",
+   "state": "MI",
+   "lat": 44.752,
+   "lon": -85.752,
+   "acres": 2860,
+   "drive": "~5:15",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Good; deep basins, sand bottom, several islands.",
+   "motors": "Full motor; township ordinances govern speed near the islands.",
+   "blurb": "2,860 acres and several wooded islands twenty minutes west of Traverse City. Clear sand-bottom water, established cottage culture, and — unusually for the region — enough size for five boats without feeling like a highway.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Long_Lake_(Grand_Traverse_County,_Michigan)"
+    ],
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "platte_lake",
+   "name": "Big Platte Lake",
+   "state": "MI",
+   "lat": 44.702,
+   "lon": -86.048,
+   "acres": 2517,
+   "drive": "~5:15",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Good; the subject of a decades-long, court-supervised phosphorus cleanup that worked.",
+   "motors": "Full motor; Sleeping Bear National Lakeshore adjoins.",
+   "blurb": "2,517 acres beside Sleeping Bear, with a shoreline association that litigated its way to clean water and won. Quieter and cheaper than Glen or Crystal, and a real ski lake.",
+   "links": [
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "portage_lake_onekama",
+   "name": "Portage Lake (Onekama)",
+   "state": "MI",
+   "lat": 44.362,
+   "lon": -86.282,
+   "acres": 2110,
+   "drive": "~4:50",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Good; channel to Lake Michigan.",
+   "motors": "Full motor; a working channel to Lake Michigan means a mixed fleet.",
+   "blurb": "2,110 acres with its own channel to Lake Michigan — the only lake in this report where you can ski all morning and run to big water in the afternoon. Under five hours out. The channel is also the caveat: this is a boating lake, not a hushed one.",
+   "links": [
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "hamlin_lake",
+   "name": "Hamlin Lake",
+   "state": "MI",
+   "lat": 44.052,
+   "lon": -86.402,
+   "acres": 4990,
+   "drive": "~4:30",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow upper basin, dark water in the narrows.",
+   "motors": "Full motor; Ludington State Park landing draws real crowds.",
+   "blurb": "4,990 acres at four and a half hours — the closest big lake that clears the drive floor. Good boating, ordinary water, and state-park traffic all summer. A convenience play, not an archetype one.",
+   "links": [
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "elk_lake",
+   "name": "Elk Lake",
+   "state": "MI",
+   "lat": 44.9,
+   "lon": -85.418,
+   "acres": 7730,
+   "drive": "~5:25",
+   "tier": "t1",
+   "score": 9.0,
+   "clarity": "Elite — 192 ft max, oligotrophic, part of the Elk River Chain of Lakes monitoring program.",
+   "motors": "Full motor, no cap; quieter than neighboring Torch by a wide margin.",
+   "blurb": "Torch Lake's water without Torch Lake's sandbar. 7,730 acres, 192 feet deep, the same improbable blue, and a shoreline of old cottages rather than party barges — plus a connection through the Chain of Lakes to Torch and Bellaire when you want the scene. The strongest single lake on the Michigan side.",
+   "links": [
+    [
+     "Elk Lake",
+     "https://www.lakehouse.com/elk-lake-antrim-county-michigan-lake-homes-for-sale-b3736.html"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Elk_Lake_(Michigan)"
+    ]
+   ],
+   "cls": "t1",
+   "new": false
+  },
+  {
+   "key": "torch_lake",
+   "name": "Torch Lake",
+   "state": "MI",
+   "lat": 44.982,
+   "lon": -85.352,
+   "acres": 18770,
+   "drive": "~5:35",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Elite on paper — 330 ft max, 111 ft mean, ranked among the clearest lakes in the Western Hemisphere.",
+   "motors": "Full motor, no cap; the sandbar at the south end is a nationally known party anchorage on summer weekends.",
+   "blurb": "The most beautiful water in the Midwest and the least Squam-like culture in this report. 18,770 acres of turquoise over marl — and, on a July Saturday, several hundred rafted boats on the south sandbar. Buy on the quiet northeast shore or don't buy here; a 14-acre, 4BR at $999K shows it can be done.",
+   "links": [
+    [
+     "Torch Lake real estate guide",
+     "https://brickcorbett.com/neighborhoods/torch-lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "lake_bellaire",
+   "name": "Lake Bellaire",
+   "state": "MI",
+   "lat": 44.982,
+   "lon": -85.222,
+   "acres": 1775,
+   "drive": "~5:35",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Good; 96 ft max, part of the Chain of Lakes.",
+   "motors": "Full motor; connected to Torch via the Torch River / Clam River.",
+   "blurb": "1,775 acres at the quiet end of the Antrim chain: clear enough, deep enough, connected to everything, and priced meaningfully below Torch or Elk. The value entry into the Chain of Lakes.",
+   "links": [
+    [
+     "Charlevoix County waterfront",
+     "https://www.redfin.com/county/1362/MI/Charlevoix-County/waterfront"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "intermediate_lake",
+   "name": "Intermediate Lake",
+   "state": "MI",
+   "lat": 45.048,
+   "lon": -85.222,
+   "acres": 1520,
+   "drive": "~5:40",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderate; shallower and more colored than its neighbors.",
+   "motors": "Full motor; chain-connected.",
+   "blurb": "1,520 acres at the top of the Antrim chain, notably cheaper than the lakes below it — and notably less clear. A budget route onto the chain.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Skegemog"
+    ],
+    [
+     "Charlevoix County waterfront",
+     "https://www.redfin.com/county/1362/MI/Charlevoix-County/waterfront"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "lake_charlevoix",
+   "name": "Lake Charlevoix",
+   "state": "MI",
+   "lat": 45.282,
+   "lon": -85.152,
+   "acres": 17260,
+   "drive": "~5:50",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Good to very good; 122 ft max, channel to Lake Michigan.",
+   "motors": "Full motor; the South Arm is markedly quieter than the main basin.",
+   "blurb": "17,260 acres, a Lake Michigan channel, and Boyne City and Charlevoix on its shores — the Midwest's Lake Winnipesaukee, with the same virtues and the same crowding. The South Arm is the play: median frontage runs ~$2,450/ft there against $7,000–$12,000/ft on the main basin.",
+   "links": [
+    [
+     "Lake Charlevoix waterfront",
+     "https://www.brookwalsh.com/lake-charlevoix-realestate.php"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "walloon_lake",
+   "name": "Walloon Lake",
+   "state": "MI",
+   "lat": 45.282,
+   "lon": -84.952,
+   "acres": 4584,
+   "drive": "~6:00",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Elite — oligotrophic, visibility frequently over 20 ft, 100 ft max.",
+   "motors": "Full motor, no cap; no public marina, one modest launch, and a shoreline culture that polices its own noise.",
+   "blurb": "The Squam of the Midwest, in every sense including price. 4,584 acres of oligotrophic water, Hemingway's boyhood lake, no commercial shoreline, and generational owners who do not sell. Twelve listings totalled $64.7M this summer; entry cottages start in the mid-$800Ks and the good frontage is $7M+. Include it, tour it, and know the odds.",
+   "links": [
+    [
+     "Tip of the Mitt — Walloon Lake",
+     "https://watershedcouncil.org/waterbody/walloon-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Walloon_Lake"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "crooked_pickerel",
+   "name": "Crooked & Pickerel Lakes",
+   "state": "MI",
+   "lat": 45.442,
+   "lon": -84.852,
+   "acres": 3450,
+   "drive": "~6:05",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Good; Pickerel is the deeper and clearer of the pair.",
+   "motors": "Full motor; the Inland Waterway connects them to Burt, Mullett and Lake Huron.",
+   "blurb": "3,450 combined acres at the west end of the Inland Waterway — the 38-mile chain that runs from Conway to Cheboygan and out to Lake Huron. Quiet, forested, and priced well below Walloon ten minutes away.",
+   "links": [
+    [
+     "Tip of the Mitt Watershed Council",
+     "https://watershedcouncil.org/watersheds/burt-lake-watershed/"
+    ],
+    [
+     "Tip of the Mitt Watershed Council",
+     "https://watershedcouncil.org/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "burt_lake",
+   "name": "Burt Lake",
+   "state": "MI",
+   "lat": 45.442,
+   "lon": -84.628,
+   "acres": 17436,
+   "drive": "~6:10",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Good — the Watershed Council rates it a large, deep, high-quality lake. 73 ft max, 35 mi shoreline.",
+   "motors": "Full motor, no cap; big enough to absorb traffic.",
+   "blurb": "Michigan's fourth-largest inland lake, 17,436 acres in the middle of the Inland Waterway, with a state park, a big forested east shore, and prices far below the Torch/Walloon corridor. Room for five boats and then some.",
+   "links": [
+    [
+     "Tip of the Mitt — Burt Lake",
+     "https://watershedcouncil.org/waterbody/burt/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Burt_Lake"
+    ],
+    [
+     "Cheboygan County lakefront",
+     "https://www.land.com/Cheboygan-County-MI/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "mullett_lake",
+   "name": "Mullett Lake",
+   "state": "MI",
+   "lat": 45.502,
+   "lon": -84.522,
+   "acres": 16630,
+   "drive": "~6:15",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Very good — 145 ft max, 200 billion gallons, rated high-quality by the Watershed Council.",
+   "motors": "Full motor, no cap.",
+   "blurb": "16,630 acres and 145 feet deep — Michigan's fifth-largest and, for its size, remarkably underdeveloped. Twenty-eight miles of shoreline, an Inland Waterway connection, and Cheboygan County prices. The best acreage-per-dollar on clear Michigan water.",
+   "links": [
+    [
+     "Tip of the Mitt — Mullett Lake",
+     "https://watershedcouncil.org/waterbody/mullett-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Mullett_Lake"
+    ],
+    [
+     "Cheboygan County lakefront",
+     "https://www.land.com/Cheboygan-County-MI/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "douglas_lake",
+   "name": "Douglas Lake",
+   "state": "MI",
+   "lat": 45.572,
+   "lon": -84.68,
+   "acres": 3727,
+   "drive": "~6:15",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Very good and improving — Secchi 10–14 ft; the Watershed Council notes it now borders on oligotrophy. 80 ft max.",
+   "motors": "Full motor; low traffic, no town on the lake.",
+   "blurb": "3,727 acres wrapped by the University of Michigan Biological Station — a century of research, no commercial shoreline, no village, and the quietest big water in the northern Lower Peninsula. The closest thing Michigan has to a state-forest lake with private frontage on it.",
+   "links": [
+    [
+     "Tip of the Mitt — Douglas Lake",
+     "https://watershedcouncil.org/waterbody/douglas-lake-cheboygan-county/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Douglas_Lake_(Cheboygan_County,_Michigan)"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "black_lake_mi",
+   "name": "Black Lake",
+   "state": "MI",
+   "lat": 45.472,
+   "lon": -84.272,
+   "acres": 10130,
+   "drive": "~6:25",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; 50 ft max, more colored than its neighbors.",
+   "motors": "Full motor; low traffic, state forest campground.",
+   "blurb": "10,130 acres of cheap frontage east of Onaway with state forest on part of the shore. Big and quiet; the water is ordinary. A value fallback.",
+   "links": [
+    [
+     "Cheboygan County lakefront",
+     "https://www.land.com/Cheboygan-County-MI/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "higgins_lake",
+   "name": "Higgins Lake",
+   "state": "MI",
+   "lat": 44.472,
+   "lon": -84.722,
+   "acres": 9600,
+   "drive": "~5:25",
+   "tier": "t2",
+   "score": 9.0,
+   "clarity": "Elite — Secchi 28.5–35 ft across the basins; 135 ft max, 21 mi shoreline. Michigan's clearest large lake alongside Torch.",
+   "motors": "Full motor, no cap; two state parks and heavy summer boat traffic on weekends.",
+   "blurb": "The clearest big water within five and a half hours of Chicago: 9,600 acres and Secchi readings in the thirties. The tradeoff is honest and significant — two state parks, a fully developed ring road, and midsummer Saturdays that feel like a lake in a metro area. Buy on the quiet north or east shore; frontage runs ~$1M–$1.9M.",
+   "links": [
+    [
+     "Higgins Lake Foundation water testing",
+     "https://www.higginslake-foundation.org/protect/water-testing/"
+    ],
+    [
+     "HLPOA water quality",
+     "https://hlpoa.org/studies-surveys-general-water-quality/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Higgins_Lake"
+    ],
+    [
+     "Roscommon County waterfront",
+     "https://www.redfin.com/county/1419/MI/Roscommon-County/waterfront"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "lake_margrethe",
+   "name": "Lake Margrethe",
+   "state": "MI",
+   "lat": 44.658,
+   "lon": -84.782,
+   "acres": 1920,
+   "drive": "~5:45",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; 65 ft max.",
+   "motors": "Full motor; Camp Grayling adjoins — expect occasional National Guard activity.",
+   "blurb": "1,920 acres outside Grayling with state land and the Camp Grayling reservation on part of the shore. Cheap, quiet on weekdays, and not archetype-clear.",
+   "links": [
+    [
+     "Otsego County lakefront",
+     "https://www.land.com/Otsego-County-MI/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "hubbard_lake",
+   "name": "Hubbard Lake",
+   "state": "MI",
+   "lat": 44.822,
+   "lon": -83.572,
+   "acres": 8850,
+   "drive": "~6:45",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Good, not elite — Secchi around 12 ft; 97.5 ft max.",
+   "motors": "Full motor, no cap; very low traffic.",
+   "blurb": "8,850 acres and nearly 100 feet deep in the empty northeast corner of the Lower Peninsula — big, deep, quiet, and dramatically cheaper than anything on the Lake Michigan side. Twelve-foot clarity is the honest limit; the value is not.",
+   "links": [
+    [
+     "Hubbard Lake",
+     "https://www.visitalpena.com/visit-alpena/hubbard-lake/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Hubbard_Lake"
+    ],
+    [
+     "Alpena-area inland lakes",
+     "https://www.visitalpena.com/quick-guide-inland-fishing-alpena/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "grand_lake_pi",
+   "name": "Grand Lake",
+   "state": "MI",
+   "lat": 45.302,
+   "lon": -83.532,
+   "acres": 5660,
+   "drive": "~6:55",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Good; spring-fed, shallow-to-moderate depth.",
+   "motors": "Full motor; almost no commercial development.",
+   "blurb": "5,660 spring-fed acres on the Presque Isle peninsula, minutes from two Lake Huron lighthouses and essentially undiscovered by the Chicago market. Cheap, quiet, and genuinely remote.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Grand_Lake_(Michigan)"
+    ],
+    [
+     "Presque Isle County waterfront",
+     "https://www.redfin.com/county/1418/MI/Presque-Isle-County/waterfront"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "chicaugon",
+   "name": "Chicaugon Lake",
+   "state": "MI",
+   "lat": 46.132,
+   "lon": -88.618,
+   "acres": 1100,
+   "drive": "~6:15",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Excellent and improving — 115 ft max, among the deepest lakes of its size in the UP.",
+   "motors": "Full motor, no cap; low traffic year-round.",
+   "blurb": "1,100 acres and 115 feet deep outside Iron River — the UP's best-kept clear-water secret, with improving Secchi trends, an active property owners association, and prices that would embarrass Vilas County. Under the size bar; over-delivers on everything else.",
+   "links": [
+    [
+     "Chicaugon Lake POA",
+     "https://chicaugonlake.weebly.com/"
+    ],
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "cisco_chain",
+   "name": "Cisco Chain of Lakes",
+   "state": "MI/WI",
+   "lat": 46.198,
+   "lon": -89.282,
+   "acres": 4025,
+   "drive": "~6:20",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Moderate to good; Thousand Island Lake is the deepest at ~40 ft, most basins are shallower.",
+   "motors": "Full motor throughout; 15 connected lakes and 270 miles of shoreline — the largest connected chain in this report.",
+   "blurb": "Fifteen connected lakes, 4,025 acres and 270 miles of shoreline straddling the state line at Watersmeet — you can run a boat all day and not repeat a bay. Substantially Ottawa National Forest shoreline. Shallow enough that the water colors by August; the cruising is unmatched anywhere in the Midwest.",
+   "links": [
+    [
+     "Cisco Chain properties (Eliason)",
+     "https://www.eliasonrealty.com/cisco-chain/"
+    ],
+    [
+     "Cisco Chain overview",
+     "https://explorewesternup.com/things-to-do/cisco-chain-of-lakes/"
+    ],
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Mamie_Lake_(Wisconsin)"
+    ],
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "lake_gogebic",
+   "name": "Lake Gogebic",
+   "state": "MI",
+   "lat": 46.5,
+   "lon": -89.582,
+   "acres": 13380,
+   "drive": "~7:05",
+   "tier": "t2",
+   "score": 7.0,
+   "clarity": "Moderate; 38 ft max — big but shallow.",
+   "motors": "Full motor; state park landing, very low traffic.",
+   "blurb": "The UP's largest inland lake at 13,380 acres, ringed by Ottawa National Forest and state park, with almost no development and the lowest waterfront prices per foot in this report — roughly 400 ft of raw east-shore frontage is live at $595K. Shallow water is the tradeoff.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Gogebic"
+    ],
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "michigamme",
+   "name": "Lake Michigamme",
+   "state": "MI",
+   "lat": 46.532,
+   "lon": -88.098,
+   "acres": 4292,
+   "drive": "~6:55",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Weak — Secchi 7–8 ft; tannin-stained.",
+   "motors": "Full motor; islands and rock, very low traffic.",
+   "blurb": "4,292 acres of dramatic rock-and-pine country west of Marquette. Spectacular setting, genuinely poor clarity. Listed for honesty: the sweep's best scenery-to-water-quality mismatch.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Michigamme"
+    ],
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "lake_independence",
+   "name": "Lake Independence",
+   "state": "MI",
+   "lat": 46.548,
+   "lon": -87.722,
+   "acres": 1860,
+   "drive": "~7:15",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow.",
+   "motors": "Full motor; a mile from Lake Superior at Big Bay.",
+   "blurb": "1,860 acres at Big Bay, twenty minutes from Lake Superior and about as far from Chicago as this brief allows. Remote, cheap, and not clear.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Lake_Independence_(Michigan)"
+    ],
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "brevoort_lake",
+   "name": "Brevoort Lake",
+   "state": "MI",
+   "lat": 46.028,
+   "lon": -85.048,
+   "acres": 4233,
+   "drive": "~6:45",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow (~30 ft).",
+   "motors": "Full motor; Hiawatha National Forest shoreline.",
+   "blurb": "4,233 acres inside the Hiawatha National Forest west of St. Ignace — nearly all federal shoreline, so private frontage is rare and cheap when it appears. Shallow, stained water.",
+   "links": [
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "les_cheneaux",
+   "name": "Les Cheneaux Islands",
+   "state": "MI",
+   "lat": 46.002,
+   "lon": -84.422,
+   "acres": 6000,
+   "drive": "~7:00",
+   "tier": "t2",
+   "score": 8.5,
+   "clarity": "Excellent — Lake Huron water, cold and clear, in a sheltered 36-island archipelago.",
+   "motors": "Full motor; protected channels mean flat water most days. This is Great Lakes water, not an inland lake.",
+   "blurb": "The outlier and, for some groups, the answer: 36 islands and a dozen sheltered channels on northern Lake Huron, with a century-old wooden-boat culture, no crowds, and cottage prices a third of Torch Lake's. A private island with 575 ft of frontage and a three-stall boathouse is live at $1.0M. The catch: Great Lakes weather, a shorter season, and seven hours of driving.",
+   "links": [
+    [
+     "Les Cheneaux Islands",
+     "https://www.uptravel.com/places-to-visit/islands/les-cheneaux/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "manitowish_chain",
+   "name": "Manitowish Waters Chain",
+   "state": "WI",
+   "lat": 46.132,
+   "lon": -89.882,
+   "acres": 3800,
+   "drive": "~5:55",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Mixed across the ten basins — Rest and Spider are clear, the flowage arms are stained.",
+   "motors": "Full motor throughout; ten connected lakes, the most navigable chain in Vilas County.",
+   "blurb": "Ten connected lakes and roughly 3,800 acres in the northwest corner of Vilas County — genuine all-day cruising, a village with a grocery and an airstrip, and inventory that actually moves. The chain's water is good, not great; buy on Rest or Spider, not the flowage arms.",
+   "links": [
+    [
+     "Lake profile",
+     "https://en.wikipedia.org/wiki/Mamie_Lake_(Wisconsin)"
+    ],
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "t2",
+   "new": false
+  },
+  {
+   "key": "kentuck_lake",
+   "name": "Kentuck Lake",
+   "state": "WI",
+   "lat": 46.028,
+   "lon": -88.96,
+   "acres": 958,
+   "drive": "~5:50",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderately clear; shallow (~26 ft).",
+   "motors": "Full motor; Chequamegon-Nicolet National Forest shoreline.",
+   "blurb": "958 acres in the national forest east of Eagle River with federal land on much of the shore. Shallow, but almost undeveloped and cheap.",
+   "links": [
+    [
+     "Eagle River lake listings",
+     "https://www.lakeplace.com/forsale/wi/eagle-river/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "little_st_germain",
+   "name": "Little St. Germain Lake",
+   "state": "WI",
+   "lat": 45.945,
+   "lon": -89.478,
+   "acres": 987,
+   "drive": "~5:40",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; four connected bays, weedier than Big St. Germain.",
+   "motors": "Full motor; connected to Big St. Germain.",
+   "blurb": "987 acres in four bays with a dense cottage shore. Included for market depth rather than water quality.",
+   "links": [
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "boulder_lake_vilas",
+   "name": "Boulder Lake",
+   "state": "WI",
+   "lat": 46.095,
+   "lon": -89.635,
+   "acres": 542,
+   "drive": "~5:50",
+   "tier": "watch",
+   "score": 7.5,
+   "clarity": "Clear; NHAL State Forest lake.",
+   "motors": "Full motor; forest landing only.",
+   "blurb": "542 clear acres inside the state forest just north of Trout Lake. Under the size bar, but the frontage that exists here is the closest anyone gets to owning on the archetype cluster.",
+   "links": [
+    [
+     "Vilas County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/vilas/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "clear_lake_oneida",
+   "name": "Clear Lake (Oneida)",
+   "state": "WI",
+   "lat": 45.808,
+   "lon": -89.518,
+   "acres": 470,
+   "drive": "~5:30",
+   "tier": "watch",
+   "score": 7.5,
+   "clarity": "Clear, as advertised; spring-fed.",
+   "motors": "Full motor; very low traffic.",
+   "blurb": "470 acres of genuinely clear water near Lake Tomahawk. Well under the size bar; a strong second lake for a Tomahawk purchase.",
+   "links": [
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "moen_chain",
+   "name": "Moen Chain",
+   "state": "WI",
+   "lat": 45.752,
+   "lon": -89.372,
+   "acres": 1100,
+   "drive": "~5:20",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderate across four connected basins.",
+   "motors": "Full motor; connected chain.",
+   "blurb": "Four connected lakes north of Rhinelander with reasonable cruising and prices below the Minocqua belt. Ordinary water.",
+   "links": [
+    [
+     "Oneida County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/oneida/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "whitefish_sawyer",
+   "name": "Whitefish Lake",
+   "state": "WI",
+   "lat": 45.852,
+   "lon": -91.155,
+   "acres": 800,
+   "drive": "~6:15",
+   "tier": "watch",
+   "score": 7.5,
+   "clarity": "Clear; deep basins.",
+   "motors": "Full motor.",
+   "blurb": "800 clear acres south of Hayward with a quiet residential shore. Under the size bar; good water and good value.",
+   "links": [
+    [
+     "Sawyer County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/sawyer/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "middle_eau_claire",
+   "name": "Middle Eau Claire Lake",
+   "state": "WI",
+   "lat": 46.322,
+   "lon": -91.492,
+   "acres": 880,
+   "drive": "~7:00",
+   "tier": "watch",
+   "score": 7.5,
+   "clarity": "Clear, sand-bottomed.",
+   "motors": "Full motor; part of the three-lake Eau Claire chain.",
+   "blurb": "880 sand-bottomed acres in far Bayfield County — the best of the Eau Claire basins, and among the cheapest clear water in the state.",
+   "links": [
+    [
+     "Bayfield County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/bayfield/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "upper_st_croix",
+   "name": "Upper St. Croix Lake",
+   "state": "WI",
+   "lat": 46.288,
+   "lon": -91.828,
+   "acres": 856,
+   "drive": "~7:10",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow.",
+   "motors": "Full motor; headwater of the St. Croix National Scenic Riverway.",
+   "blurb": "856 acres at the head of the St. Croix Riverway. Historic setting, ordinary water, and about as far west as this brief reaches.",
+   "links": [
+    [
+     "Bayfield County lake listings",
+     "https://www.lakeplace.com/forsale/wi-county/bayfield/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "lake_lucerne",
+   "name": "Lake Lucerne",
+   "state": "WI",
+   "lat": 45.612,
+   "lon": -88.702,
+   "acres": 1000,
+   "drive": "~5:20",
+   "tier": "t2",
+   "score": 7.5,
+   "clarity": "Clear; 65 ft max, spring-fed.",
+   "motors": "Full motor, no cap; Nicolet National Forest shoreline.",
+   "blurb": "1,000 clear, deep acres in the Nicolet north of Crandon, with federal forest on much of the shore and essentially no Chicago awareness. Pairs with Lake Metonga fifteen minutes away.",
+   "links": [
+    [
+     "Northern Wisconsin lake listings",
+     "https://www.lakeplace.com/forsale/wi/northern/"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "roberts_lake",
+   "name": "Roberts Lake",
+   "state": "WI",
+   "lat": 45.612,
+   "lon": -88.842,
+   "acres": 470,
+   "drive": "~5:15",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Moderately clear.",
+   "motors": "Full motor.",
+   "blurb": "470 acres near Crandon with low prices and low traffic. Under the size bar; a value satellite to Metonga.",
+   "links": [
+    [
+     "Northern Wisconsin lake listings",
+     "https://www.lakeplace.com/forsale/wi/northern/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "noquebay",
+   "name": "Lake Noquebay",
+   "state": "WI",
+   "lat": 45.238,
+   "lon": -87.912,
+   "acres": 2400,
+   "drive": "~4:45",
+   "tier": "watch",
+   "score": 6.0,
+   "clarity": "Moderate; 51 ft max but weedy bays.",
+   "motors": "Full motor, no cap.",
+   "blurb": "2,400 acres at four and three-quarter hours — the second-closest big ski lake in the report after Pelican. The water is ordinary and the shoreline unconserved; a drive-time play only.",
+   "links": [
+    [
+     "Northern Wisconsin lake listings",
+     "https://www.lakeplace.com/forsale/wi/northern/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "green_lake_mi",
+   "name": "Green Lake (Interlochen)",
+   "state": "MI",
+   "lat": 44.632,
+   "lon": -85.782,
+   "acres": 1980,
+   "drive": "~5:10",
+   "tier": "t2",
+   "score": 8.0,
+   "clarity": "Very good — 100 ft max, clear and spring-fed.",
+   "motors": "Full motor; Interlochen State Park landing is the only public access.",
+   "blurb": "1,980 acres and 100 feet deep beside Interlochen Center for the Arts — clear, deep, five hours from Chicago, and consistently overlooked by buyers fixated on Torch. Summer concerts drift across the water, which most groups count as a feature.",
+   "links": [
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "t2",
+   "new": true
+  },
+  {
+   "key": "thumb_lake",
+   "name": "Thumb Lake (Lake Louise)",
+   "state": "MI",
+   "lat": 45.098,
+   "lon": -84.848,
+   "acres": 470,
+   "drive": "~6:00",
+   "tier": "watch",
+   "score": 8.0,
+   "clarity": "Elite — one of Michigan's clearest, ~90 ft deep, spring-fed.",
+   "motors": "Full motor; tiny landing, almost no traffic.",
+   "blurb": "470 acres of exceptionally clear, 90-foot-deep water in the Boyne highlands. Far under the size bar and included on water quality alone — if the group would trade running room for clarity, tour it.",
+   "links": [
+    [
+     "Charlevoix County waterfront",
+     "https://www.redfin.com/county/1362/MI/Charlevoix-County/waterfront"
+    ]
+   ],
+   "cls": "watch",
+   "new": true
+  },
+  {
+   "key": "bear_lake_manistee",
+   "name": "Bear Lake (Manistee)",
+   "state": "MI",
+   "lat": 44.418,
+   "lon": -86.128,
+   "acres": 1745,
+   "drive": "~4:45",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow (~50 ft) and warmer.",
+   "motors": "Full motor, no cap.",
+   "blurb": "1,745 acres at four and three-quarter hours with a village on one end. Cheap, boat-friendly, ordinary water.",
+   "links": [
+    [
+     "Northern Michigan lakefront",
+     "https://www.landsearch.com/lakefront/northern-michigan-mi"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "arbutus_chain",
+   "name": "Arbutus / Spider Lakes chain",
+   "state": "MI",
+   "lat": 44.652,
+   "lon": -85.478,
+   "acres": 700,
+   "drive": "~5:10",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Good; small connected lakes in the Pere Marquette State Forest.",
+   "motors": "Full motor on Arbutus; the chain narrows are no-wake.",
+   "blurb": "A small chain inside the state forest twenty minutes from Traverse City. Too small for five boats; notable for the forest setting and prices a third of Torch's.",
+   "links": [
+    [
+     "Kalkaska County lakefront",
+     "https://www.land.com/Kalkaska-County-MI/Lakefront-Property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "paradise_lake",
+   "name": "Paradise Lake",
+   "state": "MI",
+   "lat": 45.658,
+   "lon": -84.788,
+   "acres": 1900,
+   "drive": "~6:20",
+   "tier": "watch",
+   "score": 6.0,
+   "clarity": "Weak — 1,900 ac but only ~10 ft deep.",
+   "motors": "Full motor; very low traffic.",
+   "blurb": "1,900 acres of very shallow water near Carp Lake. The cheapest frontage in Emmet County by a wide margin, and the reason why.",
+   "links": [
+    [
+     "Cheboygan County lakefront",
+     "https://www.land.com/Cheboygan-County-MI/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "munuscong",
+   "name": "Munuscong Bay / St. Marys",
+   "state": "MI",
+   "lat": 46.152,
+   "lon": -84.152,
+   "acres": 5000,
+   "drive": "~7:10",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow river-system water.",
+   "motors": "Full motor; freighter channel nearby.",
+   "blurb": "The St. Marys River system south of Sault Ste. Marie — big water, cheap frontage, and freighters on the horizon. Not the archetype; excellent for a group that wants a working Great Lakes view.",
+   "links": [
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "hagerman_lake",
+   "name": "Hagerman Lake",
+   "state": "MI",
+   "lat": 46.062,
+   "lon": -88.702,
+   "acres": 640,
+   "drive": "~6:10",
+   "tier": "watch",
+   "score": 7.5,
+   "clarity": "Clear; Ottawa National Forest lake.",
+   "motors": "Full motor; national forest landing.",
+   "blurb": "640 clear acres in the Ottawa National Forest outside Iron River, with a live 7-acre waterfront parcel at $425K. Under the size bar; the price-per-acre of clear UP water is the story.",
+   "links": [
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "fortune_lakes",
+   "name": "Fortune Lakes",
+   "state": "MI",
+   "lat": 46.098,
+   "lon": -88.898,
+   "acres": 500,
+   "drive": "~6:15",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Clear; three connected basins.",
+   "motors": "Full motor; connected chain, very low traffic.",
+   "blurb": "Three small connected clear lakes in Iron County. Nowhere near the size bar, but representative of what $150K–$400K buys in the western UP.",
+   "links": [
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "millecoquins",
+   "name": "Millecoquins Lake",
+   "state": "MI",
+   "lat": 46.088,
+   "lon": -85.428,
+   "acres": 1275,
+   "drive": "~6:55",
+   "tier": "watch",
+   "score": 6.5,
+   "clarity": "Moderate; shallow and tannin-tinted.",
+   "motors": "Full motor; almost no development.",
+   "blurb": "1,275 acres near Naubinway with a shoreline that is largely state and federal land. Remote and cheap; the water is bog-influenced.",
+   "links": [
+    [
+     "Upper Peninsula lakefront",
+     "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  },
+  {
+   "key": "deer_lake_charlevoix",
+   "name": "Deer Lake (Boyne)",
+   "state": "MI",
+   "lat": 45.238,
+   "lon": -84.912,
+   "acres": 500,
+   "drive": "~5:55",
+   "tier": "watch",
+   "score": 7.0,
+   "clarity": "Good; small and clear.",
+   "motors": "Full motor; small landing.",
+   "blurb": "500 clear acres at Boyne City, ten minutes from Lake Charlevoix's South Arm. Under the size bar; a credible satellite purchase.",
+   "links": [
+    [
+     "Charlevoix County waterfront",
+     "https://www.redfin.com/county/1362/MI/Charlevoix-County/waterfront"
+    ]
+   ],
+   "cls": "watch",
+   "new": false
+  }
+ ],
+ "listings": [
+  {
+   "lakeKey": "round_lake_sawyer",
+   "name": "Moose Jaw Resort, Round Lake — $2.75M",
+   "price": 2750000,
+   "lat": 45.985,
+   "lon": -91.088,
+   "detail": "17 ac in the Chequamegon National Forest; working cabin cluster + lodge building",
+   "status": "active",
+   "url": "https://www.landsearch.com/resort/wisconsin",
+   "fit": "The thesis in one listing: a grandfathered multi-cabin cluster, already zoned for it, on a 3,294-acre clear ski lake ringed by national forest. Tour this first.",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "north_twin",
+   "name": "Coady's Point of View Resort, North Twin — $2.8M",
+   "price": 2800000,
+   "lat": 46.078,
+   "lon": -89.108,
+   "detail": "Resort + campground on the Twin Lakes chain; family-run since 1897",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi-county/vilas/",
+   "fit": "129 years of grandfathered use on 2,871 acres of Class-A water. Keep six cabins, retire the campground, and you have the sketch.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "big_arbor_vitae",
+   "name": "11400 Santo Rd, Arbor Vitae — $3.25M",
+   "price": 3250000,
+   "lat": 45.932,
+   "lon": -89.648,
+   "detail": "34.5 ac; multiple year-round dwellings and cottages, rental-capable",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi-county/oneida/",
+   "fit": "Thirty-four acres and a multi-dwelling permit history — the density is the asset. The lake (busy Big Arbor Vitae) is the compromise.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "lower_buckatabon",
+   "name": "Buckatabon Lodge & Campground — $3.75M",
+   "price": 3750000,
+   "lat": 46.103,
+   "lon": -89.352,
+   "detail": "32.97 wooded ac, 459 ft sand shoreline on Lower Buckatabon Lake; lodge + cabins + campground",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi-county/vilas/",
+   "fit": "Over budget, but the clearest picture of what a licensed Northwoods resort conveys: grandfathered cabin density on sand frontage. Worth a calibration tour.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Lower Buckatabon Lake",
+   "state": "WI"
+  },
+  {
+   "lakeKey": "tomahawk_lake",
+   "name": "Legacy lakefront estate, Lake Tomahawk — $3.3M",
+   "price": 3300000,
+   "lat": 45.838,
+   "lon": -89.628,
+   "detail": "1.45 ac, 338 ft frontage; maintained main home, furnished cabins, multiple docks",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi/minocqua/",
+   "fit": "Exactly the program — lodge, cabins, docks — on 3,392 acres of 84-ft-deep clear water. Stretch pricing; the closest turnkey answer in Wisconsin.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "pelican_lake",
+   "name": "Pelican Lake resort — $724.9K",
+   "price": 724900,
+   "lat": 45.492,
+   "lon": -89.208,
+   "detail": "~9 ac with 204 ft of frontage; cabin cluster",
+   "status": "active",
+   "url": "https://www.commercialzip.com/wi/resorts/",
+   "fit": "Under $750K for nine acres and a cabin cluster on 3,585 acres of ski water at five hours flat. Budget for a full rebuild; the entitlements are the buy.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "moen_chain",
+   "name": "Pine Valley Lodge, Rhinelander — $1.5M",
+   "price": 1499999,
+   "lat": 45.748,
+   "lon": -89.352,
+   "detail": "27 ac with 1,900 ft of direct frontage on the Moen Lake Chain; historic lodge, rec hall, cabins",
+   "status": "active",
+   "url": "https://www.commercialzip.com/resorts/wi/",
+   "fit": "Twenty-seven acres and 1,900 feet of chain frontage for $1.5M — on pure frontage-per-dollar, the best land basis in the sweep. Moen's water is ordinary; the entitlements and the shoreline are not.",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "herendeene_lake",
+   "name": "Northern Michigan cabin resort (Herendeene Lake) — $2.5M",
+   "price": 2500000,
+   "lat": 44.782,
+   "lon": -85.902,
+   "detail": "430–450 ft frontage; hand-hewn 5BR log home + 6BR farmhouse + 6 remodeled cabins",
+   "status": "active",
+   "url": "https://www.traversenorth.com/property-search/waterfront-resorts-and-businesses.html",
+   "fit": "Literally lodge + 6 cabins, between Sleeping Bear and Traverse City — BUT Herendeene is a 40-acre no-motor pond. Program 10/10, water 2/10. Tour it to calibrate, buy only with eyes open.",
+   "cls": "listing",
+   "new": true,
+   "lakeName": "Herendeene Lake",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "halfway_lake",
+   "name": "Halfway Lake Cottages, Newberry — $1.595M",
+   "price": 1595000,
+   "lat": 46.412,
+   "lon": -85.522,
+   "detail": "25 ac, ~1,700 ft frontage; 8 cabins + guest house + 3BR owner's residence + pole barn",
+   "status": "active",
+   "url": "https://www.haydenoutdoors.com/land-for-sale/halfway-lake-cottages/",
+   "fit": "Eight cabins, a guest house and a lodge for $1.6M — the single best program-per-dollar found anywhere. The lake is private and no-motor: keep the boats an hour south, or pass.",
+   "cls": "listing",
+   "new": true,
+   "lakeName": "Halfway Lake (private, no-motor)",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "houghton_lake",
+   "name": "Houghton Lake cabin resort — $1.19M",
+   "price": 1190000,
+   "lat": 44.335,
+   "lon": -84.762,
+   "detail": "7 cabins + 2 homes on 150 ft of frontage",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "Nine buildings for $1.19M, forty minutes from Higgins. Houghton Lake itself is 20,000 shallow, busy acres — a program-first, lake-second fallback.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Houghton Lake",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "crooked_lake_lakemi",
+   "name": "Crooked Lake Resort, Lake MI — verify price",
+   "price": null,
+   "lat": 43.988,
+   "lon": -85.045,
+   "detail": "Owner's home + 6 winterized log cabins + park model + bait store on 146 ft of sand",
+   "status": "verify",
+   "url": "https://www.cabinsandcamps.com/crookedlakeresort",
+   "fit": "Six winterized log cabins with fireplaces and a large owner's home — the turnkey version of the program at roughly 4:15 from Chicago. Small lake; confirm price and frontage with the broker.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Crooked Lake (Lake, MI)",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "lac_du_lune",
+   "name": "Lac du Lune assemblage — $1.35M",
+   "price": 1350000,
+   "lat": 46.142,
+   "lon": -89.248,
+   "detail": "27+ ac with 1,181 ft of frontage on clear water",
+   "status": "active",
+   "url": "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
+   "fit": "The largest single-owner frontage assemblage found in Vilas County: 1,181 ft is enough for a lodge and five separately-lotted cabins under county shoreland math. Build the sketch exactly.",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "dunn_lake",
+   "name": "Dunn Lake parcel, Presque Isle — $347.5K",
+   "price": 347500,
+   "lat": 46.215,
+   "lon": -89.756,
+   "detail": "14+ ac with over 1,000 ft of lake frontage",
+   "status": "active",
+   "url": "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
+   "fit": "A thousand feet of frontage for under $350K. Dunn is too small to ski — pair it with a slip on Presque Isle Lake five minutes away and you have a cheap, legal compound.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "star_lake_private",
+   "name": "Star Lake (Sawyer Co.) — 646 ac — $3.8M",
+   "price": 3800000,
+   "lat": 45.885,
+   "lon": -91.462,
+   "detail": "646± ac surrounding a 105-ac lake; the only private land on the water",
+   "status": "active",
+   "url": "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
+   "fit": "Own the entire shoreline of your own lake — 646 acres, no neighbors, ever. Too small for towsports; the ultimate privacy play if the group will keep boats elsewhere.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Star Lake (Sawyer Co., private)",
+   "state": "WI"
+  },
+  {
+   "lakeKey": "amik_lake",
+   "name": "Amik Lake parcel + cabin, Lac du Flambeau — $305K",
+   "price": 305000,
+   "lat": 45.968,
+   "lon": -89.812,
+   "detail": "31.85 wooded acres with an existing cabin",
+   "status": "active",
+   "url": "https://www.landflip.com/land-for-sale/wisconsin/vilas-county/waterfront-keyword",
+   "fit": "Thirty-two acres and a standing cabin for $305K. Cheapest acreage-plus-structure in the sweep; verify frontage and reservation title questions before anything else.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "lake_gogebic",
+   "name": "East shore frontage, Bergland — $595K",
+   "price": 595000,
+   "lat": 46.518,
+   "lon": -89.542,
+   "detail": "~400 ft of undeveloped frontage on the UP's largest inland lake",
+   "status": "active",
+   "url": "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/",
+   "fit": "Four hundred raw feet on 13,380 acres for $595K — the cheapest big-lake frontage found. Shallow water and a seven-hour drive are the price.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "fence_lake_baraga",
+   "name": "28278 Fence Lake Rd, Michigamme — verify price",
+   "price": null,
+   "lat": 46.512,
+   "lon": -88.152,
+   "detail": "14.2-ac private waterfront sanctuary, Baraga County",
+   "status": "verify",
+   "url": "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/",
+   "fit": "Fourteen private acres in the most dramatic country in this report. Clarity is the weak point; confirm price and frontage with the listing office.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "hagerman_lake",
+   "name": "Hagerman Lake Rd, Iron River — $425K",
+   "price": 425000,
+   "lat": 46.062,
+   "lon": -88.702,
+   "detail": "7.07 ac lakefront, Iron County MI",
+   "status": "active",
+   "url": "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/",
+   "fit": "Seven waterfront acres for $425K, twenty minutes from Chicaugon's 115-ft-deep water. UP pricing is the whole argument for the western route.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Hagerman Lake",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "iron_county_mi",
+   "name": "Iron County lakefront parcel — $129.9K",
+   "price": 129900,
+   "lat": 46.088,
+   "lon": -88.612,
+   "detail": "3.49 ac with ~367 ft of frontage",
+   "status": "active",
+   "url": "https://www.land.com/Upper-Peninsula-Michigan-Region/lakefront-property/",
+   "fit": "Under $130K for 367 feet of frontage. Assemble two or three of these and the land basis for a five-cabin compound is under $400K.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Iron County, MI",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "black_oak",
+   "name": "6024 Black Oak Lake Rd S — $699K",
+   "price": 699000,
+   "lat": 46.122,
+   "lon": -89.302,
+   "detail": "3BR/2BA year-round home on Wisconsin's clearest lake",
+   "status": "active",
+   "url": "https://www.lakehomes.com/wisconsin/black-oak-lake-land-olakes",
+   "fit": "One of very few homes that trade on Black Oak in any year. A beachhead on the best water in the state; add cabins on an adjacent lot as they surface.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "round_lake_sawyer",
+   "name": "12391 W Moreland Rd, Hayward — $1.95M",
+   "price": 1950000,
+   "lat": 45.976,
+   "lon": -91.104,
+   "detail": "Furnished lakeside cabin + guest cottage; sugar-sand frontage, sunset exposure",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi-county/sawyer/",
+   "fit": "Two dwellings already standing on 3,294 acres of clear ski water. The cleanest two-building start in Wisconsin; add cabins behind the setback line.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "lco",
+   "name": "Lac Courte Oreilles legacy estate — $2.495M",
+   "price": 2495000,
+   "lat": 45.908,
+   "lon": -91.342,
+   "detail": "10.82 ac with 320 ft of level, sandy shoreline",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/wi-county/sawyer/",
+   "fit": "Eleven acres and 320 feet of sand on 5,039 acres of clear water. Enough land to cluster five cabins uphill of the 75-ft setback. Check reservation title carefully.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "grindstone",
+   "name": "Grindstone chalet + guest cottage — verify price",
+   "price": null,
+   "lat": 45.972,
+   "lon": -91.292,
+   "detail": "805 sf 4-season chalet + 764 sf 3-season guest cottage; level lot, sand beach",
+   "status": "verify",
+   "url": "https://www.lakeplace.com/forsale/wi-county/sawyer/",
+   "fit": "Two buildings already on the best Secchi readings in this report. Small structures, big water — the classic Grindstone entry. Confirm price with the Hayward brokers.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "high_fishtrap",
+   "name": "High Lake 5BR — $1.025M",
+   "price": 1025000,
+   "lat": 46.158,
+   "lon": -89.448,
+   "detail": "5BR/3.5BA on the High–Fishtrap chain between Land O'Lakes and Boulder Junction",
+   "status": "active",
+   "url": "https://www.goldbarrealty.com/lakehomes/milliondollar",
+   "fit": "A house that already sleeps most of the group, deep in the state forest belt, for a million dollars. Add two cabins and you are done.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "sugar_camp_chain",
+   "name": "Chain Lake, Sugar Camp — $1.499M",
+   "price": 1499000,
+   "lat": 45.888,
+   "lon": -89.318,
+   "detail": "201 ft of frontage on the five-lake Sugar Camp chain",
+   "status": "active",
+   "url": "https://www.goldbarrealty.com/lakehomes/milliondollar",
+   "fit": "Chain access with real cruising forty minutes from Rhinelander. Frontage is thin for a five-dwelling program; treat it as the lodge and buy a neighbor.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "north_twin",
+   "name": "Phelps Class-A assemblage — $5.249M",
+   "price": 5249000,
+   "lat": 46.098,
+   "lon": -89.092,
+   "detail": "61+ ac with 1,022 ft of ripple-sand frontage",
+   "status": "active",
+   "url": "https://www.goldbarrealty.com/lakehomes/millionfive",
+   "fit": "Well past budget, but it is the benchmark: sixty-one acres and a thousand feet of sand on Class-A musky water. Tour it to learn what the ceiling looks like.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "north_twin",
+   "name": "Phelps 6.95-ac, 500-ft frontage — $3.15M",
+   "price": 3150000,
+   "lat": 46.068,
+   "lon": -89.118,
+   "detail": "6.95 ac with 500 ft of ripple-sand frontage",
+   "status": "active",
+   "url": "https://www.goldbarrealty.com/lakehomes/millionfive",
+   "fit": "Five hundred feet of sand — enough frontage for two principal dwellings plus guest houses under Vilas County math. The most executable stretch play in the county.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "lake_owen",
+   "name": "49945 N Lake Owen Dr, Cable — $3.0M",
+   "price": 3000000,
+   "lat": 46.362,
+   "lon": -91.288,
+   "detail": "5.31 ac, 350 ft of frontage, 4BR/3BA, 3,735 sf",
+   "status": "active",
+   "url": "https://www.lakehouse.com/49945-n-lake-owen-dr-cable-wisconsin-54821-p7237649.html",
+   "fit": "The showpiece on 24.6-ft-Secchi water. Priced like Torch Lake; five acres is enough to cluster cabins behind it if the group stretches.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "namekagon_lake",
+   "name": "Lake Namakagon inventory — $225K–$750K",
+   "price": 750000,
+   "lat": 46.228,
+   "lon": -91.048,
+   "detail": "Multiple lots and homes across the range, Cable WI",
+   "status": "active",
+   "url": "https://www.lakeplace.com/forsale/lake/namekagon/",
+   "fit": "The assemblage lake: several sub-$750K parcels and homes live at once on 2,897 national-forest acres. Two adjacent purchases beat one big one here.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "torch_lake",
+   "name": "3285 S East Torch Lake Dr, Bellaire — $999K",
+   "price": 999000,
+   "lat": 44.938,
+   "lon": -85.312,
+   "detail": "14+ ac, 4BR/3BA between Torch and Elk",
+   "status": "active",
+   "url": "https://www.lakehouse.com/torch-lake-antrim-county-michigan-lake-homes-for-sale-b1825.html",
+   "fit": "Fourteen acres in the Torch–Elk corridor for under a million — rare, and enough land for the cabin cluster. Confirm which water the frontage is on.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Torch/Elk corridor",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "torch_lake",
+   "name": "Torch Lake estate parcel — 7.5 ac",
+   "price": null,
+   "lat": 44.998,
+   "lon": -85.342,
+   "detail": "Rare 7.5-ac estate parcel between Torch and Elk Lakes",
+   "status": "verify",
+   "url": "https://brickcorbett.com/neighborhoods/torch-lake",
+   "fit": "Seven and a half acres in the most supply-constrained corridor in the Midwest. Price on application; treat as a build-from-scratch canvas.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "crystal_lake_benzie",
+   "name": "3151 Crystal Dr, Beulah — $1.9M",
+   "price": 1900000,
+   "lat": 44.652,
+   "lon": -86.128,
+   "detail": "4BR/3.5BA, 2,750 sf on 0.72 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/crystal-lake-beulah",
+   "fit": "Turnkey on the clearest big water in Michigan — but 0.72 acres means the cabins go on a second parcel. Buy it as the lodge and keep shopping the block.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "crystal_lake_benzie",
+   "name": "4354 Crystal Dr, Beulah — $1.2M",
+   "price": 1200000,
+   "lat": 44.668,
+   "lon": -86.176,
+   "detail": "2BR/1.5BA, 1,147 sf on 0.34 ac",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/crystal-lake-beulah",
+   "fit": "The cheapest frontage on Crystal this summer. A small cottage on a small lot — value is entirely in the water and the address.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "big_glen",
+   "name": "7953 S Glen Lake Rd, Glen Arbor — $2.995M",
+   "price": 2995000,
+   "lat": 44.868,
+   "lon": -85.962,
+   "detail": "6BR/6.5BA, 4,854 sf on 0.58 ac inside Sleeping Bear",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/glen-lake",
+   "fit": "Sleeps the whole group day one on the prettiest water in this report. Sub-acre lot: this is a lodge purchase, not a compound.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "big_glen",
+   "name": "5760 W Crystal View Rd, Glen Arbor — $1.995M",
+   "price": 1995000,
+   "lat": 44.882,
+   "lon": -85.988,
+   "detail": "4.8 ac, 3BR/2BA, 2,575 sf",
+   "status": "verify",
+   "url": "https://www.landwatch.com/michigan-land-for-sale/glen-arbor/waterfront-property",
+   "fit": "Nearly five acres in Glen Arbor for under $2M — the land, not the house, is the asset. Confirm frontage versus view.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "higgins_lake",
+   "name": "6970 W Higgins Lake Dr — $1.45M",
+   "price": 1450000,
+   "lat": 44.462,
+   "lon": -84.762,
+   "detail": "6BR/1.5BA, 2,150 sf on prime west-shore frontage",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/higgins-lake",
+   "fit": "Six bedrooms on the clearest big lake in the region for $1.45M. One and a half baths is the renovation line item; the water is the point.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "higgins_lake",
+   "name": "303 Kenwood, Roscommon — $1.55M",
+   "price": 1550000,
+   "lat": 44.485,
+   "lon": -84.702,
+   "detail": "5+ wooded acres with sunset lake views",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/michigan/higgins-lake",
+   "fit": "Five acres is enough for the whole cabin cluster — but confirm whether this is frontage or view before it goes further.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "higgins_lake",
+   "name": "West-shore 6BR, 100+ ft frontage — $1.9M",
+   "price": 1900000,
+   "lat": 44.455,
+   "lon": -84.748,
+   "detail": "6BR/1.5BA with over 100 ft of prime Higgins frontage",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/higgins-lake",
+   "fit": "The top of the ordinary Higgins market: six bedrooms and a hundred feet of the clearest water in Michigan.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "lake_charlevoix",
+   "name": "South Arm estate parcel — 3.4 ac / 277 ft",
+   "price": null,
+   "lat": 45.212,
+   "lon": -85.098,
+   "detail": "3.4 ac with 277 ft of South Arm frontage",
+   "status": "verify",
+   "url": "https://northernmichiganescapes.com/lake-charlevoix-real-estate-the-definitive-2026-guide-to-waterfront-living",
+   "fit": "The South Arm arbitrage: ~$2,450/ft median here against $7,000–$12,000/ft on the main basin. Price on application.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "walloon_lake",
+   "name": "651 South Shore Dr, Walloon — $7.7M",
+   "price": 7700000,
+   "lat": 45.272,
+   "lon": -84.942,
+   "detail": "1.53 ac on the lake Hemingway wrote about",
+   "status": "active",
+   "url": "https://www.lakehomes.com/michigan/walloon-lake",
+   "fit": "Included to calibrate, not to buy: this is what archetype water costs in Michigan when the culture never sells. Walloon's twelve listings totalled $64.7M.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "les_cheneaux",
+   "name": "Private island cottage, Snows Channel — $1.0M",
+   "price": 1000000,
+   "lat": 45.998,
+   "lon": -84.372,
+   "detail": "Own private island, 575 ft of waterfront, 3BR historic cottage, 3-stall boathouse, turret, gazebo",
+   "status": "active",
+   "url": "https://greatlakesandland.com/residentialeup.php",
+   "fit": "WILDCARD: your own island with 575 feet of Lake Huron frontage and a three-stall boathouse for a million dollars. Season is short and the drive is seven hours; nothing else in this report is remotely like it.",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "les_cheneaux",
+   "name": "Cedarville historic cottage — $799K",
+   "price": 799000,
+   "lat": 46.002,
+   "lon": -84.362,
+   "detail": "4BR (incl. annex), 2.5BA, boathouse, sandy beach + acreage across the street with pole barn",
+   "status": "active",
+   "url": "https://greatlakesandland.com/residentialeup.php",
+   "fit": "A cottage, an annex, a boathouse and a back lot with a barn for $799K — the assemblage is already done. Great Lakes water, Great Lakes weather.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "les_cheneaux",
+   "name": "Hessel turnkey waterfront — $579K",
+   "price": 579000,
+   "lat": 46.008,
+   "lon": -84.418,
+   "detail": "Fully furnished, refreshed spring 2026, transferable dock slip",
+   "status": "active",
+   "url": "https://greatlakesandland.com/residentialeup.php",
+   "fit": "Under $600K, furnished, with a dock slip that transfers. The cheapest way to test whether the group actually likes the Les Cheneaux.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "cheboygan_county",
+   "name": "Cheboygan County lakefront inventory",
+   "price": null,
+   "lat": 45.562,
+   "lon": -84.672,
+   "detail": "~1,000 ac of lakefront land listed countywide; average ask $376K",
+   "status": "verify",
+   "url": "https://www.land.com/Cheboygan-County-MI/lakefront-property/",
+   "fit": "Cheboygan County land runs $12K–$17K/acre against Antrim's $18K–$28K. On Douglas, Burt and Mullett that gap is the whole strategy.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Cheboygan County",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "hubbard_lake",
+   "name": "Hubbard Lake inventory",
+   "price": null,
+   "lat": 44.812,
+   "lon": -83.562,
+   "detail": "Northeast Michigan's cheapest deep-water frontage; see Alcona County listings",
+   "status": "verify",
+   "url": "https://www.lakehomes.com/michigan/long-lake-alpena",
+   "fit": "8,850 acres and 97 feet of depth at prices the Lake Michigan side hasn't seen in twenty years. Verify current inventory with an Alpena broker.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "mi_dnr_auction",
+   "name": "Michigan DNR surplus land auction 2026",
+   "price": null,
+   "lat": 45.292,
+   "lon": -83.542,
+   "detail": "97 statewide parcels, 20+ over 40 ac; Alpena/Cheboygan/Presque Isle counties Aug 21",
+   "status": "verify",
+   "url": "https://www.wxyz.com/news/dnr-auctioning-off-more-than-100-properties-across-michigan-in-2026-heres-how-to-bid",
+   "fit": "The state sells surplus land every summer, much of it in exactly this corner. Register for the 2027 cycle now — this is how you buy 40+ acres at land value.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Statewide (MI DNR)",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "turtle_flambeau",
+   "name": "Donner's Bay Resort, Turtle–Flambeau — $1.57M",
+   "price": 1570000,
+   "lat": 46.088,
+   "lon": -90.142,
+   "detail": "6 updated year-round cabins + owner's home + 1,500 sf bar & grill, Butternut WI",
+   "status": "active",
+   "url": "https://www.commercialzip.com/resorts/wi/",
+   "fit": "THE HEADLINE: six year-round cabins, an owner's lodge and a licensed bar, under $1.6M, on 12,942 acres of state Scenic Waters. The literal program, in budget, on genuinely wild water. Stained water is the only real objection.",
+   "cls": "listing",
+   "new": true
+  },
+  {
+   "lakeKey": "butternut_lake_price",
+   "name": "Butternut Lake resort — $849K",
+   "price": 849000,
+   "lat": 46.022,
+   "lon": -90.492,
+   "detail": "2.70 ac with on-site dining and multiple cabins, direct lake access",
+   "status": "active",
+   "url": "https://www.commercialzip.com/resorts/wi/",
+   "fit": "Under $850K for a cabin cluster and a commercial kitchen. Butternut is a modest 1,000-acre lake — buy this for the buildings and the licence, not the water.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Butternut Lake (Price Co.)",
+   "state": "WI"
+  },
+  {
+   "lakeKey": "lake_delta_bayfield",
+   "name": "12770 Scenic Dr, Iron River — verify price",
+   "price": null,
+   "lat": 46.552,
+   "lon": -91.408,
+   "detail": "Lake Delta resort: main lodge with operating bar & restaurant, attached 3BR home",
+   "status": "verify",
+   "url": "https://www.commercialzip.com/resorts/wi/",
+   "fit": "A full commercial lodge with a bar and a residence attached, in Bayfield County where land runs a third of Vilas prices. Confirm current ask and cabin count.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Lake Delta (Bayfield Co.)",
+   "state": "WI"
+  },
+  {
+   "lakeKey": "houghton_lake",
+   "name": "127 & 128 Oneida Dr, Houghton Lake — $1.5M",
+   "price": 1500000,
+   "lat": 44.322,
+   "lon": -84.782,
+   "detail": "Turnkey waterfront hospitality: log cabins, owner's home, sandy shoreline",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "A second complete Houghton Lake cluster at $1.5M. Same verdict as the first: the program is right, the lake (20,000 shallow, busy acres) is not the archetype.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "rockwell_lake",
+   "name": "Rockwell Lake Lodge, Luther — $6.2M",
+   "price": 6200000,
+   "lat": 44.038,
+   "lon": -85.688,
+   "detail": "670 ac with a private lake and a 12,000 sf lodge",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "Far past budget and included as the ceiling: 670 acres and your own lake, four hours out. Worth one calibration visit to see what a finished private-lake compound actually feels like.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Rockwell Lake (private)",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "millecoquins",
+   "name": "8928 N Boot Lake Rd, Manistique — $650K",
+   "price": 650000,
+   "lat": 46.052,
+   "lon": -86.352,
+   "detail": "Furnished lodge sleeping up to 18, on 1.77 wooded acres",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "Sleeps eighteen, furnished, for $650K. The cheapest way in this report to house all five couples under one roof on day one — then add cabins as budget allows.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Boot Lake (Manistique)",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "hamlin_lake",
+   "name": "Free Soil seven-cabin resort — $565K",
+   "price": 565000,
+   "lat": 44.112,
+   "lon": -86.212,
+   "detail": "7 vintage cabins on 2.33 ac",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "Seven standing cabins for $565K, forty minutes from Hamlin Lake. Not waterfront — but as a source of grandfathered buildings to relocate or to learn from, it is instructive.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Free Soil, MI",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "hubbard_lake",
+   "name": "Lupton lakefront resort — $950K",
+   "price": 950000,
+   "lat": 44.632,
+   "lon": -84.012,
+   "detail": "5 ac; bar, commercial kitchen with pizza oven, guest docking, electric campsites",
+   "status": "active",
+   "url": "https://realmo.com/resorts/for-sale/mi/",
+   "fit": "Five waterfront acres, a commercial kitchen and guest docking under $1M in Ogemaw County. Ordinary water; extraordinary entitlements per dollar.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Lupton, MI",
+   "state": "MI"
+  },
+  {
+   "lakeKey": "torch_lake",
+   "name": "Torch Lake motel & cabins — $1.6M",
+   "price": 1600000,
+   "lat": 44.918,
+   "lon": -85.352,
+   "detail": "Two adjoining parcels; fully updated 14-unit motel near the sandbar",
+   "status": "active",
+   "url": "https://www.traversenorth.com/property-search/waterfront-resorts-and-businesses.html",
+   "fit": "Fourteen units of grandfathered density on the Midwest's most beautiful water. It is a motel by the sandbar, not a hushed compound — but the density is nearly impossible to replicate.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "elk_lake",
+   "name": "Torch–Elk estate parcel — 7.5 ac",
+   "price": null,
+   "lat": 44.928,
+   "lon": -85.398,
+   "detail": "Rare 7.5-ac estate parcel between Torch and Elk Lakes",
+   "status": "verify",
+   "url": "https://brickcorbett.com/neighborhoods/torch-lake",
+   "fit": "Seven and a half acres in a corridor that essentially never releases land. Price on application; the acreage is the product.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "les_cheneaux",
+   "name": "1350 S Hill Island Rd, Cedarville — vacant 150 ft",
+   "price": null,
+   "lat": 46.008,
+   "lon": -84.338,
+   "detail": "150 ft of vacant waterfront just east of Cedarville",
+   "status": "verify",
+   "url": "https://www.lakehouse.com/1350-s-hill-island-rd-cedarville-michigan-49719-p7047997.html",
+   "fit": "Vacant Les Cheneaux frontage — rare, and the cheapest route into the archipelago if the group prefers to build. Confirm price and septic feasibility.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "grindstone",
+   "name": "Hayward — 16154 US Hwy 63 — $975K",
+   "price": 975000,
+   "lat": 45.998,
+   "lon": -91.462,
+   "detail": "Hayward-area property via JMDS Properties",
+   "status": "verify",
+   "url": "https://www.jmdsproperties.com/wi-resorts-for-sale/",
+   "fit": "A Hayward listing from the region's dedicated resort brokerage — worth a call regardless, because JMDS is the desk that sees Sawyer County cabin clusters before MLS does.",
+   "cls": "listing",
+   "new": false,
+   "lakeName": "Hayward, WI",
+   "state": "WI"
+  },
+  {
+   "lakeKey": "chippewa_flowage",
+   "name": "Chippewa Flowage inventory — 17 live",
+   "price": null,
+   "lat": 45.892,
+   "lon": -91.108,
+   "detail": "17 active Chippewa Flowage listings in Hayward this summer",
+   "status": "verify",
+   "url": "https://haywardlakes.com/lakes/chippewa-flowage/",
+   "fit": "Seventeen live listings on 15,300 acres with 200 miles of shoreline that can never be developed. The deepest inventory-to-wildness ratio in the report.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "presque_isle_lake",
+   "name": "Presque Isle inventory — 30 live, avg $520K",
+   "price": null,
+   "lat": 46.192,
+   "lon": -89.712,
+   "detail": "30 active Presque Isle lake listings; range $24.9K–$1.599M",
+   "status": "verify",
+   "url": "https://www.lakeplace.com/forsale/wi/presque-isle/",
+   "fit": "Thirty live listings averaging $520K in the quietest township in Vilas County. This is where the assemblage strategy is most likely to actually work.",
+   "cls": "listing",
+   "new": false
+  },
+  {
+   "lakeKey": "manitowish_chain",
+   "name": "Manitowish Waters chain inventory",
+   "price": null,
+   "lat": 46.128,
+   "lon": -89.872,
+   "detail": "Ten connected lakes; steady turnover of chain frontage",
+   "status": "verify",
+   "url": "https://www.lakeplace.com/forsale/wi-county/vilas/",
+   "fit": "The chain trades more often than any archetype lake in Vilas County. If the group values cruising over clarity, start saved searches here.",
+   "cls": "listing",
+   "new": false
+  }
+ ],
+ "excluded": {
+  "Wisconsin — inside the 4-hour ring (too close to be the archetype)": [
+   {
+    "name": "Lake Mendota / Monona (Madison)",
+    "reason": "2:30; urban lakes with recurring blue-green algae closures"
+   },
+   {
+    "name": "Lake Koshkonong",
+    "reason": "2:45; 10,460 ac and 7 ft deep — turbid throughout"
+   },
+   {
+    "name": "Lake Puckaway / Buffalo Lake",
+    "reason": "3:00; marsh lakes, no clarity"
+   },
+   {
+    "name": "Devil's Lake",
+    "reason": "3:15; state park, no private frontage, no motors of consequence"
+   },
+   {
+    "name": "Lake Redstone / Dutch Hollow",
+    "reason": "3:15; man-made recreational lakes on subdivided shorelines"
+   },
+   {
+    "name": "Turtle Lake / Long Lake (Waushara)",
+    "reason": "3:15; small and heavily cottaged"
+   },
+   {
+    "name": "Lake Wazeecha / Nepco",
+    "reason": "3:30; flowages in the central sands"
+   },
+   {
+    "name": "Shawano Lake",
+    "reason": "3:45; 6,178 ac but only 39 ft, weedy and busy"
+   },
+   {
+    "name": "Lake Poygan / Winneconne / Butte des Morts",
+    "reason": "3:15–3:30; the Winnebago pool — shallow and wind-driven"
+   },
+   {
+    "name": "Wazee Lake",
+    "reason": "4:00; 30-ft Secchi in a flooded iron mine — spectacular water, county-owned shoreline, nothing to buy"
+   },
+   {
+    "name": "Rock Lake (Lake Mills)",
+    "reason": "2:00; a wake-boat ordinance battleground and far too close"
+   },
+   {
+    "name": "Lake Ripley / Fox Lake",
+    "reason": "2:15–2:30; small, mesotrophic, developed"
+   },
+   {
+    "name": "Lake Geneva",
+    "reason": "1:30 out; Chicago's own resort lake — marquee-busy, seven-figure frontage, zero hush"
+   },
+   {
+    "name": "Delavan Lake",
+    "reason": "1:45; heavily developed Walworth County, mesotrophic"
+   },
+   {
+    "name": "Lake Beulah / Como / Powers",
+    "reason": "Under 2 h; small, ringed with development"
+   },
+   {
+    "name": "Elkhart Lake",
+    "reason": "2:30; 292 ac, resort village, far under the size bar"
+   },
+   {
+    "name": "Big Green Lake",
+    "reason": "2:45; genuinely superb water (237 ft deep, Wisconsin's deepest) but inside the drive floor and increasingly trafficked"
+   },
+   {
+    "name": "Lake Winnebago",
+    "reason": "3:00; 137,700 ac and 21 ft deep — wind, algae, no clarity"
+   },
+   {
+    "name": "Castle Rock & Petenwell Flowages",
+    "reason": "3:15; drawdown reservoirs, turbid"
+   },
+   {
+    "name": "Lake Wisconsin",
+    "reason": "3:15; river flowage, muddy"
+   },
+   {
+    "name": "Chain O'Lakes (IL)",
+    "reason": "1:00; the busiest recreational water in the Midwest"
+   },
+   {
+    "name": "Lake Wissota",
+    "reason": "4:15 but a flowage with a state park and heavy traffic; water bar failed"
+   },
+   {
+    "name": "Petenwell/Nekoosa corridor",
+    "reason": "Paper-mill river system; excluded on water quality"
+   },
+   {
+    "name": "Kangaroo Lake (Door Co.)",
+    "reason": "4:30; 1,100 ac but only 12 ft deep and half is a nature preserve — no towsports"
+   },
+   {
+    "name": "Door County generally",
+    "reason": "No inland lake of consequence; the peninsula's water is Green Bay and Lake Michigan"
+   }
+  ],
+  "Wisconsin — north of the ring, evaluated and excluded": [
+   {
+    "name": "Three Lakes Chain (28 lakes with Eagle River)",
+    "reason": "The largest inland chain in the world and the busiest — a bar-to-bar boating culture, not a hushed one"
+   },
+   {
+    "name": "Lake Katherine / Bearskin (Oneida)",
+    "reason": "Under the size bar; pleasant, unremarkable"
+   },
+   {
+    "name": "Lake Nokomis",
+    "reason": "2,800 ac flowage; stumps, drawdown, stained"
+   },
+   {
+    "name": "Pelican Lake (Forest Co.)",
+    "reason": "Not to be confused with the Oneida County lake of the same name; small and shallow"
+   },
+   {
+    "name": "Post Lake / Summit Lake",
+    "reason": "Flowage character, ordinary water"
+   },
+   {
+    "name": "Lake Alice / Lake Mohawksin",
+    "reason": "Wisconsin River impoundments at Tomahawk; turbid"
+   },
+   {
+    "name": "Chetek Chain",
+    "reason": "5:15 and 3,800 ac, but shallow, agricultural watershed, algae history"
+   },
+   {
+    "name": "Red Cedar / Tainter / Menomin",
+    "reason": "Chronic phosphorus loading; among the worst clarity in the state"
+   },
+   {
+    "name": "Lake Holcombe / Cornell Flowage",
+    "reason": "Chippewa River impoundments; drawdown"
+   },
+   {
+    "name": "Long Lake (Chippewa Co.)",
+    "reason": "Good water but 3,290 ac of heavily-developed shoreline and a strong local wake-boat conflict"
+   },
+   {
+    "name": "Sand Lake / Bass Lake (Sawyer)",
+    "reason": "Under the size bar; nice satellites, not anchors"
+   },
+   {
+    "name": "Lac Sault Dore / Big Lake (Vilas)",
+    "reason": "Small Cisco-chain basins; covered by the chain entry"
+   },
+   {
+    "name": "Anvil Lake",
+    "reason": "371 ac; superb Nicolet setting, far under the bar"
+   },
+   {
+    "name": "Lost Lake / Crystal Lake (Vilas NHAL)",
+    "reason": "Research lakes; essentially no private frontage exists"
+   },
+   {
+    "name": "Siskiwit Lake (Bayfield)",
+    "reason": "320 ac; clear, tiny, and nearly all conserved"
+   },
+   {
+    "name": "Bony Lake / Ghost Lake",
+    "reason": "Under the size bar"
+   },
+   {
+    "name": "Lake Superior south shore (Ashland/Iron)",
+    "reason": "Not a towsports lake; the season and the weather rule it out"
+   },
+   {
+    "name": "Amnicon / Dowling (Douglas)",
+    "reason": "Small and stained"
+   },
+   {
+    "name": "Big Round / Bone Lake (Polk)",
+    "reason": "Twin Cities weekend water; wrong direction and busier than the Northwoods"
+   },
+   {
+    "name": "Lake Owen's north basin",
+    "reason": "Note only: the north end carries most of the traffic — buy south"
+   },
+   {
+    "name": "Yellow Lake / Big McKenzie (Burnett)",
+    "reason": "5:45; ordinary water on a developed shore"
+   },
+   {
+    "name": "Grindstone's public landing bay",
+    "reason": "Note only: the one landing concentrates traffic — avoid frontage within sight of it"
+   },
+   {
+    "name": "Lake Minocqua / Kawaguesaga",
+    "reason": "Marquee-busy — town lake, bar-to-bar boat traffic, the Northwoods' Winnipesaukee"
+   },
+   {
+    "name": "Eagle River Chain (28 lakes)",
+    "reason": "Superb cruising, but the most trafficked chain in the north; several basins fail the clarity bar"
+   },
+   {
+    "name": "Big Sand Lake (Vilas)",
+    "reason": "1,427 ac but DNR classifies clarity low — fails the water bar outright"
+   },
+   {
+    "name": "Big Bearskin Lake",
+    "reason": "400 ac; far under the size bar despite an attractive three-cabin resort listing"
+   },
+   {
+    "name": "Allequash / Papoose / White Sand",
+    "reason": "411–750 ac NHAL lakes: archetype water, too small for five boats, essentially no private frontage"
+   },
+   {
+    "name": "Lake Nokomis / Rice Reservoir",
+    "reason": "Flowages; stumps and drawdown"
+   },
+   {
+    "name": "Gile Flowage",
+    "reason": "Dark, stained water; excluded on clarity"
+   },
+   {
+    "name": "Lake Superior shoreline (Bayfield/Apostles)",
+    "reason": "Great Lakes water — spectacular, but not a towsports lake and the season is short"
+   },
+   {
+    "name": "Shell Lake",
+    "reason": "2,585 ac, 36 ft; ordinary water, developed village shore, 5:45 out"
+   },
+   {
+    "name": "Balsam / Bone / Deer Lakes (Polk Co.)",
+    "reason": "Twin Cities weekend lakes — busy, and the wrong direction from Chicago"
+   },
+   {
+    "name": "Big Butternut / Long Lake (Washburn)",
+    "reason": "Mesotrophic, shallow"
+   },
+   {
+    "name": "Lake Noquebay",
+    "reason": "2,400 ac at 4:45 but only 51 ft, weedy, and no conserved shoreline"
+   },
+   {
+    "name": "Wheeler Lake (Oconto Co.)",
+    "reason": "27-ft Secchi — elite water — but far under 450 ac and effectively no market"
+   },
+   {
+    "name": "Lac du Flambeau chain (as a purchase)",
+    "reason": "Listed as a watch lake, not a recommendation: reservation land status makes non-member acquisition a specialist matter"
+   },
+   {
+    "name": "Clam Lake / Ghost Lake",
+    "reason": "Under the size bar; beautiful, unbuyable"
+   },
+   {
+    "name": "Solberg / Butternut (Price Co.)",
+    "reason": "Shallow and stained"
+   }
+  ],
+  "Michigan — Lower Peninsula, evaluated and excluded": [
+   {
+    "name": "Lake Missaukee",
+    "reason": "1,880 ac, 25 ft; shallow, ringed by Lake City"
+   },
+   {
+    "name": "Lake St. Helen",
+    "reason": "2,390 ac, 12 ft; shallow"
+   },
+   {
+    "name": "Sanford / Wixom / Secord (Tittabawassee)",
+    "reason": "Impoundments; two dams failed in 2020"
+   },
+   {
+    "name": "Lake Leelanau narrows",
+    "reason": "Note only: the narrows are no-wake and the South basin is shallow — buy North"
+   },
+   {
+    "name": "Elk Rapids / Bass Lake",
+    "reason": "Small satellites of Elk Lake; covered by the Elk entry"
+   },
+   {
+    "name": "Silver Lake (Oceana)",
+    "reason": "Dune-buggy destination adjacent; no hush"
+   },
+   {
+    "name": "Muskegon / Mona / White Lake",
+    "reason": "Drowned river mouths with industrial legacies"
+   },
+   {
+    "name": "Pentwater Lake / Manistee Lake",
+    "reason": "Commercial channels and marina traffic"
+   },
+   {
+    "name": "Lake Macatawa / Spring Lake",
+    "reason": "Under 3 h and fully suburban"
+   },
+   {
+    "name": "Lake Michigan shoreline generally",
+    "reason": "No protected water for towsports; compound frontage at these budgets does not exist"
+   },
+   {
+    "name": "Torch Lake south end",
+    "reason": "Note only: buy north of Alden or accept the sandbar"
+   },
+   {
+    "name": "Intermediate / Six Mile (Antrim)",
+    "reason": "Cheap chain access, notably less clear than the lakes below them"
+   },
+   {
+    "name": "Wycamp / Larks / Munro (Emmet)",
+    "reason": "Under the size bar"
+   },
+   {
+    "name": "Burt Lake's Indian River corridor",
+    "reason": "Note only: the Inland Waterway channel concentrates traffic"
+   },
+   {
+    "name": "Van Etten / Cedar (Iosco)",
+    "reason": "Shallow, ordinary"
+   },
+   {
+    "name": "Au Sable impoundments (Foote, Cooke, Five Channels)",
+    "reason": "Drawdown reservoirs"
+   },
+   {
+    "name": "Lake Margrethe's Camp Grayling shore",
+    "reason": "Note only: military training adjoins"
+   },
+   {
+    "name": "Crooked Lake (Lake Co.)",
+    "reason": "Program-match listing noted on the map; the lake itself is under the size bar"
+   },
+   {
+    "name": "Herendeene Lake",
+    "reason": "40 ac and no-motor — listed for the resort on it, never as a lake recommendation"
+   },
+   {
+    "name": "Halfway Lake (Luce Co.)",
+    "reason": "Private and no-motor; same treatment"
+   },
+   {
+    "name": "Houghton Lake",
+    "reason": "20,044 ac but 21 ft max, weedy and busy — Michigan's largest inland lake fails the water bar"
+   },
+   {
+    "name": "Otsego Lake",
+    "reason": "1,972 ac, 23 ft max, 8 ft mean — too shallow"
+   },
+   {
+    "name": "Long Lake (Alpena Co.)",
+    "reason": "5,652 ac but 25 ft max; warms and colors by midsummer"
+   },
+   {
+    "name": "Lake Mitchell & Lake Cadillac",
+    "reason": "Town lakes with heavy traffic and mesotrophic water"
+   },
+   {
+    "name": "Fletcher Pond",
+    "reason": "Shallow flowage, famous fishery, no clarity"
+   },
+   {
+    "name": "Lake Skegemog",
+    "reason": "2,650 ac but shallow and largely a state natural area — no-wake over much of it"
+   },
+   {
+    "name": "Little Glen Lake",
+    "reason": "12 ft max; the shallow half of the Glen pair"
+   },
+   {
+    "name": "Gun Lake / Gull Lake / Diamond Lake",
+    "reason": "All under 3 h — inside the drive floor, and all heavily developed"
+   },
+   {
+    "name": "Lake St. Clair / Saginaw Bay",
+    "reason": "Great Lakes systems; wrong side of the state and wrong character"
+   },
+   {
+    "name": "Muskegon / White / Pentwater Lakes",
+    "reason": "Drowned river mouths — commercial channels, ordinary water"
+   },
+   {
+    "name": "Torch Lake sandbar (as an address)",
+    "reason": "The lake passes; the south sandbar's weekend anchorage is a hard no for this group's brief"
+   },
+   {
+    "name": "Lake Charlevoix main basin",
+    "reason": "$7,000–$12,000 per frontage foot; the South Arm is the only realistic entry"
+   },
+   {
+    "name": "Higgins Lake south shore",
+    "reason": "Two state parks and the ring road — buy north or east or not at all"
+   },
+   {
+    "name": "Duck Lake (Benzie)",
+    "reason": "Under the size bar and largely private-association controlled"
+   },
+   {
+    "name": "Big Star / Bass / Round (Lake Co.)",
+    "reason": "Inside 4:30 but small and ordinary"
+   }
+  ],
+  "Michigan — Upper Peninsula & certification pass (MN, IN, IA, OH)": [
+   {
+    "name": "Deer Lake (Ishpeming)",
+    "reason": "Historic mercury contamination; a fish-consumption advisory lake"
+   },
+   {
+    "name": "Lake Antoine / Norway Lake (Dickinson)",
+    "reason": "Under the size bar"
+   },
+   {
+    "name": "Michigamme Reservoir / Peavy Pond",
+    "reason": "Impoundments; stained and drawn down"
+   },
+   {
+    "name": "Keweenaw Bay / Huron Bay",
+    "reason": "Lake Superior water; no protected towsports"
+   },
+   {
+    "name": "Munuscong / St. Marys system",
+    "reason": "Listed as a watch: freighter channel, shallow, not the archetype"
+   },
+   {
+    "name": "Manistique Lakes (Big, North, South)",
+    "reason": "All under 25 ft; wind-driven"
+   },
+   {
+    "name": "Thunder / Grand Sable / Beaver Lake (Alger)",
+    "reason": "Inside Pictured Rocks or under the bar"
+   },
+   {
+    "name": "Tahquamenon / Whitefish Bay",
+    "reason": "Superior water and a short season"
+   },
+   {
+    "name": "Gogebic's Bergland shore",
+    "reason": "Note only: the cheap frontage is also the windward shore"
+   },
+   {
+    "name": "Burntside / Ely lakes (MN)",
+    "reason": "9:00+; the archetype, an hour past the ceiling"
+   },
+   {
+    "name": "Gunflint Trail lakes (MN)",
+    "reason": "9:30+; BWCAW motor restrictions on most of them anyway"
+   },
+   {
+    "name": "Mille Lacs (MN)",
+    "reason": "7:30 and 132,000 ac of 40-ft wind-driven water"
+   },
+   {
+    "name": "Whitefish Chain / Gull Lake (Brainerd MN)",
+    "reason": "7:00–7:30; excellent water, but Twin Cities weekend traffic at Northwoods prices"
+   },
+   {
+    "name": "Lake Wawasee / Tippecanoe (IN)",
+    "reason": "2:30; Indiana's best natural lakes, both heavily developed and inside the floor"
+   },
+   {
+    "name": "Lake Maxinkuckee / Barbee Chain (IN)",
+    "reason": "2:15–2:45; same verdict"
+   },
+   {
+    "name": "Indian Lake / Grand Lake St. Marys (OH)",
+    "reason": "5:00–5:30 but shallow reservoirs; Grand Lake has chronic toxic algae"
+   },
+   {
+    "name": "Okoboji / Spirit Lake (IA)",
+    "reason": "6:30 and genuinely clear — but a dense resort town shoreline and no conserved frontage"
+   },
+   {
+    "name": "Clear Lake (IA)",
+    "reason": "5:30; 3,600 ac and 15 ft deep, ringed by a town"
+   },
+   {
+    "name": "Sylvania Wilderness lakes (Crooked, Clark, High)",
+    "reason": "Certified: motors banned. The clearest water in the Midwest and completely unusable for this brief — visit, don't shop"
+   },
+   {
+    "name": "Big Manistique Lake",
+    "reason": "10,130 ac, 20 ft max; shallow and wind-driven"
+   },
+   {
+    "name": "Indian Lake (Schoolcraft)",
+    "reason": "8,400 ac, 18 ft max — same problem"
+   },
+   {
+    "name": "Portage/Torch Lake (Keweenaw)",
+    "reason": "~8:30 — over the drive ceiling; also a former stamp-sand Superfund shoreline"
+   },
+   {
+    "name": "Lac La Belle / Copper Harbor",
+    "reason": "8:45+; past the ceiling"
+   },
+   {
+    "name": "Drummond Island",
+    "reason": "~8:00 plus a ferry; the ferry, not the drive, is what breaks a five-couple weekend"
+   },
+   {
+    "name": "Au Train Lake",
+    "reason": "830 ac and shallow; lovely, under the bar"
+   },
+   {
+    "name": "Bond Falls Flowage",
+    "reason": "Reservoir with drawdown; stained"
+   },
+   {
+    "name": "Lake Vermilion, Burntside, Gull (MN)",
+    "reason": "Certified: 8:30–9:30 from Chicago — past the ceiling. Vermilion in particular is the archetype, one hour too far"
+   },
+   {
+    "name": "Lake Minnetonka (MN)",
+    "reason": "6:30 and reachable, but suburban Minneapolis — the opposite of the brief"
+   },
+   {
+    "name": "Leech / Cass / Winnibigoshish (MN)",
+    "reason": "7:30–8:30, shallow and wind-driven"
+   },
+   {
+    "name": "Indiana, Ohio and Iowa generally",
+    "reason": "Certified: no natural lake over 450 ac with archetype clarity and towsports inside the band. Indiana's Wawasee (2,618 ac) and Tippecanoe are the best of them — both under 3 h and heavily developed"
+   },
+   {
+    "name": "Lake Erie / Lake Michigan shorelines",
+    "reason": "Not lakes for this purpose — no protected water, no compound frontage at these budgets"
+   }
+  ]
+ },
+ "updated": "September 1, 2026"
+}
