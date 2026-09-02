@@ -95,3 +95,26 @@ attested since, but that specific number is fifty years old.
 
 `research/` is produced from the dataset and briefing, so it stays in sync:
 re-run the generator in the commit that created it after editing either.
+
+## Rental layer verified in a browser, 2 September 2026
+
+All 24 rental URLs were opened in Chrome and the findings are in the new
+`checked_2026_09_02` column. July–August 2026 had already passed, so availability
+was checked for the same weeks of 2027. What changed:
+
+- **Three entries were on the wrong water or the wrong size.** The "up to 21 guests"
+  Hayward cabin is on Lake Hayward, not Lac Courte Oreilles, and needs three buildings
+  under two listings; "Lake Front Life" is a 5-bedroom on Flying Pond, not Parker Pond;
+  Majestic Retreat is 4BR sleeping 10 on its own.
+- **Seymour Lake Lodge sold in 2026** and sits across the road from the lake with a
+  deeded right-of-way — no dock. The old site is now a bare form.
+- **Rates moved.** Chimney Corners' 2026 sheet is $4,760/wk (not $3,885); Bluff Point
+  is $5,000/wk; Camp Garçon's own site ($639/nt) undercuts its by-owner page; Dancing
+  Water's $3,715 was a 2022 early-bird figure and its direct (Houfy) page is gone.
+- **The clearest direct-booking win is 5RK Ranch Lakeside**, now three homes
+  (15 BR / 34 guests): the owner's site quotes the Lodge at $8,944 all-in for
+  Jul 10–17 2027 against $11,146 plus taxes on VRBO.
+- **Summer 2027 is already closed** on VRBO for Elk Lake Estate, Noble Spirit and Quiet
+  Spirit; open that week: 5RK, the Seymour 5BR ($4,528) and the Silver Lake 5BR ($8,826).
+- The Turtle Flambeau house is 12 guests on VacationRenter (not 18) and Flambeau Lodging
+  does not manage it; its VRBO page could not be located.

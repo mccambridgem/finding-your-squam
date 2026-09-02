@@ -15,7 +15,7 @@ Run:  python3 midwest_data.py
 """
 import json, os
 
-UPDATED = "September 1, 2026"
+UPDATED = "September 2, 2026"
 
 # ---------------------------------------------------------------- reference
 REFS = [
@@ -1114,8 +1114,11 @@ for _l in L:
 
 # ---------------------------------------------------------------- rentals
 # Summer rentals that can host eight couples: 7+ bedrooms (or a resort buyout),
-# waterfront with a dock, Tier 1 lakes only (plus Torch by request). Rates are
-# the platform's quoted figure at sweep time; "direct" is the off-platform route.
+# waterfront with a dock, Tier 1 lakes only (plus Torch by request). Every entry
+# was re-read in a browser on 2 September 2026. July–August 2026 had already
+# passed, so availability was checked for the same weeks of 2027, the nearest
+# bookable summer. "direct" is the off-platform route; where a direct rate exists
+# it is the one quoted.
 RENTALS = []
 def rental(lakeKey, name, lat, lon, bedrooms, baths, sleeps, rate, detail, fit, url=None, platform=None,
            direct=None, kind="single", status="active", rateUnit="/wk", rateNote=None, season=None, dock=None,
@@ -1124,68 +1127,73 @@ def rental(lakeKey, name, lat, lon, bedrooms, baths, sleeps, rate, detail, fit, 
         rate=rate, rateUnit=rateUnit, rateNote=rateNote, detail=detail, fit=fit, url=url, platform=platform,
         direct=direct, kind=kind, status=status, season=season, dock=dock, lakeName=lakeName, new=new))
 
-rental("turtle_flambeau", "Large Turtle Flambeau Flowage House — Mercer", 46.098, -90.098, 7, 2, 18, 4950,
-       "7BR/2BA, sleeps 18; game room, sauna; private dock on the flowage. Quoted ~$707/night all-in (weekly ≈ $4,950).",
-       "The one single-house answer on the wildest water in the report. Two baths for eight couples is the honest catch — you said that doesn't matter. Ask Flambeau Lodging whether they manage it; that is the off-platform route.",
+rental("turtle_flambeau", "Large Turtle Flambeau Flowage House — Mercer", 46.098, -90.098, 7, 2, 12, None,
+       "7BR/2BA. VacationRenter — the only page for it that loads — lists 12 guests, not 18; game room, sauna, heated garage, pets allowed; private dock with direct lake access; 10/10 from 5 reviews. The price is hidden there; search results quote about $707–724 a night, roughly $5,000 a week.",
+       "Still the one single-house answer on the wildest water in the report, but two things changed on inspection: the capacity is 12, not 18, and Flambeau Lodging's rate card shows it manages four small cabins, not this house — so there is no off-platform route yet. Ask the VRBO host directly for an owner's rate.",
        url="https://www.vacationrenter.com/p/402281532", platform="VRBO (via VacationRenter)",
-       direct="http://www.flambeaulodging.com/", season="Summer weekly; 10/10 from 5 reviews", dock="private dock, boat-in fishing", new=True)
+       status="verify", rateNote="~$707–724/nt in search results (≈$5,000/wk); confirm on VRBO",
+       season="Summer weekly; 2027 calendar not readable through VacationRenter", dock="private dock, direct lake access", new=True)
 
-rental("grindstone", "Dancing Water Retreat — Northwoods Beach", 45.972, -91.282, 7, 3, 16, 3715,
-       "7BR/3BA, sleeps 16; two decks, two living rooms; seasonal dock on a shared pier. Fri–Fri weekly Memorial Day–Sept; early-bird from $3,715/wk.",
-       "Seven bedrooms on the clearest big water in Wisconsin at under $500 a couple for the week. Book it for the Hayward scouting trip and you have tested the lake before you bid on it.",
+rental("grindstone", "Dancing Water Retreat — Northwoods Beach", 45.972, -91.282, 7, 3, 16, None,
+       "7BR/3BA, sleeps 16; single-level ~3,000 sq ft with two kitchens, two living rooms, two decks and a fire pit; pets allowed; a dedicated slip on a shared pier, two swim platforms, two kayaks; public launch two miles away. The RentByOwner text was last written for summer 2022 (weekly Friday to Friday, Memorial Day to September; '$3,715' was that year's early-bird rate) and the owner's Houfy page is gone.",
+       "Seven bedrooms on the clearest big water in Wisconsin — but the only live page is four years stale and the $3,715 figure is a 2022 early-bird number. Message the owner through the listing, or the haywardcabinwi Facebook page, for a current rate and the 2027 calendar before counting on it.",
        url="https://www.rentbyowner.com/property/dancing-water-retreat-lake-front-cabin-grindstone-lake-hayward-w-dock/HA-3212141509", platform="VRBO (via RentByOwner)",
-       season="Weekly, Friday to Friday, Memorial Day to end of September", dock="seasonal dock; dedicated slip on a shared pier", new=True)
+       status="verify", rateNote="$3,715/wk was the 2022 early-bird rate; current rate not published",
+       season="Weekly, Friday to Friday, Memorial Day to end of September (2022 text)", dock="dedicated slip on a shared pier; two swim platforms", new=True)
 
-rental("round_lake_sawyer", "5RK Ranch Lakeside — whole-peninsula buyout", 45.988, -91.092, 11, 5.5, 26, None,
-       "Two homes on a private 20-acre peninsula: the Lodge (6BR/2.5BA, sleeps 14) plus Lakeside #1 (5BR/3BA, new 2026); 1,000 ft of sand, private docks, swim area. Third home coming 2027.",
-       "The resort-buyout thesis as a rental: eleven bedrooms across two houses, 150 feet apart, on the clear Round Lake near Hayward. Rates are on request — email the ranch directly rather than booking the lodge alone on VRBO.",
+rental("round_lake_sawyer", "5RK Ranch Lakeside — three-house peninsula buyout", 45.988, -91.092, 15, 8, 34, None,
+       "Three homes on a private 20-acre peninsula on Little Round Lake: the Lodge (6BR/2.5BA, sleeps 12), Lakeside #1 (5BR/3BA, sleeps 12, new in 2026) and the Peninsula Lakehouse (4BR/2.5BA, sleeps 10, remodeled 2026, with its own dock and ~240 ft of beach) — 15 bedrooms and 34 guests in all; private docks for boats to 25 ft, 2,000+ ft of sand shore, kayaks. The owner's site quoted Jul 10–17 2027 at $8,944 for the Lodge and $7,438 for the Peninsula, taxes and fees included; Lakeside #1 shows 'from $700 a night' but was not bookable that week. VRBO lists the Lodge alone at $11,146 plus taxes for the same week, with Jul 1–24 and Aug 5–31 2027 open on its calendar.",
+       "The resort-buyout thesis as a rental, and the clearest case for booking direct in either report: the owner's site is roughly a fifth under VRBO before VRBO adds its fees. Twelve adults per house unless the host approves more; half down, the rest 60 days out. Email Reservations@5RKRanchLakeside.com or call (715) 569-8255 for a three-house week.",
        url="https://www.vrbo.com/4732042", platform="VRBO (Lodge only)", direct="https://5rkranchlakeside.com/",
-       kind="buyout", status="verify", rateNote="rates on request · Reservations@5RKRanchLakeside.com",
-       season="Year-round; multi-week and season-long terms offered", dock="private boat docks, 1,000 ft sand shore", new=True)
+       kind="buyout", status="active", rateNote="direct, all-in, Jul 2027: Lodge $8,944/wk + Peninsula $7,438/wk; Lakeside #1 from $700/nt",
+       season="Year-round; Jul 1–24 and Aug 5–31 2027 open on the VRBO calendar", dock="private boat docks (to 25 ft), 2,000+ ft sand shore, swim area", new=True)
 
-rental("lco", "Majestic Retreat + neighbour cabin — book together for 24", 45.905, -91.345, 8, 5, 24, None,
-       "Owner has two adjacent cabins: the main (4BR/3BA, sleeps 10–12) and a neighbour that sleeps 12; bookable together for up to 24. Sandy beach, private dock.",
-       "Two houses under one owner on 5,039 clear acres — the assemblage strategy, rented. Confirm the combined bedroom count (likely 8) and whether the second cabin has its own dock.",
+rental("lco", "Majestic Retreat + next-door cabin — book two for 24", 45.905, -91.345, None, None, 24, None,
+       "The main cabin is 4BR/3BA and sleeps 10, not 12: 48-ft private dock, sandy beach, ping-pong, dogs by approval; 153 reviews at 9.6. The manager, Manage Cabins LLC, owns the cabins next door, each sleeping 12, and will book two together for 24 — the second cabin's bedroom count and dock are not published. Mid-June to August is Saturday-to-Saturday full weeks only. Jul 10–17 and Aug 7–14 2027 are already blocked on the main cabin.",
+       "Two houses under one owner on 5,039 clear acres — the assemblage strategy, rented. It only works as a pair, so the first questions are the neighbour cabin's bedrooms and dock, and which 2027 Saturdays both are open.",
        url="https://www.vrbo.com/993215", platform="VRBO", kind="buyout", status="verify",
-       rateNote="combined rate on request", dock="private dock on the main cabin; confirm the second", season="Summer weekly")
+       rateNote="combined rate on request (Manage Cabins LLC)", dock="48-ft private dock + sandy beach on the main cabin; confirm the second", season="Mid-June to August: Saturday-to-Saturday full weeks only")
 
-rental("lco", "Hayward Lakefront — gorgeous cabin, up to 21 guests", 45.912, -91.330, None, None, 21, 1685,
-       "Listed for up to 21 guests at ~$241/night (~$1,685/wk). Bedroom count not published in search results — confirm before relying on it.",
-       "Cheapest big-capacity waterfront on an archetype lake in either report, if the bedroom count holds up. Twenty-one guests at $1,685 a week is $210 a couple.",
-       url="https://www.vrbo.com/vacation-rentals/usa/wisconsin/wi-north-west/hayward/lac-courte-oreilles", platform="VRBO (LCO listings)",
-       status="verify", dock="confirm", season="Summer")
+rental(None, "Hayward Lakefront — Spruce Chalet + neighbour, 21 only across three buildings", 46.018, -91.470, 7, 4, 21, None,
+       "On Lake Hayward — the Namekagon River flowage beside the town — not Lac Courte Oreilles. Spruce Chalet itself is 3BR/2BA for eight; the 21-guest figure needs the neighbouring White Birch Retreat and its Big Pine Bunkhouse (VRBO 851715) as well: three buildings, seven bedrooms, four baths. Private docks, level frontage with a shallow sandy-weedy bottom and no beach. The base rate covers two guests plus per-guest charges; the combined group rate is quoted on request. 86 reviews at 9.6; the last two summers booked solid, and Jul 10–17 2027 is already blocked.",
+       "Cheap and well run, but the wrong water and the wrong shape: a river flowage ten minutes from LCO, and eight couples split across three small buildings under two listings. Keep it as the budget fallback for a scouting weekend, not the group week.",
+       url="https://www.vrbo.com/961246", platform="VRBO", status="verify",
+       rateNote="Spruce Chalet from ~$241/nt for two; combined 21-guest rate on request", dock="private docks on Lake Hayward; level frontage, no beach", season="Year-round; summers book solid",
+       lakeName="Lake Hayward (Namekagon flowage) — not LCO")
 
-rental("crystal_lake_benzie", "Chimney Corners Resort — Woodsmere cottage (9 BR)", 44.658, -86.205, 9, 2, 18, 3885,
-       "Woodsmere: nine bedrooms, two baths on two floors, huge stone fireplace, deck, fire pit; sleeps 18. Resort since 1935 with 300 ft of sand beach, swim rafts, dock, watersports and Rocks Landing restaurant. $3,885/wk summer (2025 rate sheet), Sat–Sat.",
-       "Nine bedrooms on the clearest big lake in Michigan for under $500 a couple, with a restaurant on site and twenty more cottages if the group grows. Book direct — there is no platform.",
-       direct="https://www.chimneycornersresort.com/", kind="buyout",
-       season="Summer weekly June 14–Aug 31, Saturday to Saturday; 7-night minimum", dock="resort dock + swim rafts on 300 ft of beach", new=True)
+rental("crystal_lake_benzie", "Chimney Corners Resort — Woodsmere cottage (9 BR)", 44.658, -86.205, 9, 2, 18, 4760,
+       "Woodsmere: a rustic nine-bedroom, two-bath, two-storey bluff cottage sleeping 18, with fireplace and shady deck. The resort (1935; the Rogers family, third generation) has 300 ft of sand beach, swim rafts, a boat hoist, tennis, kayaks and the Rocks Landing restaurant; open May 1 to Oct 31; no jet skis. 2026 rate sheet: $4,760 a week Saturday to Saturday from late June to late August ($4,060 in the shoulder weeks, $2,610 spring and fall); Bluffholm (5BR, sleeps 14) costs the same if the group outgrows one cottage. Deposit is a third of the rent, by check; 6% + 5% Michigan tax. 2027 rates and calendar are not posted — call 231-352-7522.",
+       "Nine bedrooms on the clearest big lake in Michigan for about $600 a couple, with a restaurant on site and Bluffholm next door for fourteen more. Book direct — the resort itself says so (it is also on booking.com, which it cannot modify). Two baths for nine bedrooms is the trade.",
+       direct="https://www.chimneycornersresort.com/", kind="buyout", status="active",
+       season="Weekly Sat–Sat in peak (Jun 20–Sep 6); 2026 rates posted, 2027 by phone", dock="resort dock, swim rafts and boat hoist on 300 ft of beach", new=True)
 
 rental("elk_lake", "Elk Lake Estate — 198 ft of frontage, sleeps 22", 44.932, -85.402, 6, 5, 22, None,
-       "6BR (4 en suite) + shared bath + shower room; sleeps 22 in 14 beds; over an acre, 198 ft of private frontage, 100-ft dock with 10×20 dock patio (mid-May to mid-Sept), barrel sauna, game room, volleyball. Listing notes July 24–31, 2026 was open.",
-       "Six bedrooms, not seven — but 14 beds and a 100-foot dock on Torch's quieter twin. If two couples will take the bunk room, this is the Michigan pick.",
+       "6BR (four en suite) plus a hall bath and a shower room; sleeps 22 in 14 beds (3 king, 3 queen, 4 full, 4 twin); 5,000 sq ft with two kitchens, three fridges, a game room, barrel sauna and sand volleyball; over an acre with 198 ft of private frontage, a 100-ft dock with a 10×20 over-water patio, 4,000-lb boat and pontoon lifts and two jet-ski moorings (mid-May to mid-September). Premier Host Jennifer, 91 reviews at 10. VRBO quoted Jun 12–19 2027 at $2,242 a night — $15,694 for the week before taxes — and every Saturday week in July and August 2027 is already blocked.",
+       "Six bedrooms, not seven — but 14 beds and a 100-foot dock on Torch's quieter twin. It books a year ahead: the summer-2027 calendar is full, so this is a 2028 conversation or a cancellation watch.",
        url="https://www.vrbo.com/274728ha", platform="VRBO", status="verify",
-       rateNote="rate on request", season="Summer weekly; 2026 and 2027 weeks listed", dock="100-ft private dock with over-water patio")
+       rateNote="≈$15,700/wk (June 2027 quote); Jul–Aug 2027 fully blocked", season="Summer weekly; summer 2027 already booked", dock="100-ft private dock with over-water patio, boat and pontoon lifts")
 
-rental("elk_lake", "Elk Lake Retreat — five-cabin buyout, sleeps 30", 44.905, -85.425, None, None, 30, None,
-       "Five cabins sleeping 30 comfortably (40 max); booking 2027 now; direct with the owner (Rachel, 231-883-6009).",
-       "The whole-resort version on Elk Lake. Waterfront and dock not confirmed from the search results — the first question to ask. Already booking 2027, which tells you how these move.",
-       direct="https://elklakeretreat.com/", kind="buyout", status="verify",
-       rateNote="rate on request · 231-883-6009", season="Booking 2027", dock="confirm")
+rental("elk_lake", "Elk Lake Retreat — five-cabin buyout, sleeps 38", 44.905, -85.425, 10, 5, 38, 16625,
+       "Five near-identical two-bedroom, one-bath cabins (cabin 1 sleeps 6, cabins 2–5 sleep 8): ten bedrooms, 30 comfortably, 40 at most. A fenced, sandy-bottom private lakefront with playground, kayaks and paddleboards; the dock is for loading only (overnight mooring buoys instead); pontoons and jet skis from the owners' rental company are hoisted on site. Booking 2027 now at $475 a night per cabin plus tax with a three-night minimum — $2,375 a night, about $16,625 a week for all five. Each cabin is also on Airbnb.",
+       "The whole-resort version on Elk Lake and the only Michigan option openly taking 2027 bookings. It is a bunkhouse village, not a lodge — ten small bedrooms and five baths — and boats sleep on buoys, not the dock. Book direct with Rachel (231-883-6009).",
+       direct="https://elklakeretreat.com/", kind="buyout", status="active", rateUnit="/wk + tax",
+       season="Booking 2027; three-night minimum; each cabin also on Airbnb", dock="loading dock + overnight mooring buoys; sandy-bottom private frontage")
 
-rental("torch_lake", "Quiet Spirit — 8 BR lodge, Kewadin (northeast shore)", 45.020, -85.322, 8, 10, 19, 14300,
-       "12,000 sq ft on four floors; eight themed bedrooms, ten baths with steam showers; hot tub, sauna, eight fireplaces; dock with 6,000-lb pontoon hoist. ~$2,041/night (weekly ≈ $14,300); one-week minimum, single families only.",
-       "The most house on Torch Lake, on the quiet northeast shore an hour by boat from the sandbar. Eight bedrooms with a bath each — the one rental here that treats eight couples like eight couples. Priced accordingly.",
-       url="https://www.vrbo.com/2240917", platform="VRBO", direct="https://www.byowner.com/vacation-rentals/house/quiet-spirit-at-torch-lake-exquisitely-designed-and-decorated-1602867",
-       season="Weekly, one-week minimum; the owner family's 'Spirit' homes rent to single families", dock="private dock with 6,000-lb pontoon hoist", new=True)
+rental("torch_lake", "Quiet Spirit — 8 BR lodge, Kewadin (northeast shore)", 45.020, -85.322, 8, 10, 19, None,
+       "12,000 sq ft on four floors; eight themed bedrooms (six kings), eight full and two half baths with steam showers; hot tub, sauna, eight fireplaces, two kitchens, dining for 12, theatre, arcade and gym; dock with a 6,000-lb pontoon hoist (to 27 ft) and a mooring line. Registered rental VR 2026-21; 14 reviews at 9.6; rents to single families with a one-week minimum. As of 2 Sep 2026 no Saturday week in July or August 2027 could be booked on VRBO, and the by-owner page has been taken down.",
+       "The most house on Torch Lake, on the quiet northeast shore an hour by boat from the sandbar — eight bedrooms with a bath each. The catches: 'single families only' is the owner's rule, the ~$14,300 weekly figure could not be re-priced because no 2027 summer dates are open, and the only route is the VRBO host, Rich Charbonneau.",
+       url="https://www.vrbo.com/2240917", platform="VRBO", status="verify",
+       rateNote="~$14,300/wk quoted earlier; no Jul–Aug 2027 weeks open on VRBO",
+       season="Weekly, one-week minimum; single families only; summer 2027 not bookable yet", dock="private dock with 6,000-lb pontoon hoist", new=True)
 
-rental("torch_lake", "Noble Spirit — 7 BR, Kewadin", 45.005, -85.338, 7, 9, 18, 13200,
-       "7,000 sq ft; seven themed bedrooms, nine baths; arcade with multicades and pinball, HD theatre, six fireplaces, two kitchens; dock with pontoon hoist. ~$1,888/night (weekly ≈ $13,200).",
-       "Same owners as Quiet Spirit, a size down. Seven bedrooms and nine baths is exactly the brief; the arcade is the reason the group will not want to leave.",
-       url="https://www.vrbo.com/2371320", platform="VRBO", season="Weekly, one-week minimum", dock="private dock with pontoon hoist")
+rental("torch_lake", "Noble Spirit — 7 BR, Kewadin", 45.005, -85.338, 7, 9, 19, None,
+       "7,000 sq ft; seven themed bedrooms (five kings), eight full and one half baths with jetted tubs and bidets; sleeps 19; arcade (four multicades, three pinballs), HD theatre, gym, six fireplaces, two kitchens; dock with a 6,000-lb pontoon hoist and a mooring line. Registered rental VR 2026-17; 22 reviews at 9.6; minimum age 26. Same status as Quiet Spirit: no July–August 2027 Saturday weeks bookable on VRBO as of 2 Sep 2026.",
+       "Same owners as Quiet Spirit, a size down. Seven bedrooms and nine baths is exactly the brief; the arcade is the reason the group will not want to leave. Ask the host whether the 2027 summer calendar is closed or simply not released.",
+       url="https://www.vrbo.com/2371320", platform="VRBO", status="verify",
+       rateNote="~$13,200/wk quoted earlier; no Jul–Aug 2027 weeks open on VRBO", season="Weekly, one-week minimum; summer 2027 not bookable yet", dock="private dock with pontoon hoist")
 
-rental("torch_lake", "Torch Lake sandbar — no 7+ BR rental found", 44.872, -85.300, 4, 2, 8, None,
-       "The largest waterfront rental found on the south-end sandbar is a 4BR that sleeps 8 (Torch Lake Sandbar Waterfront Home, VRBO 2322802). Nothing at 7+ bedrooms surfaced in Alden, Rapid City or Bellaire.",
+rental("torch_lake", "Torch Lake sandbar — no 7+ BR rental found", 44.872, -85.300, 4, 2.5, 8, None,
+       "The largest waterfront rental found on the south-end sandbar is 'Torch Cabin' (VRBO 2322802): 4BR (king, queen, two doubles, a twin bunk), two full and one half baths, sleeps 8, dock; Premier Host Anja Stoldt, 60 reviews. Jul 10–17 2027 is already blocked. Nothing at 7+ bedrooms surfaced in Alden, Rapid City or Bellaire.",
        "Honest answer on the sandbar: it is a small-cottage shoreline. Eight couples do the sandbar by boat from Quiet Spirit or Noble Spirit, not by renting on it.",
        url="https://www.vrbo.com/2322802", platform="VRBO", status="verify", rateNote="largest found: 4 BR", dock="seasonal dock, mooring buoy", lakeName="Torch Lake (south sandbar)")
 
