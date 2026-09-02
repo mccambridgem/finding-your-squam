@@ -11,12 +11,19 @@ Private research site for the five-couple lake-compound search. Two regional swe
 Each region has a Map tab and a Full-briefing tab; the region switcher is the top row of tabs.
 Deep links work: `#ne/map`, `#ne/brief`, `#mw/map`, `#mw/brief`.
 
+Both maps also carry a **rental layer** (green triangles, hideable with the "Rentals · 8 couples"
+chip): summer rentals that can host eight couples — 7+ bedrooms or a whole-resort buyout,
+waterfront with a dock — on the Tier 1 lakes only (plus Torch Lake by request). Each entry
+carries the platform listing and, where one exists, the off-platform booking route. Each
+briefing has a matching "Renting for eight couples" section.
+
 **Live site:** deployed on Vercel (static — `index.html` at the repo root is the whole app).
 
 ## Structure
 - `index.html` — the entire site, self-contained (both maps, both briefings, data inlined)
-- `data/map_data.json` — Northeast source of truth: lakes, listings, exclusion ledger
-- `data/midwest_map_data.json` — Wisconsin/Michigan source of truth, same schema
+- `data/map_data.json` — Northeast source of truth: lakes, listings, rentals, exclusion ledger
+- `data/midwest_map_data.json` — Wisconsin/Michigan source of truth, same schema (rentals are
+  authored in `build/midwest_data.py`; the Northeast rentals live directly in the JSON)
 - `build/` — regeneration pipeline:
   - edit a `data/*.json` file (or `build/briefing_content.html` / `build/midwest_briefing_content.html`)
   - `cd build && npm install && npm run generate` → rewrites `index.html`

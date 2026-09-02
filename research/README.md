@@ -12,7 +12,7 @@ reported them, but not read off the page. This directory is the queue for
 closing that gap with a browser that can actually load them.
 
 ## Files
-- **`verify-urls.txt`** — 141 URLs, one per line, priority-ordered, nothing else.
+- **`verify-urls.txt`** — 165 URLs, one per line, priority-ordered, nothing else.
   Feed this to the plugin.
 - **`verify-sources.csv`** — the same URLs with context:
 
@@ -71,6 +71,14 @@ Everything without a value in that column is still unverified.
 
 **Three errors in seven checks.** Assume a similar rate across the remaining
 queue, and do not act on any single listing in this report without the broker.
+
+## Rental layer (added 1 Sep)
+
+The 24 rental URLs are queued as P2. Airbnb and VRBO were as blocked as everything
+else, so bedroom counts, docks and rates came through search results; each entry says
+which of those it could not settle. The user's stated preference is an off-platform
+booking at a reduced rate — where a direct site exists it is listed alongside the platform
+page, and the ask on every platform listing is the owner's direct rate.
 
 ## Two known weak spots
 

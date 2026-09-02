@@ -1112,7 +1112,86 @@ for _l in L:
         _links.append(list(MARKET["winorth" if _l["state"].startswith("WI") else "minw"]))
     _l["links"] = _links
 
-DATA = dict(refs=REFS, lakes=L, listings=LI, excluded=EXCLUDED, updated=UPDATED)
+# ---------------------------------------------------------------- rentals
+# Summer rentals that can host eight couples: 7+ bedrooms (or a resort buyout),
+# waterfront with a dock, Tier 1 lakes only (plus Torch by request). Rates are
+# the platform's quoted figure at sweep time; "direct" is the off-platform route.
+RENTALS = []
+def rental(lakeKey, name, lat, lon, bedrooms, baths, sleeps, rate, detail, fit, url=None, platform=None,
+           direct=None, kind="single", status="active", rateUnit="/wk", rateNote=None, season=None, dock=None,
+           lakeName=None, new=False):
+    RENTALS.append(dict(lakeKey=lakeKey, name=name, lat=lat, lon=lon, bedrooms=bedrooms, baths=baths, sleeps=sleeps,
+        rate=rate, rateUnit=rateUnit, rateNote=rateNote, detail=detail, fit=fit, url=url, platform=platform,
+        direct=direct, kind=kind, status=status, season=season, dock=dock, lakeName=lakeName, new=new))
+
+rental("turtle_flambeau", "Large Turtle Flambeau Flowage House — Mercer", 46.098, -90.098, 7, 2, 18, 4950,
+       "7BR/2BA, sleeps 18; game room, sauna; private dock on the flowage. Quoted ~$707/night all-in (weekly ≈ $4,950).",
+       "The one single-house answer on the wildest water in the report. Two baths for eight couples is the honest catch — you said that doesn't matter. Ask Flambeau Lodging whether they manage it; that is the off-platform route.",
+       url="https://www.vacationrenter.com/p/402281532", platform="VRBO (via VacationRenter)",
+       direct="http://www.flambeaulodging.com/", season="Summer weekly; 10/10 from 5 reviews", dock="private dock, boat-in fishing", new=True)
+
+rental("grindstone", "Dancing Water Retreat — Northwoods Beach", 45.972, -91.282, 7, 3, 16, 3715,
+       "7BR/3BA, sleeps 16; two decks, two living rooms; seasonal dock on a shared pier. Fri–Fri weekly Memorial Day–Sept; early-bird from $3,715/wk.",
+       "Seven bedrooms on the clearest big water in Wisconsin at under $500 a couple for the week. Book it for the Hayward scouting trip and you have tested the lake before you bid on it.",
+       url="https://www.rentbyowner.com/property/dancing-water-retreat-lake-front-cabin-grindstone-lake-hayward-w-dock/HA-3212141509", platform="VRBO (via RentByOwner)",
+       season="Weekly, Friday to Friday, Memorial Day to end of September", dock="seasonal dock; dedicated slip on a shared pier", new=True)
+
+rental("round_lake_sawyer", "5RK Ranch Lakeside — whole-peninsula buyout", 45.988, -91.092, 11, 5.5, 26, None,
+       "Two homes on a private 20-acre peninsula: the Lodge (6BR/2.5BA, sleeps 14) plus Lakeside #1 (5BR/3BA, new 2026); 1,000 ft of sand, private docks, swim area. Third home coming 2027.",
+       "The resort-buyout thesis as a rental: eleven bedrooms across two houses, 150 feet apart, on the clear Round Lake near Hayward. Rates are on request — email the ranch directly rather than booking the lodge alone on VRBO.",
+       url="https://www.vrbo.com/4732042", platform="VRBO (Lodge only)", direct="https://5rkranchlakeside.com/",
+       kind="buyout", status="verify", rateNote="rates on request · Reservations@5RKRanchLakeside.com",
+       season="Year-round; multi-week and season-long terms offered", dock="private boat docks, 1,000 ft sand shore", new=True)
+
+rental("lco", "Majestic Retreat + neighbour cabin — book together for 24", 45.905, -91.345, 8, 5, 24, None,
+       "Owner has two adjacent cabins: the main (4BR/3BA, sleeps 10–12) and a neighbour that sleeps 12; bookable together for up to 24. Sandy beach, private dock.",
+       "Two houses under one owner on 5,039 clear acres — the assemblage strategy, rented. Confirm the combined bedroom count (likely 8) and whether the second cabin has its own dock.",
+       url="https://www.vrbo.com/993215", platform="VRBO", kind="buyout", status="verify",
+       rateNote="combined rate on request", dock="private dock on the main cabin; confirm the second", season="Summer weekly")
+
+rental("lco", "Hayward Lakefront — gorgeous cabin, up to 21 guests", 45.912, -91.330, None, None, 21, 1685,
+       "Listed for up to 21 guests at ~$241/night (~$1,685/wk). Bedroom count not published in search results — confirm before relying on it.",
+       "Cheapest big-capacity waterfront on an archetype lake in either report, if the bedroom count holds up. Twenty-one guests at $1,685 a week is $210 a couple.",
+       url="https://www.vrbo.com/vacation-rentals/usa/wisconsin/wi-north-west/hayward/lac-courte-oreilles", platform="VRBO (LCO listings)",
+       status="verify", dock="confirm", season="Summer")
+
+rental("crystal_lake_benzie", "Chimney Corners Resort — Woodsmere cottage (9 BR)", 44.658, -86.205, 9, 2, 18, 3885,
+       "Woodsmere: nine bedrooms, two baths on two floors, huge stone fireplace, deck, fire pit; sleeps 18. Resort since 1935 with 300 ft of sand beach, swim rafts, dock, watersports and Rocks Landing restaurant. $3,885/wk summer (2025 rate sheet), Sat–Sat.",
+       "Nine bedrooms on the clearest big lake in Michigan for under $500 a couple, with a restaurant on site and twenty more cottages if the group grows. Book direct — there is no platform.",
+       direct="https://www.chimneycornersresort.com/", kind="buyout",
+       season="Summer weekly June 14–Aug 31, Saturday to Saturday; 7-night minimum", dock="resort dock + swim rafts on 300 ft of beach", new=True)
+
+rental("elk_lake", "Elk Lake Estate — 198 ft of frontage, sleeps 22", 44.932, -85.402, 6, 5, 22, None,
+       "6BR (4 en suite) + shared bath + shower room; sleeps 22 in 14 beds; over an acre, 198 ft of private frontage, 100-ft dock with 10×20 dock patio (mid-May to mid-Sept), barrel sauna, game room, volleyball. Listing notes July 24–31, 2026 was open.",
+       "Six bedrooms, not seven — but 14 beds and a 100-foot dock on Torch's quieter twin. If two couples will take the bunk room, this is the Michigan pick.",
+       url="https://www.vrbo.com/274728ha", platform="VRBO", status="verify",
+       rateNote="rate on request", season="Summer weekly; 2026 and 2027 weeks listed", dock="100-ft private dock with over-water patio")
+
+rental("elk_lake", "Elk Lake Retreat — five-cabin buyout, sleeps 30", 44.905, -85.425, None, None, 30, None,
+       "Five cabins sleeping 30 comfortably (40 max); booking 2027 now; direct with the owner (Rachel, 231-883-6009).",
+       "The whole-resort version on Elk Lake. Waterfront and dock not confirmed from the search results — the first question to ask. Already booking 2027, which tells you how these move.",
+       direct="https://elklakeretreat.com/", kind="buyout", status="verify",
+       rateNote="rate on request · 231-883-6009", season="Booking 2027", dock="confirm")
+
+rental("torch_lake", "Quiet Spirit — 8 BR lodge, Kewadin (northeast shore)", 45.020, -85.322, 8, 10, 19, 14300,
+       "12,000 sq ft on four floors; eight themed bedrooms, ten baths with steam showers; hot tub, sauna, eight fireplaces; dock with 6,000-lb pontoon hoist. ~$2,041/night (weekly ≈ $14,300); one-week minimum, single families only.",
+       "The most house on Torch Lake, on the quiet northeast shore an hour by boat from the sandbar. Eight bedrooms with a bath each — the one rental here that treats eight couples like eight couples. Priced accordingly.",
+       url="https://www.vrbo.com/2240917", platform="VRBO", direct="https://www.byowner.com/vacation-rentals/house/quiet-spirit-at-torch-lake-exquisitely-designed-and-decorated-1602867",
+       season="Weekly, one-week minimum; the owner family's 'Spirit' homes rent to single families", dock="private dock with 6,000-lb pontoon hoist", new=True)
+
+rental("torch_lake", "Noble Spirit — 7 BR, Kewadin", 45.005, -85.338, 7, 9, 18, 13200,
+       "7,000 sq ft; seven themed bedrooms, nine baths; arcade with multicades and pinball, HD theatre, six fireplaces, two kitchens; dock with pontoon hoist. ~$1,888/night (weekly ≈ $13,200).",
+       "Same owners as Quiet Spirit, a size down. Seven bedrooms and nine baths is exactly the brief; the arcade is the reason the group will not want to leave.",
+       url="https://www.vrbo.com/2371320", platform="VRBO", season="Weekly, one-week minimum", dock="private dock with pontoon hoist")
+
+rental("torch_lake", "Torch Lake sandbar — no 7+ BR rental found", 44.872, -85.300, 4, 2, 8, None,
+       "The largest waterfront rental found on the south-end sandbar is a 4BR that sleeps 8 (Torch Lake Sandbar Waterfront Home, VRBO 2322802). Nothing at 7+ bedrooms surfaced in Alden, Rapid City or Bellaire.",
+       "Honest answer on the sandbar: it is a small-cottage shoreline. Eight couples do the sandbar by boat from Quiet Spirit or Noble Spirit, not by renting on it.",
+       url="https://www.vrbo.com/2322802", platform="VRBO", status="verify", rateNote="largest found: 4 BR", dock="seasonal dock, mooring buoy", lakeName="Torch Lake (south sandbar)")
+
+DATA_RENTALS = RENTALS
+
+DATA = dict(refs=REFS, lakes=L, listings=LI, rentals=DATA_RENTALS, excluded=EXCLUDED, updated=UPDATED)
 
 out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "midwest_map_data.json")
 with open(out, "w") as f:
@@ -1120,4 +1199,4 @@ with open(out, "w") as f:
     f.write("\n")
 
 n_ex = sum(len(v) for v in EXCLUDED.values())
-print(f"wrote {os.path.normpath(out)}: {len(L)} lakes, {len(LI)} listings, {n_ex} excluded, {len(REFS)} refs")
+print(f"wrote {os.path.normpath(out)}: {len(L)} lakes, {len(LI)} listings, {len(RENTALS)} rentals, {n_ex} excluded, {len(REFS)} refs")

@@ -115,8 +115,9 @@ const REGIONS = [NORTHEAST, MIDWEST];
 const CLS = {
   t1: { color: "#104281", r: 7.5 }, t2: { color: "#2a78d6", r: 5.5 },
   watch: { color: "#86b6ef", r: 4.5 }, listing: { color: "#eb6834", r: 5.5 }, ref: { color: "#52514e", r: 6 },
+  rental: { color: "#2f8f5b", r: 5.5 },
 };
-const zorder = { ref: 0, watch: 1, t2: 2, t1: 3, listing: 4 };
+const zorder = { ref: 0, watch: 1, t2: 2, t1: 3, listing: 4, rental: 5 };
 
 function buildRegion(cfg) {
   const DATA = JSON.parse(fs.readFileSync(cfg.data, "utf8"));
@@ -163,6 +164,20 @@ function buildRegion(cfg) {
       meta: (hostLake ? hostLake + " · " : "") + (x.detail || "") + (x.status === "verify" ? " · status: confirm w/ broker" : ""),
       blurb: x.fit || "", links: [["Listing", x.url]], isNew: !!x.new });
   });
+  const fmtRate = r => r == null ? "" : ("$" + r.toLocaleString("en-US"));
+  (DATA.rentals || []).forEach((x, i) => {
+    const hostLake = (lakeByKey[x.lakeKey] || {}).name || x.lakeName || "";
+    const cap = [x.bedrooms ? x.bedrooms + " BR" : null, x.baths ? x.baths + " BA" : null, x.sleeps ? "sleeps " + x.sleeps : null].filter(Boolean).join(" / ");
+    const rate = x.rate ? fmtRate(x.rate) + (x.rateUnit || "/wk") : (x.rateNote || "rate on request");
+    const links = [];
+    if (x.direct) links.push(["Book direct", x.direct]);
+    if (x.url) links.push([x.platform || "Listing", x.url]);
+    pts.push({ id: "r" + i, cls: "rental", shape: "tri", name: x.name, lat: x.lat, lon: x.lon,
+      meta: [hostLake, cap, rate, x.kind === "buyout" ? "resort buyout" : null,
+             x.status === "verify" ? "status: confirm w/ host" : null].filter(Boolean).join(" · "),
+      blurb: (x.detail ? x.detail + " — " : "") + (x.fit || ""), links, isNew: !!x.new,
+      clarity: x.season ? "Season: " + x.season : "", motors: x.dock ? "Dock: " + x.dock : "" });
+  });
   for (const p of pts) { const xy = proj([p.lon, p.lat]); p.x = +xy[0].toFixed(1); p.y = +xy[1].toFixed(1); }
 
   function markerSvg(p) {
@@ -171,6 +186,7 @@ function buildRegion(cfg) {
     if (p.shape === "star") shape = `<path d="M0,-8 L2.2,-2.8 L8,-2.4 L3.6,1.4 L5,7 L0,3.8 L-5,7 L-3.6,1.4 L-8,-2.4 L-2.2,-2.8 Z" fill="#0b0b0b" stroke="#fcfcfb" stroke-width="1.4"/>`;
     else if (p.shape === "ring") shape = `<circle r="7" fill="none" stroke="#52514e" stroke-width="2.6"/><circle r="1.8" fill="#52514e"/>`;
     else if (p.shape === "sq") shape = `<rect x="-4.6" y="-4.6" width="9.2" height="9.2" rx="2" transform="rotate(45)" fill="${c.color}" stroke="#fcfcfb" stroke-width="1.4"/>`;
+    else if (p.shape === "tri") shape = `<path d="M0,-7 L6.5,5 L-6.5,5 Z" fill="${c.color}" stroke="#fcfcfb" stroke-width="1.4" stroke-linejoin="round"/>`;
     else shape = `<circle r="${c.r}" fill="${c.color}" stroke="#fcfcfb" stroke-width="1.5"/>`;
     return `<g class="marker cls-${p.cls}" data-id="${p.id}" transform="translate(${p.x},${p.y})"><g class="mk">${shape}<circle class="hit" r="9" fill="transparent"/></g></g>`;
   }
@@ -186,21 +202,23 @@ function buildRegion(cfg) {
   // ---------- cards ----------
   const nLakes = DATA.lakes.length, nList = DATA.listings.length;
   const counts = { t1: DATA.lakes.filter(l => l.cls === "t1").length, t2: DATA.lakes.filter(l => l.cls === "t2").length,
-    watch: DATA.lakes.filter(l => l.cls === "watch").length, listing: nList };
+    watch: DATA.lakes.filter(l => l.cls === "watch").length, listing: nList,
+    rental: (DATA.rentals || []).length };
   const nExcl = Object.values(DATA.excluded).reduce((a, b) => a + b.length, 0);
-  const stats = { nLakes, nList, nExcl, t1: counts.t1, t2: counts.t2, watch: counts.watch };
+  const stats = { nLakes, nList, nExcl, t1: counts.t1, t2: counts.t2, watch: counts.watch, nRent: counts.rental };
 
   const GROUPS = [
     ["t1", `Tier 1 — pursue (${counts.t1})`],
     ["t2", `Tier 2 — strong (${counts.t2})`],
     ["listing", `Live listings (${counts.listing}) — ${cfg.listingsGroupNote}`],
+    ["rental", `Summer rentals for 8 couples (${counts.rental}) — 7+ bedrooms, waterfront + dock, Tier 1 lakes`],
     ["watch", `Watchlist / edge (${counts.watch})`],
     ["ref", "Reference points"],
   ];
   function card(p) {
     const links = p.links.map(([t, u]) => `<a href="${u}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join(" · ");
     return `<div class="card cls-${p.cls}" data-id="${p.id}" tabindex="0">
-    <div class="card-head"><span class="dot dot-${p.cls}${p.shape === "sq" ? " dot-sq" : ""}"></span><span class="card-name">${esc(p.name)}</span>${p.isNew ? '<span class="newpill">NEW</span>' : ""}</div>
+    <div class="card-head"><span class="dot dot-${p.cls}${p.shape === "sq" ? " dot-sq" : ""}${p.shape === "tri" ? " dot-tri" : ""}"></span><span class="card-name">${esc(p.name)}</span>${p.isNew ? '<span class="newpill">NEW</span>' : ""}</div>
     ${p.meta ? `<div class="card-meta">${esc(p.meta)}</div>` : ""}
     <div class="card-blurb">${esc(p.blurb)}</div>
     ${links ? `<div class="card-links">${links}</div>` : ""}
@@ -239,6 +257,7 @@ ${exclBlocks}
   <span class="chip" data-cls="t2"><span class="dot dot-t2"></span>Tier 2 (${counts.t2})</span>
   <span class="chip" data-cls="watch"><span class="dot dot-watch"></span>Watchlist (${counts.watch})</span>
   <span class="chip" data-cls="listing"><span class="dot dot-listing sq"></span>Listings (${counts.listing})</span>
+  <span class="chip" data-cls="rental"><span class="dot dot-rental tri"></span>Rentals · 8 couples (${counts.rental})</span>
   <span class="chip" data-cls="ref"><span class="dot dot-ref"></span>${cfg.refChipLabel}</span>
   <span class="note">${cfg.legendNote}</span>
 </div>
@@ -299,7 +318,7 @@ const html = `<!DOCTYPE html>
   :root{color-scheme:light;
     --page:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;
     --hairline:#e1e0d9;--border:rgba(11,11,11,.10);
-    --t1:#104281;--t2:#2a78d6;--watch:#86b6ef;--listing:#eb6834;--ref:#52514e;
+    --t1:#104281;--t2:#2a78d6;--watch:#86b6ef;--listing:#eb6834;--ref:#52514e;--rental:#2f8f5b;
     --ocean:#dbe8f4;--land:#f5f3ea;--stateline:#c2beb2}
   *{box-sizing:border-box}
   body{margin:0;background:var(--page);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -323,6 +342,8 @@ const html = `<!DOCTYPE html>
   .legend .note{font-size:12px;color:var(--muted);margin-left:4px}
   .dot-t1{background:var(--t1)} .dot-t2{background:var(--t2)} .dot-watch{background:var(--watch)} .dot-ref{background:var(--ref)}
   .dot-listing{background:var(--listing)} .dot.dot-sq,.chip .dot.sq{border-radius:2px;transform:rotate(45deg)}
+  .dot-rental{background:var(--rental)}
+  .dot.dot-tri,.chip .dot.tri{background:transparent;border-radius:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:10px solid var(--rental)}
   main{display:flex;gap:14px;padding:0 22px 22px;align-items:stretch}
   .mapwrap{position:relative;flex:1 1 62%;min-width:0;background:var(--ocean);border:1px solid var(--border);border-radius:12px;overflow:hidden;align-self:flex-start}
   svg{display:block;width:100%;height:auto;touch-action:none;cursor:grab}
@@ -444,8 +465,9 @@ ${regionPanels}
       pinned = id;
       const linksHtml = (p.links && p.links.length)
         ? '<div class="links">' + p.links.map(l => '<a href="' + l[1] + '" target="_blank" rel="noopener">' + l[0] + ' ↗</a>').join("") + "</div>" : "";
-      const wq = (p.clarity ? '<div class="wq"><b2>Water:</b2> ' + p.clarity + "</div>" : "") +
-                 (p.motors ? '<div class="wq"><b2>Motors:</b2> ' + p.motors + "</div>" : "");
+      const isR = p.cls === "rental";
+      const wq = (p.clarity ? '<div class="wq">' + (isR ? "" : "<b2>Water:</b2> ") + p.clarity + "</div>" : "") +
+                 (p.motors ? '<div class="wq">' + (isR ? "" : "<b2>Motors:</b2> ") + p.motors + "</div>" : "");
       popbody.innerHTML = "<b>" + p.name + "</b>" + (p.meta ? '<div class="m">' + p.meta + "</div>" : "") + '<div class="bl">' + p.blurb + "</div>" + wq + linksHtml;
       pop.style.display = "block"; tip.style.display = "none";
       positionPop();

@@ -23,7 +23,7 @@
    "lon": -71.55,
    "drive": "~4:50",
    "acres": 6791,
-   "blurb": "The reference point. \u2264$2.5M buys no usable compound here \u2014 but see the live 159 Rt-113 assemblage listings.",
+   "blurb": "The reference point. ≤$2.5M buys no usable compound here — but see the live 159 Rt-113 assemblage listings.",
    "links": [
     [
      "Squam Lakes Conservation Society",
@@ -43,7 +43,7 @@
    "drive": "~5:35",
    "tier": "t1",
    "score": 9.5,
-   "blurb": "The truest Squam analog: oligotrophic, White Mtn backdrop, hushed. Thin market \u2014 and a live 16.6-ac Narrows parcel just surfaced.",
+   "blurb": "The truest Squam analog: oligotrophic, White Mtn backdrop, hushed. Thin market — and a live 16.6-ac Narrows parcel just surfaced.",
    "links": [
     [
      "Watershed assn",
@@ -131,7 +131,7 @@
    "drive": "~4:45",
    "tier": "t2",
    "score": 8.5,
-   "blurb": "Spring-fed clear, no big public ramp \u2014 quietest archetype water near the city.",
+   "blurb": "Spring-fed clear, no big public ramp — quietest archetype water near the city.",
    "links": [
     [
      "Listings",
@@ -151,7 +151,7 @@
    "drive": "~4:50",
    "tier": "t2",
    "score": 8.5,
-   "blurb": "Secchi ~10 m. Inventory currently dry (one pending camp) \u2014 set alerts; cyanobacteria counts are the watch item.",
+   "blurb": "Secchi ~10 m. Inventory currently dry (one pending camp) — set alerts; cyanobacteria counts are the watch item.",
    "links": [
     [
      "GELIA monitoring",
@@ -175,7 +175,7 @@
    "drive": "~5:45",
    "tier": "t2",
    "score": 8.5,
-   "blurb": "Greensboro \u2014 the NEK's Squam-in-miniature. A rare $2.25M north-shore estate parcel is live now.",
+   "blurb": "Greensboro — the NEK's Squam-in-miniature. A rare $2.25M north-shore estate parcel is live now.",
    "links": [
     [
      "Jim Campbell RE",
@@ -195,7 +195,7 @@
    "drive": "~6:15",
    "tier": "t2",
    "score": 8,
-   "blurb": "State-forest ring, loons, one dirt road \u2014 the most Trout-Lake-WI place in New England.",
+   "blurb": "State-forest ring, loons, one dirt road — the most Trout-Lake-WI place in New England.",
    "links": [
     [
      "Maidstone State Forest",
@@ -215,7 +215,7 @@
    "drive": "~5:15",
    "tier": "t2",
    "score": 8,
-   "blurb": "The NY Squam. \u2264$2.5M buys one camp, not a compound \u2014 tour Panther Cove to calibrate.",
+   "blurb": "The NY Squam. ≤$2.5M buys one camp, not a compound — tour Panther Cove to calibrate.",
    "links": [
     [
      "Milfoil program",
@@ -295,7 +295,7 @@
    "drive": "~4:40",
    "tier": "t2",
    "score": 8.5,
-   "blurb": "PROMOTED to Tier 2: world-class clarity and now real inventory \u2014 the $2.6M ten-room Kelby lodge plus $799K\u2013$1.5M owned waterfront. Watch the spiny water flea.",
+   "blurb": "PROMOTED to Tier 2: world-class clarity and now real inventory — the $2.6M ten-room Kelby lodge plus $799K–$1.5M owned waterfront. Watch the spiny water flea.",
    "links": [
     [
      "NLRA water quality",
@@ -335,7 +335,7 @@
    "drive": "~5:20",
    "tier": "watch",
    "score": 7.8,
-   "blurb": "Archetype water, frontage drought continues \u2014 only access-rights homes live; set an alert.",
+   "blurb": "Archetype water, frontage drought continues — only access-rights homes live; set an alert.",
    "links": [
     [
      "TLEA report",
@@ -395,7 +395,7 @@
    "drive": "~6:00",
    "tier": "watch",
    "score": 7.5,
-   "blurb": "Spectacular fjord; frontage scarce \u2014 but the live combo ($929K 8BR waterfront lodge + LaCross parcels) is Vermont's best compound math.",
+   "blurb": "Spectacular fjord; frontage scarce — but the live combo ($929K 8BR waterfront lodge + LaCross parcels) is Vermont's best compound math.",
    "links": [
     [
      "Overview",
@@ -455,7 +455,7 @@
    "drive": "~6:30",
    "tier": "watch",
    "score": 7.6,
-   "blurb": "The NEK's best-kept secret \u2014 oligotrophic, forested, near-zero market (Quimby Country sold).",
+   "blurb": "The NEK's best-kept secret — oligotrophic, forested, near-zero market (Quimby Country sold).",
    "links": [
     [
      "VT public-waters rules",
@@ -472,10 +472,10 @@
    "lat": 44.883,
    "lon": -70.8,
    "acres": 16320,
-   "drive": "~6:45\u20137:15",
+   "drive": "~6:45–7:15",
    "tier": "watch",
    "score": 7.8,
-   "blurb": "Truest Trout Lake analog east of Wisconsin \u2014 45 min over the drive line. Remarkable value.",
+   "blurb": "Truest Trout Lake analog east of Wisconsin — 45 min over the drive line. Remarkable value.",
    "links": [
     [
      "Listings",
@@ -729,7 +729,7 @@
    "motors": "Motors/ski legal; PWC banned 1988",
    "tier": "watch",
    "score": 8.6,
-   "blurb": "Trout-Lake-grade clarity, Harris-Center-conserved forest, 4 hours out \u2014 but frontage almost never trades; zero listings now.",
+   "blurb": "Trout-Lake-grade clarity, Harris-Center-conserved forest, 4 hours out — but frontage almost never trades; zero listings now.",
    "links": [
     [
      "NHDES VLAP",
@@ -807,7 +807,7 @@
    "motors": "Unrestricted; ski legal though water stays cold",
    "tier": "watch",
    "score": 7.9,
-   "blurb": "Spectacular timber-country lake; edge 7:05 drive, thin camp inventory, short cold season \u2014 exceptional-fit watch only.",
+   "blurb": "Spectacular timber-country lake; edge 7:05 drive, thin camp inventory, short cold season — exceptional-fit watch only.",
    "links": [
     [
      "NHDES lake trends",
@@ -1012,10 +1012,10 @@
    "acres": 1529,
    "drive": "~6:15",
    "clarity": "Oligo-meso; 2021 avg Secchi 8.2 m (hist 7.4), TP 4.8 ppb (30MRWA)",
-   "motors": "No HP cap; ski-legal (CMR ch.13 \u00a707 absent)",
+   "motors": "No HP cap; ski-legal (CMR ch.13 §07 absent)",
    "tier": "t1",
    "score": 9.1,
-   "blurb": "1,500+ quiet acres, 8 m water, one restricted launch, loons, conserved headlands \u2014 Squam energy with live inventory.",
+   "blurb": "1,500+ quiet acres, 8 m water, one restricted launch, loons, conserved headlands — Squam energy with live inventory.",
    "links": [
     [
      "30MRWA WQ report",
@@ -1097,7 +1097,7 @@
    "motors": "No restrictions; ski-legal",
    "tier": "t2",
    "score": 8.7,
-   "blurb": "Closest truly pristine water: 8 m clarity, forested, no commercial anything. Inventory rare \u2014 patience or assemblage.",
+   "blurb": "Closest truly pristine water: 8 m clarity, forested, no commercial anything. Inventory rare — patience or assemblage.",
    "links": [
     [
      "LEA testing report",
@@ -1223,7 +1223,7 @@
    "lon": -70.15,
    "acres": 527,
    "drive": "~6:30",
-   "clarity": "Secchi 8.5\u20139.0 m 2017\u201321 (Porter Lake Assn); healthy",
+   "clarity": "Secchi 8.5–9.0 m 2017–21 (Porter Lake Assn); healthy",
    "motors": "No restrictions; ski-legal",
    "tier": "t2",
    "score": 8.4,
@@ -1275,7 +1275,7 @@
    "lon": -69.44,
    "acres": 1215,
    "drive": "~6:15",
-   "clarity": "TP 5\u201310 ppb, stable Secchi, no blooms ever (SLA/DEP); 150 ft deep",
+   "clarity": "TP 5–10 ppb, stable Secchi, no blooms ever (SLA/DEP); 150 ft deep",
    "motors": "No restrictions; ski-legal",
    "tier": "t2",
    "score": 8.1,
@@ -1301,7 +1301,7 @@
    "lon": -69.9,
    "acres": 2714,
    "drive": "~6:00",
-   "clarity": "2024 Secchi 5.3\u20135.6 m, 'good all season' (7 Lakes Alliance)",
+   "clarity": "2024 Secchi 5.3–5.6 m, 'good all season' (7 Lakes Alliance)",
    "motors": "No restrictions; ski-legal",
    "tier": "t2",
    "score": 8.0,
@@ -1567,7 +1567,7 @@
    "motors": "No restrictions; ski-legal",
    "tier": "watch",
    "score": 8.3,
-   "blurb": "Camden Hills backdrop, Fernald's Neck preserve \u2014 the prettiest water here. Caveat: 6:45 drive, Camden pricing.",
+   "blurb": "Camden Hills backdrop, Fernald's Neck preserve — the prettiest water here. Caveat: 6:45 drive, Camden pricing.",
    "links": [
     [
      "Wikipedia",
@@ -1615,7 +1615,7 @@
    "lon": -70.87,
    "acres": 7100,
    "drive": "~7:00",
-   "clarity": "Secchi 4.5\u20137.5 m; 'no significant health concerns,' sparse development (RLHT 2024)",
+   "clarity": "Secchi 4.5–7.5 m; 'no significant health concerns,' sparse development (RLHT 2024)",
    "motors": "No restrictions; ski-legal",
    "tier": "watch",
    "score": 7.8,
@@ -1663,11 +1663,11 @@
    "lon": -70.59,
    "acres": 315,
    "drive": "~5:25",
-   "clarity": "Avg Secchi 9.7 m (LEA 2022) \u2014 clearest in region",
+   "clarity": "Avg Secchi 9.7 m (LEA 2022) — clearest in region",
    "motors": "No HP cap; ski-legal",
    "tier": "watch",
    "score": 7.5,
-   "blurb": "Caribbean-clear outlier. Caveat: 315 acres \u2014 under size bar, tight ski loops, tiny inventory.",
+   "blurb": "Caribbean-clear outlier. Caveat: 315 acres — under size bar, tight ski loops, tiny inventory.",
    "links": [
     [
      "LEA report",
@@ -1945,7 +1945,7 @@
    "motors": "No special restriction; NYS default; ski practical",
    "tier": "t2",
    "score": 8.0,
-   "blurb": "Lives up to its name: sand, spring-fed clarity, St. Regis canoe country next door; caveat\u2014adjacent regional airport, near-zero inventory.",
+   "blurb": "Lives up to its name: sand, spring-fed clarity, St. Regis canoe country next door; caveat—adjacent regional airport, near-zero inventory.",
    "links": [
     [
      "CSLAP report",
@@ -2127,7 +2127,7 @@
    "motors": "NYS default; ski legal",
    "tier": "watch",
    "score": 7.4,
-   "blurb": "Closest qualifying lake to Midtown, deep and clear into West/Green lakes; caveat\u2014small century-old lots, compound assembly hard.",
+   "blurb": "Closest qualifying lake to Midtown, deep and clear into West/Green lakes; caveat—small century-old lots, compound assembly hard.",
    "links": [
     [
      "Lake facts (LakeHomes)",
@@ -2179,7 +2179,7 @@
    "motors": "NYS default; big ski culture",
    "tier": "watch",
    "score": 7.4,
-   "blurb": "Cleanest crooked lake in wine country; caveat\u2014vineyard-pastoral not forested-wild, dense cottages, fast-moving market.",
+   "blurb": "Cleanest crooked lake in wine country; caveat—vineyard-pastoral not forested-wild, dense cottages, fast-moving market.",
    "links": [
     [
      "KLA monitoring",
@@ -2231,7 +2231,7 @@
    "motors": "NYS default; ski legal",
    "tier": "watch",
    "score": 7.3,
-   "blurb": "Wildest big lake in NY\u201475% state shoreline; caveats are real: dark water, long drive, thin hamlet market.",
+   "blurb": "Wildest big lake in NY—75% state shoreline; caveats are real: dark water, long drive, thin hamlet market.",
    "links": [
     [
      "DEC Cranberry Complex",
@@ -2257,7 +2257,7 @@
    "motors": "NYS default; ski legal",
    "tier": "watch",
    "score": 7.2,
-   "blurb": "Quietest motorized link of the chain, state-forest south shore; caveat\u2014Rt 28 noise and a micro market.",
+   "blurb": "Quietest motorized link of the chain, state-forest south shore; caveat—Rt 28 noise and a micro market.",
    "links": [
     [
      "Wikipedia",
@@ -2283,7 +2283,7 @@
    "motors": "NYS default; ski legal",
    "tier": "watch",
    "score": 7.2,
-   "blurb": "Closest big deep lake, estate shorelines; caveat\u2014late-summer HAB advisories now near-annual plus Cooperstown tourist churn.",
+   "blurb": "Closest big deep lake, estate shorelines; caveat—late-summer HAB advisories now near-annual plus Cooperstown tourist churn.",
    "links": [
     [
      "SUNY BFS monitoring",
@@ -2309,7 +2309,7 @@
    "motors": "NYS default; navigable to Upper via Narrows",
    "tier": "watch",
    "score": 7.0,
-   "blurb": "Cheap frontage and Narrows access to profiled Upper; caveat\u2014clarity clearly a notch below, buy Upper first.",
+   "blurb": "Cheap frontage and Narrows access to profiled Upper; caveat—clarity clearly a notch below, buy Upper first.",
    "links": [
     [
      "ALAP report",
@@ -2332,10 +2332,10 @@
    "acres": 511,
    "drive": "~5:15",
    "clarity": "Tea-stained (55 Pt-Co); Secchi ~2.5 m, stable mesotrophic",
-   "motors": "NYS default; shallow\u2014light motor use",
+   "motors": "NYS default; shallow—light motor use",
    "tier": "watch",
    "score": 7.0,
-   "blurb": "White Pine Camp pedigree and Paul Smiths quiet; caveat\u2014real tea stain and modest depth temper towsports appeal.",
+   "blurb": "White Pine Camp pedigree and Paul Smiths quiet; caveat—real tea stain and modest depth temper towsports appeal.",
    "links": [
     [
      "ALAP report",
@@ -2361,7 +2361,7 @@
    "motors": "NYS/river rules; ski legal in calm protected basin",
    "tier": "watch",
    "score": 7.0,
-   "blurb": "Sheltered river lagoon with state-park shores; caveat\u2014it's the St. Lawrence, not a private forest lake.",
+   "blurb": "Sheltered river lagoon with state-park shores; caveat—it's the St. Lawrence, not a private forest lake.",
    "links": [
     [
      "Open Water Data",
@@ -2387,7 +2387,7 @@
    "motors": "NYS default; ski practiced",
    "tier": "watch",
    "score": 6.9,
-   "blurb": "Two connected sandy lakes totaling ~540 acres, deeply quiet and cheap; caveat\u2014each basin under 300 acres.",
+   "blurb": "Two connected sandy lakes totaling ~540 acres, deeply quiet and cheap; caveat—each basin under 300 acres.",
    "links": [
     [
      "Mountain View Assn",
@@ -2413,7 +2413,7 @@
    "motors": "NYS default; active marina traffic",
    "tier": "watch",
    "score": 7.9,
-   "blurb": "Whiteface-view masterpiece that fails one test: no realistic \u2264$2.5M compound path\u2014entry camps start well above budget.",
+   "blurb": "Whiteface-view masterpiece that fails one test: no realistic ≤$2.5M compound path—entry camps start well above budget.",
    "links": [
     [
      "CSLAP report",
@@ -2435,7 +2435,7 @@
    "lon": -73.074,
    "acres": 985,
    "drive": "~4:50",
-   "clarity": "Clear mesotrophic; Secchi ~5.5\u20136.5 m; 105 ft deep; milfoil actively managed (DEC LMP)",
+   "clarity": "Clear mesotrophic; Secchi ~5.5–6.5 m; 105 ft deep; milfoil actively managed (DEC LMP)",
    "motors": "Unrestricted HP; traditional ski/tube statewide-exempt; on DEC 2026 wakesports-zone list",
    "tier": "t2",
    "score": 8.5,
@@ -2487,7 +2487,7 @@
    "lon": -72.077,
    "acres": 351,
    "drive": "~5:10",
-   "clarity": "Meso-oligotrophic; ~140 ft deep; Secchi ~5.5\u20136.5 m; Cousteau's first dive; healthy native plants (VPR/DEC)",
+   "clarity": "Meso-oligotrophic; ~140 ft deep; Secchi ~5.5–6.5 m; Cousteau's first dive; healthy native plants (VPR/DEC)",
    "motors": "Motors unrestricted, high-speed legal (UPW table); DEC wakesports zone",
    "tier": "t2",
    "score": 7.8,
@@ -2517,7 +2517,7 @@
    "motors": "Unrestricted; DEC wakesports zone designated (2026 list)",
    "tier": "watch",
    "score": 7.4,
-   "blurb": "Wildest clear water on this list; 7-hour edge, rough camp roads, almost no market\u2014patience play beside Great Averill.",
+   "blurb": "Wildest clear water on this list; 7-hour edge, rough camp roads, almost no market—patience play beside Great Averill.",
    "links": [
     [
      "Wakesports list",
@@ -2561,7 +2561,7 @@
    "lon": -71.861,
    "acres": 626,
    "drive": "~6:25",
-   "clarity": "Mesotrophic; Secchi ~4.5\u20135 m; forested south/east shores, state park",
+   "clarity": "Mesotrophic; Secchi ~4.5–5 m; forested south/east shores, state park",
    "motors": "Unrestricted; DEC wakesports zone designated",
    "tier": "watch",
    "score": 7.2,
@@ -2587,7 +2587,7 @@
    "lon": -72.073,
    "acres": 767,
    "drive": "~6:15",
-   "clarity": "Mesotrophic; Secchi ~4\u20135 m; milfoil-prevention program active; occasional bloom notices",
+   "clarity": "Mesotrophic; Secchi ~4–5 m; milfoil-prevention program active; occasional bloom notices",
    "motors": "Unrestricted; DEC wakesports zone designated",
    "tier": "watch",
    "score": 7.1,
@@ -2614,10 +2614,10 @@
    "acres": 547,
    "drive": "~4:35",
    "clarity": "Mesotrophic, alum-treated (35-ft wakesports floor protects treatment); Secchi ~4.5 m",
-   "motors": "40 mph cap (UPW table)\u2014skiing fine; DEC wakesports zone",
+   "motors": "40 mph cap (UPW table)—skiing fine; DEC wakesports zone",
    "tier": "watch",
    "score": 7.0,
-   "blurb": "Closest legal ski water with a zone; cottage-ringed resort lake, engineered water quality\u2014not the forested archetype.",
+   "blurb": "Closest legal ski water with a zone; cottage-ringed resort lake, engineered water quality—not the forested archetype.",
    "links": [
     [
      "UPW rules table",
@@ -2635,11 +2635,11 @@
  "listings": [
   {
    "lakeKey": "webb",
-   "name": "Webb Lake build parcel \u2014 $985K",
+   "name": "Webb Lake build parcel — $985K",
    "price": 985000,
    "lat": 44.664,
    "lon": -70.432,
-   "detail": "43.9 ac \u00b7 596 ft frontage \u00b7 no structures",
+   "detail": "43.9 ac · 596 ft frontage · no structures",
    "status": "active",
    "url": "https://www.landwatch.com/franklin-county-maine-timberland-property-for-sale/pid/423813299",
    "fit": "Build the sketch from scratch; lodge near shore, cabins beyond the 250-ft zone",
@@ -2648,11 +2648,11 @@
   },
   {
    "lakeKey": "bigmoose",
-   "name": "215 Judson Rd \u2014 $1.2M",
+   "name": "215 Judson Rd — $1.2M",
    "price": 1200000,
    "lat": 43.816,
    "lon": -74.832,
-   "detail": "10.4 ac \u00b7 200 ft \u00b7 4BR + bunkhouse \u00b7 boat-access-only",
+   "detail": "10.4 ac · 200 ft · 4BR + bunkhouse · boat-access-only",
    "status": "active",
    "url": "https://adkpp.com/properties/215-judson-road-eagle-bay-ny-13331/",
    "fit": "Archetype lake; logistics are the debate",
@@ -2661,20 +2661,20 @@
   },
   {
    "lakeKey": "willoughby",
-   "name": "LaCross Ln compound \u2014 $1.2M",
+   "name": "LaCross Ln compound — $1.2M",
    "price": 1200000,
    "lat": 44.705,
    "lon": -72.043,
-   "detail": "97.7 ac \u00b7 4 dwellings + barns \u00b7 rehab needed",
+   "detail": "97.7 ac · 4 dwellings + barns · rehab needed",
    "status": "active",
    "url": "https://www.lakehomes.com/vermont/lake-willoughby/283-318-319-320-lacross-lane-westmore-vt-05860-lhrmls-04187776",
-   "fit": "Lake VIEWS confirmed, frontage NOT \u2014 pair with a frontage parcel below",
+   "fit": "Lake VIEWS confirmed, frontage NOT — pair with a frontage parcel below",
    "cls": "listing",
    "new": false
   },
   {
    "lakeKey": "raquette",
-   "name": "Two-cabin property \u2014 $649K",
+   "name": "Two-cabin property — $649K",
    "price": 649000,
    "lat": 43.812,
    "lon": -74.662,
@@ -2687,11 +2687,11 @@
   },
   {
    "lakeKey": "chateaugay",
-   "name": "Private cove \u2014 $599K",
+   "name": "Private cove — $599K",
    "price": 599000,
    "lat": 44.771,
    "lon": -73.947,
-   "detail": "4.3 ac \u00b7 868 ft frontage \u00b7 land",
+   "detail": "4.3 ac · 868 ft frontage · land",
    "status": "active",
    "url": "https://lapointrealty.com/homes-for-sale-2/",
    "fit": "Pair with an adjacent camp for a sub-$2M compound",
@@ -2700,11 +2700,11 @@
   },
   {
    "lakeKey": "usaranac",
-   "name": "Pine Point Lodge, U. St. Regis \u2014 $2.6M",
+   "name": "Pine Point Lodge, U. St. Regis — $2.6M",
    "price": 2600000,
    "lat": 44.418,
    "lon": -74.263,
-   "detail": "12.75 ac \u00b7 1,330 ft \u00b7 1904 Tiffany lodge + 2 boathouses",
+   "detail": "12.75 ac · 1,330 ft · 1904 Tiffany lodge + 2 boathouses",
    "status": "active",
    "url": "https://www.adirondackestates.com/properties/53-saint-regis-carry-road-lake-clear-ny-12945/",
    "fit": "Turnkey stretch; guideboat culture, small lake for wake sports",
@@ -2713,11 +2713,11 @@
   },
   {
    "lakeKey": "tupper",
-   "name": "Hamlin Bay parcels \u2014 $1.38M",
+   "name": "Hamlin Bay parcels — $1.38M",
    "price": 1380000,
    "lat": 44.205,
    "lon": -74.505,
-   "detail": "35.8 ac \u00b7 1,535 ft frontage \u00b7 two parcels",
+   "detail": "35.8 ac · 1,535 ft frontage · two parcels",
    "status": "active",
    "url": "https://www.landwatch.com/new-york-land-for-sale/lakefront-property",
    "fit": "Passes APA math for lodge + 5 cabins outright; tea-stained water",
@@ -2726,37 +2726,37 @@
   },
   {
    "lakeKey": "sacandaga_great",
-   "name": "Six-cabin colony, Gt. Sacandaga \u2014 $2.5M",
+   "name": "Six-cabin colony, Gt. Sacandaga — $2.5M",
    "price": 2500000,
    "lat": 43.33,
    "lon": -73.885,
-   "detail": "2.92 ac \u00b7 6 winterized 2BR cabins \u00b7 ~3:15 drive",
+   "detail": "2.92 ac · 6 winterized 2BR cabins · ~3:15 drive",
    "status": "active",
    "url": "https://www.adirondack.net/real-estate/mls/details/224-north-shore-road-202618350/",
-   "fit": "Turnkey program, wrong-culture lake \u2014 the program-first fallback",
+   "fit": "Turnkey program, wrong-culture lake — the program-first fallback",
    "cls": "listing",
    "new": false
   },
   {
    "lakeKey": "usaranac",
-   "name": "Panther Cove \u2014 $3.7M (benchmark)",
+   "name": "Panther Cove — $3.7M (benchmark)",
    "price": 3700000,
    "lat": 44.245,
    "lon": -74.335,
-   "detail": "16.5 ac \u00b7 482 ft \u00b7 4 dwellings + 2 boathouses",
+   "detail": "16.5 ac · 482 ft · 4 dwellings + 2 boathouses",
    "status": "active",
    "url": "https://adkpp.com/properties/144-county-rd-45panther-mt-road-tupper-lake-ny-12986/",
-   "fit": "Over budget \u2014 tour it to calibrate what done looks like",
+   "fit": "Over budget — tour it to calibrate what done looks like",
    "cls": "listing",
    "new": false
   },
   {
    "lakeKey": "mooselook",
-   "name": "657 Bemis Rd \u2014 $725K (edge)",
+   "name": "657 Bemis Rd — $725K (edge)",
    "price": 725000,
    "lat": 44.858,
    "lon": -70.752,
-   "detail": "53.9 ac \u00b7 house + new barn \u00b7 ~7 h drive",
+   "detail": "53.9 ac · house + new barn · ~7 h drive",
    "status": "active",
    "url": "https://www.lakehouse.com/657-bemis-rd-rangeley-plt-maine-04970-p7592484.html",
    "fit": "The over-the-line bargain; verify exact frontage",
@@ -2765,7 +2765,7 @@
   },
   {
    "lakeKey": "winnisquam",
-   "name": "Ferry Point lodge, 13BR/250' \u2014 $3.0M",
+   "name": "Ferry Point lodge, 13BR/250' — $3.0M",
    "price": 2999999,
    "lat": 43.545,
    "lon": -71.525,
@@ -2778,7 +2778,7 @@
   },
   {
    "lakeKey": "winnisquam",
-   "name": "107 Cotton Hill Rd \u2014 $1.42M",
+   "name": "107 Cotton Hill Rd — $1.42M",
    "price": 1415000,
    "lat": 43.535,
    "lon": -71.495,
@@ -2791,7 +2791,7 @@
   },
   {
    "lakeKey": "winnisquam",
-   "name": "58 Lower Bay Rd \u2014 $1.33M",
+   "name": "58 Lower Bay Rd — $1.33M",
    "price": 1330000,
    "lat": 43.556,
    "lon": -71.523,
@@ -2804,7 +2804,7 @@
   },
   {
    "lakeKey": "silver_madison",
-   "name": "748 Plains Rd camp \u2014 $549K",
+   "name": "748 Plains Rd camp — $549K",
    "price": 549000,
    "lat": 43.865,
    "lon": -71.195,
@@ -2817,7 +2817,7 @@
   },
   {
    "lakeKey": "silver_madison",
-   "name": "Caroline Rd WF land \u2014 $1.1M",
+   "name": "Caroline Rd WF land — $1.1M",
    "price": 1100000,
    "lat": 43.878,
    "lon": -71.178,
@@ -2830,7 +2830,7 @@
   },
   {
    "lakeKey": "silver_madison",
-   "name": "24 Rosewood Ln, 6BR \u2014 $1.45M",
+   "name": "24 Rosewood Ln, 6BR — $1.45M",
    "price": 1450000,
    "lat": 43.88,
    "lon": -71.18,
@@ -2843,7 +2843,7 @@
   },
   {
    "lakeKey": "newfound",
-   "name": "The Kelby, 10-room lodge \u2014 $2.6M",
+   "name": "The Kelby, 10-room lodge — $2.6M",
    "price": 2595000,
    "lat": 43.688,
    "lon": -71.795,
@@ -2856,7 +2856,7 @@
   },
   {
    "lakeKey": "newfound",
-   "name": "998 West Shore Rd \u2014 $1.5M",
+   "name": "998 West Shore Rd — $1.5M",
    "price": 1495000,
    "lat": 43.625,
    "lon": -71.795,
@@ -2869,7 +2869,7 @@
   },
   {
    "lakeKey": "newfound",
-   "name": "139 Ledgeview Shores \u2014 $799K",
+   "name": "139 Ledgeview Shores — $799K",
    "price": 799000,
    "lat": 43.632,
    "lon": -71.8,
@@ -2882,7 +2882,7 @@
   },
   {
    "lakeKey": "squam",
-   "name": "159-A Rt 113, 5BR+ADU \u2014 $1.1M",
+   "name": "159-A Rt 113, 5BR+ADU — $1.1M",
    "price": 1095000,
    "lat": 43.745,
    "lon": -71.56,
@@ -2895,7 +2895,7 @@
   },
   {
    "lakeKey": "squam",
-   "name": "159-B Rt 113, 27 ac \u2014 $1.7M",
+   "name": "159-B Rt 113, 27 ac — $1.7M",
    "price": 1695000,
    "lat": 43.746,
    "lon": -71.558,
@@ -2908,7 +2908,7 @@
   },
   {
    "lakeKey": "squam",
-   "name": "28 Potato Island cabin \u2014 $1.75M",
+   "name": "28 Potato Island cabin — $1.75M",
    "price": 1750000,
    "lat": 43.755,
    "lon": -71.55,
@@ -2921,7 +2921,7 @@
   },
   {
    "lakeKey": "merrymeeting",
-   "name": "390 S Shore Rd \u2014 $2.3M",
+   "name": "390 S Shore Rd — $2.3M",
    "price": 2300000,
    "lat": 43.462,
    "lon": -71.105,
@@ -2934,7 +2934,7 @@
   },
   {
    "lakeKey": "merrymeeting",
-   "name": "390 S Shore Rd (2nd parcel) \u2014 $1.8M",
+   "name": "390 S Shore Rd (2nd parcel) — $1.8M",
    "price": 1800000,
    "lat": 43.461,
    "lon": -71.104,
@@ -2947,7 +2947,7 @@
   },
   {
    "lakeKey": "merrymeeting",
-   "name": "210 South Shore Rd \u2014 $1.15M",
+   "name": "210 South Shore Rd — $1.15M",
    "price": 1150000,
    "lat": 43.458,
    "lon": -71.122,
@@ -2960,7 +2960,7 @@
   },
   {
    "lakeKey": "conway",
-   "name": "554 Mudgett Rd \u2014 $1.25M",
+   "name": "554 Mudgett Rd — $1.25M",
    "price": 1250000,
    "lat": 43.945,
    "lon": -71.055,
@@ -2973,7 +2973,7 @@
   },
   {
    "lakeKey": "wentworth",
-   "name": "Camp Rd land, 370' \u2014 $595K",
+   "name": "Camp Rd land, 370' — $595K",
    "price": 595000,
    "lat": 43.61,
    "lon": -71.135,
@@ -2986,7 +2986,7 @@
   },
   {
    "lakeKey": "ossipee",
-   "name": "54 Weetamoe Rd \u2014 $1.4M",
+   "name": "54 Weetamoe Rd — $1.4M",
    "price": 1395000,
    "lat": 43.76,
    "lon": -71.18,
@@ -2999,7 +2999,7 @@
   },
   {
    "lakeKey": "ossipee",
-   "name": "44 Ossipee Lake Dr \u2014 $1.45M",
+   "name": "44 Ossipee Lake Dr — $1.45M",
    "price": 1450000,
    "lat": 43.755,
    "lon": -71.185,
@@ -3012,7 +3012,7 @@
   },
   {
    "lakeKey": "ossipee",
-   "name": "9 Abenaki Dr (Freedom) \u2014 $675K",
+   "name": "9 Abenaki Dr (Freedom) — $675K",
    "price": 675000,
    "lat": 43.79,
    "lon": -71.13,
@@ -3025,7 +3025,7 @@
   },
   {
    "lakeKey": "pleasant_new_london",
-   "name": "736 Pleasant St, 5BR \u2014 $1.6M",
+   "name": "736 Pleasant St, 5BR — $1.6M",
    "price": 1595000,
    "lat": 43.428,
    "lon": -71.99,
@@ -3038,7 +3038,7 @@
   },
   {
    "lakeKey": "spofford",
-   "name": "142 North Shore Rd \u2014 $975K",
+   "name": "142 North Shore Rd — $975K",
    "price": 975000,
    "lat": 42.912,
    "lon": -72.4,
@@ -3051,7 +3051,7 @@
   },
   {
    "lakeKey": "highland_stoddard",
-   "name": "2167 Valley Rd WF \u2014 $450K",
+   "name": "2167 Valley Rd WF — $450K",
    "price": 450000,
    "lat": 43.125,
    "lon": -72.06,
@@ -3064,7 +3064,7 @@
   },
   {
    "lakeKey": "highland_stoddard",
-   "name": "15 Dead Brook Rd camp \u2014 $198K",
+   "name": "15 Dead Brook Rd camp — $198K",
    "price": 198000,
    "lat": 43.095,
    "lon": -72.065,
@@ -3077,7 +3077,7 @@
   },
   {
    "lakeKey": "goose_pond_canaan",
-   "name": "775 Goose Pond Rd \u2014 $1.3M",
+   "name": "775 Goose Pond Rd — $1.3M",
    "price": 1300000,
    "lat": 43.693,
    "lon": -72.05,
@@ -3090,7 +3090,7 @@
   },
   {
    "lakeKey": "goose_pond_canaan",
-   "name": "1006 Goose Pond Rd \u2014 $945K",
+   "name": "1006 Goose Pond Rd — $945K",
    "price": 945000,
    "lat": 43.696,
    "lon": -72.04,
@@ -3103,7 +3103,7 @@
   },
   {
    "lakeKey": "bow_lake",
-   "name": "58 Pointe Trinity Dr \u2014 $819K",
+   "name": "58 Pointe Trinity Dr — $819K",
    "price": 819000,
    "lat": 43.31,
    "lon": -71.125,
@@ -3116,7 +3116,7 @@
   },
   {
    "lakeKey": "waukewan",
-   "name": "48 Forest Hill Rd \u2014 $649K",
+   "name": "48 Forest Hill Rd — $649K",
    "price": 649000,
    "lat": 43.648,
    "lon": -71.53,
@@ -3129,7 +3129,7 @@
   },
   {
    "lakeKey": "mascoma",
-   "name": "200 Shaker Blvd \u2014 $1.4M",
+   "name": "200 Shaker Blvd — $1.4M",
    "price": 1395000,
    "lat": 43.64,
    "lon": -72.148,
@@ -3142,7 +3142,7 @@
   },
   {
    "lakeKey": "mascoma",
-   "name": "15 Payne Rd \u2014 $295K",
+   "name": "15 Payne Rd — $295K",
    "price": 295000,
    "lat": 43.652,
    "lon": -72.185,
@@ -3155,7 +3155,7 @@
   },
   {
    "lakeKey": "lovell_lake",
-   "name": "60 N Roberts Cove \u2014 $999K",
+   "name": "60 N Roberts Cove — $999K",
    "price": 999000,
    "lat": 43.558,
    "lon": -71.028,
@@ -3168,7 +3168,7 @@
   },
   {
    "lakeKey": "pine_river_pond",
-   "name": "75 Black Cove Rd \u2014 $700K",
+   "name": "75 Black Cove Rd — $700K",
    "price": 700000,
    "lat": 43.595,
    "lon": -71.115,
@@ -3181,7 +3181,7 @@
   },
   {
    "lakeKey": "umbagog",
-   "name": "107 Lakeview Dr, 5 ac \u2014 $599K",
+   "name": "107 Lakeview Dr, 5 ac — $599K",
    "price": 599000,
    "lat": 44.77,
    "lon": -71.075,
@@ -3194,7 +3194,7 @@
   },
   {
    "lakeKey": "umbagog",
-   "name": "13 Lake Umbagog camp \u2014 $350K",
+   "name": "13 Lake Umbagog camp — $350K",
    "price": 349900,
    "lat": 44.765,
    "lon": -71.07,
@@ -3207,7 +3207,7 @@
   },
   {
    "lakeKey": "first_connecticut",
-   "name": "126 Maple Mountain Rd \u2014 $659K",
+   "name": "126 Maple Mountain Rd — $659K",
    "price": 659000,
    "lat": 45.088,
    "lon": -71.3,
@@ -3220,7 +3220,7 @@
   },
   {
    "lakeKey": "first_connecticut",
-   "name": "GP Boulevard WF lot \u2014 $130K",
+   "name": "GP Boulevard WF lot — $130K",
    "price": 130000,
    "lat": 45.092,
    "lon": -71.295,
@@ -3233,7 +3233,7 @@
   },
   {
    "lakeKey": "sunapee",
-   "name": "121 Garnet St \u2014 $1.4M",
+   "name": "121 Garnet St — $1.4M",
    "price": 1399000,
    "lat": 43.387,
    "lon": -72.088,
@@ -3246,7 +3246,7 @@
   },
   {
    "lakeKey": "little_squam",
-   "name": "51 Leavitt Hill Rd \u2014 $1.5M",
+   "name": "51 Leavitt Hill Rd — $1.5M",
    "price": 1495000,
    "lat": 43.738,
    "lon": -71.618,
@@ -3259,7 +3259,7 @@
   },
   {
    "lakeKey": "little_squam",
-   "name": "114 River St \u2014 $995K",
+   "name": "114 River St — $995K",
    "price": 995000,
    "lat": 43.733,
    "lon": -71.628,
@@ -3272,11 +3272,11 @@
   },
   {
    "lakeKey": "parker_pond",
-   "name": "Dolloff Woods Rd estate \u2014 $1.495M",
+   "name": "Dolloff Woods Rd estate — $1.495M",
    "price": 1495000,
    "lat": 44.466,
    "lon": -70.028,
-   "detail": "440 ft frontage \u00b7 4BR \u00b7 2.46 ac \u00b7 cut $1.695M\u2192$1.495M 7/21 \u00b7 verified active",
+   "detail": "440 ft frontage · 4BR · 2.46 ac · cut $1.695M→$1.495M 7/21 · verified active",
    "status": "active",
    "url": "https://www.landsearch.com/properties/147-dolloff-woods-rd-fayette-me-04352/5301040",
    "fit": "Phase-0 flagship on quietest big water; room for bunkhouses",
@@ -3285,7 +3285,7 @@
   },
   {
    "lakeKey": "parker_pond",
-   "name": "Fellows Cove contemporary \u2014 $549K",
+   "name": "Fellows Cove contemporary — $549K",
    "price": 549000,
    "lat": 44.47,
    "lon": -70.022,
@@ -3298,7 +3298,7 @@
   },
   {
    "lakeKey": "lake_st_george",
-   "name": "Marshall Shore camp \u2014 $395K",
+   "name": "Marshall Shore camp — $395K",
    "price": 395000,
    "lat": 44.402,
    "lon": -69.362,
@@ -3311,7 +3311,7 @@
   },
   {
    "lakeKey": "lake_st_george",
-   "name": "Fishtown Rd 29 ac \u2014 $100K",
+   "name": "Fishtown Rd 29 ac — $100K",
    "price": 99900,
    "lat": 44.392,
    "lon": -69.335,
@@ -3324,7 +3324,7 @@
   },
   {
    "lakeKey": "messalonskee",
-   "name": "109 Sahagian Rd lodge \u2014 $849K",
+   "name": "109 Sahagian Rd lodge — $849K",
    "price": 849000,
    "lat": 44.512,
    "lon": -69.762,
@@ -3337,7 +3337,7 @@
   },
   {
    "lakeKey": "long_pond_belgrade",
-   "name": "114 Loon Call Dr \u2014 $950K",
+   "name": "114 Loon Call Dr — $950K",
    "price": 949900,
    "lat": 44.512,
    "lon": -69.897,
@@ -3350,7 +3350,7 @@
   },
   {
    "lakeKey": "porter_lake",
-   "name": "Loon Cove cabin \u2014 $185K",
+   "name": "Loon Cove cabin — $185K",
    "price": 185000,
    "lat": 44.777,
    "lon": -70.152,
@@ -3363,7 +3363,7 @@
   },
   {
    "lakeKey": "highland_lake_bridgton",
-   "name": "46 Holly Loop \u2014 $1.4M",
+   "name": "46 Holly Loop — $1.4M",
    "price": 1400000,
    "lat": 44.085,
    "lon": -70.725,
@@ -3376,7 +3376,7 @@
   },
   {
    "lakeKey": "thompson",
-   "name": "46 Silvaqua Rd \u2014 $479K",
+   "name": "46 Silvaqua Rd — $479K",
    "price": 479000,
    "lat": 44.045,
    "lon": -70.5,
@@ -3389,7 +3389,7 @@
   },
   {
    "lakeKey": "embden",
-   "name": "14 Elk Dr camp \u2014 $435K",
+   "name": "14 Elk Dr camp — $435K",
    "price": 435000,
    "lat": 44.948,
    "lon": -69.952,
@@ -3402,7 +3402,7 @@
   },
   {
    "lakeKey": "embden",
-   "name": "1066 Embden Pond Rd \u2014 $215K",
+   "name": "1066 Embden Pond Rd — $215K",
    "price": 214900,
    "lat": 44.935,
    "lon": -69.958,
@@ -3415,7 +3415,7 @@
   },
   {
    "lakeKey": "swan_lake",
-   "name": "79 Bear Mountain Way \u2014 $499K",
+   "name": "79 Bear Mountain Way — $499K",
    "price": 499000,
    "lat": 44.523,
    "lon": -69.015,
@@ -3428,7 +3428,7 @@
   },
   {
    "lakeKey": "webb",
-   "name": "324 Phillips Rd \u2014 $450K",
+   "name": "324 Phillips Rd — $450K",
    "price": 449900,
    "lat": 44.7,
    "lon": -70.43,
@@ -3441,7 +3441,7 @@
   },
   {
    "lakeKey": "wesserunsett",
-   "name": "Mallard Rd lots \u2014 $60K ea",
+   "name": "Mallard Rd lots — $60K ea",
    "price": 59900,
    "lat": 44.855,
    "lon": -69.84,
@@ -3454,7 +3454,7 @@
   },
   {
    "lakeKey": "bigmoose",
-   "name": "529 Higby Rd \u2014 $1.1M",
+   "name": "529 Higby Rd — $1.1M",
    "price": 1100000,
    "lat": 43.827,
    "lon": -74.845,
@@ -3467,7 +3467,7 @@
   },
   {
    "lakeKey": "usaranac",
-   "name": "782 Bartlett Carry Rd \u2014 $2.975M",
+   "name": "782 Bartlett Carry Rd — $2.975M",
    "price": 2975000,
    "lat": 44.253,
    "lon": -74.343,
@@ -3480,7 +3480,7 @@
   },
   {
    "lakeKey": "usaranac",
-   "name": "736 Bartlett Carry Rd camp \u2014 $179K",
+   "name": "736 Bartlett Carry Rd camp — $179K",
    "price": 179000,
    "lat": 44.256,
    "lon": -74.346,
@@ -3493,7 +3493,7 @@
   },
   {
    "lakeKey": "tupper",
-   "name": "1601 State Route 30 \u2014 $895K",
+   "name": "1601 State Route 30 — $895K",
    "price": 895000,
    "lat": 44.203,
    "lon": -74.503,
@@ -3506,7 +3506,7 @@
   },
   {
    "lakeKey": "tupper",
-   "name": "6 Bluff Island camp \u2014 $749K",
+   "name": "6 Bluff Island camp — $749K",
    "price": 749000,
    "lat": 44.22,
    "lon": -74.49,
@@ -3519,7 +3519,7 @@
   },
   {
    "lakeKey": "piseco",
-   "name": "Camp Witney, 58 Arrowhead Rd \u2014 $1.795M",
+   "name": "Camp Witney, 58 Arrowhead Rd — $1.795M",
    "price": 1795000,
    "lat": 43.41,
    "lon": -74.545,
@@ -3532,7 +3532,7 @@
   },
   {
    "lakeKey": "piseco",
-   "name": "241 Old Piseco Rd camp \u2014 $190K",
+   "name": "241 Old Piseco Rd camp — $190K",
    "price": 189500,
    "lat": 43.42,
    "lon": -74.555,
@@ -3545,7 +3545,7 @@
   },
   {
    "lakeKey": "bonaparte",
-   "name": "8521 N Shore Rd \u2014 $895K",
+   "name": "8521 N Shore Rd — $895K",
    "price": 895000,
    "lat": 44.16,
    "lon": -75.36,
@@ -3558,7 +3558,7 @@
   },
   {
    "lakeKey": "bonaparte",
-   "name": "14412 Round Island \u2014 $320K",
+   "name": "14412 Round Island — $320K",
    "price": 319900,
    "lat": 44.15,
    "lon": -75.37,
@@ -3571,7 +3571,7 @@
   },
   {
    "lakeKey": "chazy",
-   "name": "2897 Rte 374 \u2014 $265K",
+   "name": "2897 Rte 374 — $265K",
    "price": 265000,
    "lat": 44.76,
    "lon": -73.83,
@@ -3584,7 +3584,7 @@
   },
   {
    "lakeKey": "chateaugay",
-   "name": "486 Lake Shore Rd \u2014 $1.01M",
+   "name": "486 Lake Shore Rd — $1.01M",
    "price": 1013000,
    "lat": 44.752,
    "lon": -74.008,
@@ -3597,7 +3597,7 @@
   },
   {
    "lakeKey": "lower_chateaugay",
-   "name": "5125 SR 374, Merrill \u2014 $332K",
+   "name": "5125 SR 374, Merrill — $332K",
    "price": 332000,
    "lat": 44.823874951822205,
    "lon": -73.9877839003173,
@@ -3610,7 +3610,7 @@
   },
   {
    "lakeKey": "lake_pleasant",
-   "name": "188 S Shore Rd \u2014 $749K",
+   "name": "188 S Shore Rd — $749K",
    "price": 749000,
    "lat": 43.465,
    "lon": -74.41,
@@ -3623,7 +3623,7 @@
   },
   {
    "lakeKey": "lake_pleasant",
-   "name": "610 S Shore Rd \u2014 $199K",
+   "name": "610 S Shore Rd — $199K",
    "price": 199000,
    "lat": 43.46,
    "lon": -74.42,
@@ -3636,7 +3636,7 @@
   },
   {
    "lakeKey": "sacandaga_speculator",
-   "name": "107 Lakeside Ln \u2014 $849K",
+   "name": "107 Lakeside Ln — $849K",
    "price": 849000,
    "lat": 43.487,
    "lon": -74.41,
@@ -3649,7 +3649,7 @@
   },
   {
    "lakeKey": "indian",
-   "name": "5088 SR 30 \u2014 $795K",
+   "name": "5088 SR 30 — $795K",
    "price": 795000,
    "lat": 43.71,
    "lon": -74.35,
@@ -3662,7 +3662,7 @@
   },
   {
    "lakeKey": "indian",
-   "name": "5297 SR 30 \u2014 $379K",
+   "name": "5297 SR 30 — $379K",
    "price": 379000,
    "lat": 43.695,
    "lon": -74.335,
@@ -3675,7 +3675,7 @@
   },
   {
    "lakeKey": "long",
-   "name": "965 Deerland Rd \u2014 $1.0M",
+   "name": "965 Deerland Rd — $1.0M",
    "price": 999979,
    "lat": 43.975,
    "lon": -74.425,
@@ -3688,7 +3688,7 @@
   },
   {
    "lakeKey": "long",
-   "name": "20 Lakewold \u2014 $895K",
+   "name": "20 Lakewold — $895K",
    "price": 895000,
    "lat": 43.995,
    "lon": -74.405,
@@ -3701,7 +3701,7 @@
   },
   {
    "lakeKey": "schroon",
-   "name": "536 East Shore Dr \u2014 $1.75M",
+   "name": "536 East Shore Dr — $1.75M",
    "price": 1749900,
    "lat": 43.8,
    "lon": -73.75,
@@ -3714,7 +3714,7 @@
   },
   {
    "lakeKey": "schroon",
-   "name": "20 Pharaoh Dr \u2014 $998K",
+   "name": "20 Pharaoh Dr — $998K",
    "price": 998000,
    "lat": 43.788,
    "lon": -73.765,
@@ -3727,7 +3727,7 @@
   },
   {
    "lakeKey": "schroon",
-   "name": "57 Sugar Hill Way \u2014 $799K",
+   "name": "57 Sugar Hill Way — $799K",
    "price": 799000,
    "lat": 43.785,
    "lon": -73.752,
@@ -3740,7 +3740,7 @@
   },
   {
    "lakeKey": "brant",
-   "name": "7783 State Route 8 \u2014 $1.5M",
+   "name": "7783 State Route 8 — $1.5M",
    "price": 1500000,
    "lat": 43.712,
    "lon": -73.682,
@@ -3753,7 +3753,7 @@
   },
   {
    "lakeKey": "brant",
-   "name": "9 Chippewa Loop \u2014 $525K",
+   "name": "9 Chippewa Loop — $525K",
    "price": 525000,
    "lat": 43.705,
    "lon": -73.695,
@@ -3766,7 +3766,7 @@
   },
   {
    "lakeKey": "paradox",
-   "name": "25 Gorman Rd \u2014 $1.795M",
+   "name": "25 Gorman Rd — $1.795M",
    "price": 1795000,
    "lat": 43.873,
    "lon": -73.68,
@@ -3779,7 +3779,7 @@
   },
   {
    "lakeKey": "paradox",
-   "name": "48 Whits End Way \u2014 $675K",
+   "name": "48 Whits End Way — $675K",
    "price": 675000,
    "lat": 43.867,
    "lon": -73.692,
@@ -3792,7 +3792,7 @@
   },
   {
    "lakeKey": "loon_chestertown",
-   "name": "185 Chester Shores \u2014 $925K",
+   "name": "185 Chester Shores — $925K",
    "price": 924900,
    "lat": 43.652,
    "lon": -73.902,
@@ -3805,7 +3805,7 @@
   },
   {
    "lakeKey": "loon_chestertown",
-   "name": "26 Emily Ln \u2014 $819K",
+   "name": "26 Emily Ln — $819K",
    "price": 819000,
    "lat": 43.645,
    "lon": -73.893,
@@ -3818,7 +3818,7 @@
   },
   {
    "lakeKey": "loon_franklin",
-   "name": "3368 County Route 26 \u2014 $520K",
+   "name": "3368 County Route 26 — $520K",
    "price": 520000,
    "lat": 44.55,
    "lon": -74.068,
@@ -3831,7 +3831,7 @@
   },
   {
    "lakeKey": "fourth",
-   "name": "112 Holiday Dr \u2014 $1.3M",
+   "name": "112 Holiday Dr — $1.3M",
    "price": 1299900,
    "lat": 43.748,
    "lon": -74.885,
@@ -3844,7 +3844,7 @@
   },
   {
    "lakeKey": "fourth",
-   "name": "8 Rocky Point Cir, Inlet \u2014 $1.2M",
+   "name": "8 Rocky Point Cir, Inlet — $1.2M",
    "price": 1199900,
    "lat": 43.758,
    "lon": -74.865,
@@ -3857,7 +3857,7 @@
   },
   {
    "lakeKey": "canada_lake",
-   "name": "1088 Stewart Landing Rd \u2014 $280K",
+   "name": "1088 Stewart Landing Rd — $280K",
    "price": 279500,
    "lat": 43.165,
    "lon": -74.515,
@@ -3870,7 +3870,7 @@
   },
   {
    "lakeKey": "canada_lake",
-   "name": "226 Sand Point Rd \u2014 $1.25M",
+   "name": "226 Sand Point Rd — $1.25M",
    "price": 1250000,
    "lat": 43.175,
    "lon": -74.5,
@@ -3883,7 +3883,7 @@
   },
   {
    "lakeKey": "otsego",
-   "name": "6 Westridge Rd \u2014 $1.2M",
+   "name": "6 Westridge Rd — $1.2M",
    "price": 1200000,
    "lat": 42.768,
    "lon": -74.898,
@@ -3896,7 +3896,7 @@
   },
   {
    "lakeKey": "otsego",
-   "name": "153 Reiss Rd \u2014 $900K",
+   "name": "153 Reiss Rd — $900K",
    "price": 899900,
    "lat": 42.755,
    "lon": -74.885,
@@ -3909,7 +3909,7 @@
   },
   {
    "lakeKey": "skaneateles",
-   "name": "West Lake Rd land, Niles \u2014 $1.394M",
+   "name": "West Lake Rd land, Niles — $1.394M",
    "price": 1394000,
    "lat": 42.85,
    "lon": -76.4,
@@ -3922,7 +3922,7 @@
   },
   {
    "lakeKey": "skaneateles",
-   "name": "2287 Bockes Rd, Spafford \u2014 $1.595M",
+   "name": "2287 Bockes Rd, Spafford — $1.595M",
    "price": 1595000,
    "lat": 42.866,
    "lon": -76.386,
@@ -3935,7 +3935,7 @@
   },
   {
    "lakeKey": "keuka",
-   "name": "14051 Keuka Village Rd \u2014 $1.199M",
+   "name": "14051 Keuka Village Rd — $1.199M",
    "price": 1199000,
    "lat": 42.54,
    "lon": -77.1,
@@ -3948,7 +3948,7 @@
   },
   {
    "lakeKey": "cranberry",
-   "name": "1 Chair Rock \u2014 $300K",
+   "name": "1 Chair Rock — $300K",
    "price": 300000,
    "lat": 44.19,
    "lon": -74.83,
@@ -3961,7 +3961,7 @@
   },
   {
    "lakeKey": "seymour",
-   "name": "28 Valley Rd, Morgan \u2014 $525K",
+   "name": "28 Valley Rd, Morgan — $525K",
    "price": 525000,
    "lat": 44.891,
    "lon": -71.976,
@@ -3974,20 +3974,20 @@
   },
   {
    "lakeKey": "seymour",
-   "name": "841 Morgan Charleston Rd \u2014 $615K",
+   "name": "841 Morgan Charleston Rd — $615K",
    "price": 615000,
    "lat": 44.898,
    "lon": -71.986,
    "detail": "3BR/3BA, 2,078 sf, 0.62 ac waterfront",
    "status": "verify",
    "url": "https://www.lakehomes.com/vermont/lake-seymour/841-morgan-charleston-road-morgan-vt-05853-lhrmls-04163587",
-   "fit": "Phase-0 base; under contract\u2014monitor",
+   "fit": "Phase-0 base; under contract—monitor",
    "cls": "listing",
    "new": true
   },
   {
    "lakeKey": "seymour",
-   "name": "27 Birch Point S \u2014 $279K",
+   "name": "27 Birch Point S — $279K",
    "price": 279000,
    "lat": 44.884,
    "lon": -71.95,
@@ -4000,7 +4000,7 @@
   },
   {
    "lakeKey": "seymour",
-   "name": "436 Seymour East \u2014 $199K",
+   "name": "436 Seymour East — $199K",
    "price": 199000,
    "lat": 44.888,
    "lon": -71.945,
@@ -4013,7 +4013,7 @@
   },
   {
    "lakeKey": "caspian",
-   "name": "824 North Shore Rd, Greensboro \u2014 $2.25M",
+   "name": "824 North Shore Rd, Greensboro — $2.25M",
    "price": 2250000,
    "lat": 44.588,
    "lon": -72.303,
@@ -4026,20 +4026,20 @@
   },
   {
    "lakeKey": "maidstone",
-   "name": "26 Private West 4 \u2014 $625K",
+   "name": "26 Private West 4 — $625K",
    "price": 625000,
    "lat": 44.643,
    "lon": -71.654,
    "detail": "5BR/3BA, 2,456 sf west-shore waterfront",
    "status": "verify",
    "url": "https://farmandforest.com/search-waterfront-properties/maidstone-lake-vt-real-estate/",
-   "fit": "Under contract 470 DOM\u2014test if revivable",
+   "fit": "Under contract 470 DOM—test if revivable",
    "cls": "listing",
    "new": true
   },
   {
    "lakeKey": "echo",
-   "name": "1593 E Echo Lake Rd \u2014 $450K",
+   "name": "1593 E Echo Lake Rd — $450K",
    "price": 450000,
    "lat": 44.846,
    "lon": -71.982,
@@ -4052,20 +4052,20 @@
   },
   {
    "lakeKey": "willoughby",
-   "name": "3204 US-5A: house + 4 cabins \u2014 $929K",
+   "name": "3204 US-5A: house + 4 cabins — $929K",
    "price": 929000,
    "lat": 44.766,
    "lon": -72.048,
-   "detail": "Main house + 4 cabins \u00b7 120 ft DIRECT frontage \u00b7 0.4 ac \u00b7 verified active 8/17",
+   "detail": "Main house + 4 cabins · 120 ft DIRECT frontage · 0.4 ac · verified active 8/17",
    "status": "active",
    "url": "https://www.lakehomes.com/vermont/lake-willoughby/3204-us-rt-5a-westmore-vt-05860-lhrmls-04400686",
-   "fit": "Five-building waterfront compound at $929K \u2014 now the best live listing in the whole search",
+   "fit": "Five-building waterfront compound at $929K — now the best live listing in the whole search",
    "cls": "listing",
    "new": true
   },
   {
    "lakeKey": "willoughby",
-   "name": "25 Songadeewin Ln \u2014 $825K",
+   "name": "25 Songadeewin Ln — $825K",
    "price": 825000,
    "lat": 44.73,
    "lon": -72.058,
@@ -4078,7 +4078,7 @@
   },
   {
    "lakeKey": "willoughby",
-   "name": "178+210 LaCross Ln \u2014 $448K",
+   "name": "178+210 LaCross Ln — $448K",
    "price": 448000,
    "lat": 44.753,
    "lon": -72.072,
@@ -4091,7 +4091,7 @@
   },
   {
    "lakeKey": "crystal_lake_barton",
-   "name": "1661+1662 Pageant Park Rd \u2014 $1.175M",
+   "name": "1661+1662 Pageant Park Rd — $1.175M",
    "price": 1175000,
    "lat": 44.729,
    "lon": -72.146,
@@ -4104,7 +4104,7 @@
   },
   {
    "lakeKey": "crystal_lake_barton",
-   "name": "1027 South Barton Rd \u2014 $700K",
+   "name": "1027 South Barton Rd — $700K",
    "price": 699900,
    "lat": 44.721,
    "lon": -72.165,
@@ -4117,7 +4117,7 @@
   },
   {
    "lakeKey": "crystal_lake_barton",
-   "name": "225 Redfield Rd \u2014 $379K",
+   "name": "225 Redfield Rd — $379K",
    "price": 379000,
    "lat": 44.74,
    "lon": -72.15,
@@ -4130,7 +4130,7 @@
   },
   {
    "lakeKey": "lake_dunmore",
-   "name": "2935 Lake Dunmore Rd \u2014 $849K",
+   "name": "2935 Lake Dunmore Rd — $849K",
    "price": 849000,
    "lat": 43.914,
    "lon": -73.07,
@@ -4143,7 +4143,7 @@
   },
   {
    "lakeKey": "lake_dunmore",
-   "name": "146 Pine Ln \u2014 $599K",
+   "name": "146 Pine Ln — $599K",
    "price": 599000,
    "lat": 43.909,
    "lon": -73.078,
@@ -4156,7 +4156,7 @@
   },
   {
    "lakeKey": "island_pond",
-   "name": "665 Lakeshore Dr \u2014 $598K",
+   "name": "665 Lakeshore Dr — $598K",
    "price": 598000,
    "lat": 44.812,
    "lon": -71.87,
@@ -4169,7 +4169,7 @@
   },
   {
    "lakeKey": "island_pond",
-   "name": "Pleasant St land, 24.6 ac \u2014 $128K",
+   "name": "Pleasant St land, 24.6 ac — $128K",
    "price": 128000,
    "lat": 44.816,
    "lon": -71.873,
@@ -4182,7 +4182,7 @@
   },
   {
    "lakeKey": "lake_salem",
-   "name": "1784 Nelson Hill Rd \u2014 $1.5M",
+   "name": "1784 Nelson Hill Rd — $1.5M",
    "price": 1499999,
    "lat": 44.928,
    "lon": -72.06,
@@ -4195,7 +4195,7 @@
   },
   {
    "lakeKey": "lake_salem",
-   "name": "2459 VT-105 \u2014 $599K",
+   "name": "2459 VT-105 — $599K",
    "price": 599000,
    "lat": 44.913,
    "lon": -72.085,
@@ -4210,14 +4210,14 @@
    "lakeKey": "unity_pond",
    "lakeName": "Unity Pond (Lake Winnecook)",
    "state": "ME",
-   "name": "Lodge & Cabins at Lake Winnecook \u2014 $1.65M",
+   "name": "Lodge & Cabins at Lake Winnecook — $1.65M",
    "price": 1650000,
    "lat": 44.66,
    "lon": -69.35,
-   "detail": "2 ac, 333' sand beach, central lodge + 6 remodeled cabins; MLS 1662749 \u00b7 verified active 8/17",
+   "detail": "2 ac, 333' sand beach, central lodge + 6 remodeled cabins; MLS 1662749 · verified active 8/17",
    "status": "active",
    "url": "https://www.landwatch.com/waldo-county-maine-commercial-property-for-sale/pid/427890535",
-   "fit": "Literal lodge+6-cabins program under $2M \u2014 BUT Unity Pond fails the water bar (bloom history); tour to calibrate, buy only with eyes open",
+   "fit": "Literal lodge+6-cabins program under $2M — BUT Unity Pond fails the water bar (bloom history); tour to calibrate, buy only with eyes open",
    "cls": "listing",
    "new": true
   },
@@ -4225,11 +4225,11 @@
    "lakeKey": "tupper",
    "lakeName": "Tupper Lake (Raquette Pond)",
    "state": "NY",
-   "name": "1616 NY-30 cottage colony \u2014 $1.1M",
+   "name": "1616 NY-30 cottage colony — $1.1M",
    "price": 1100000,
    "lat": 44.24,
    "lon": -74.48,
-   "detail": "7.22 ac waterfront, 19 buildings/20 units: house, duplex, fireplace cabins; MLS 207529 \u00b7 verified active 8/4",
+   "detail": "7.22 ac waterfront, 19 buildings/20 units: house, duplex, fireplace cabins; MLS 207529 · verified active 8/4",
    "status": "active",
    "url": "https://www.landwatch.com/franklin-county-new-york-commercial-property-for-sale/pid/427026535",
    "fit": "Ready-made cabin colony on ski-legal Tupper; pick best 6, remove rest; tea-stained water caveat",
@@ -4240,7 +4240,7 @@
    "lakeKey": "rainbow_lake",
    "lakeName": "Rainbow Lake / Clear Pond",
    "state": "NY",
-   "name": "345 Meenahga Mountain Rd \u2014 $2.725M",
+   "name": "345 Meenahga Mountain Rd — $2.725M",
    "price": 2725000,
    "lat": 44.47,
    "lon": -74.17,
@@ -4255,7 +4255,7 @@
    "lakeKey": "lower_saranac",
    "lakeName": "Lower Saranac Lake",
    "state": "NY",
-   "name": "2 Pinehurst Rd \u2014 $2.249M",
+   "name": "2 Pinehurst Rd — $2.249M",
    "price": 2249000,
    "lat": 44.32,
    "lon": -74.17,
@@ -4270,7 +4270,7 @@
    "lakeKey": "friends_lake",
    "lakeName": "Friends Lake",
    "state": "NY",
-   "name": "773 Atateka Dr, Chestertown \u2014 $799K",
+   "name": "773 Atateka Dr, Chestertown — $799K",
    "price": 799000,
    "lat": 43.64,
    "lon": -73.84,
@@ -4285,14 +4285,14 @@
    "lakeKey": "loon_franklin",
    "lakeName": "Loon Lake (Franklin Co.)",
    "state": "NY",
-   "name": "9 Loon Lake Terrace Victorian \u2014 $599K",
+   "name": "9 Loon Lake Terrace Victorian — $599K",
    "price": 599000,
    "lat": 44.55,
    "lon": -74.06,
    "detail": "9BR/7.5BA 6,527 sqft award-winning 1905 lodge, 1.95 ac, deeded lake access",
    "status": "active",
    "url": "https://www.landwatch.com/franklin-county-new-york-lakefront-property-for-sale/pid/426911381",
-   "fit": "Instant 5-couple lodge on quiet motor lake; deeded access, not owned frontage \u2014 flag",
+   "fit": "Instant 5-couple lodge on quiet motor lake; deeded access, not owned frontage — flag",
    "cls": "listing",
    "new": true
   },
@@ -4300,11 +4300,11 @@
    "lakeKey": "kezar",
    "lakeName": "Kezar Lake",
    "state": "ME",
-   "name": "Blackberry Hill, The Narrows, Lovell \u2014 $1.5M",
+   "name": "Blackberry Hill, The Narrows, Lovell — $1.5M",
    "price": 1500000,
    "lat": 44.2,
    "lon": -70.93,
-   "detail": "16.66 ac on the Narrows, 1953 architect-built 3BR cottage, meadow site \u00b7 verified active 8/14",
+   "detail": "16.66 ac on the Narrows, 1953 architect-built 3BR cottage, meadow site · verified active 8/14",
    "status": "active",
    "url": "https://www.landwatch.com/oxford-county-maine-recreational-property-for-sale/pid/427874621",
    "fit": "Big-parcel prize on the premier quiet ski lake; cabin sites abound",
@@ -4315,7 +4315,7 @@
    "lakeKey": "moose_pond_denmark",
    "lakeName": "Moose Pond",
    "state": "ME",
-   "name": "41 Hunter Dr, Denmark 9BR log lodge \u2014 $720K",
+   "name": "41 Hunter Dr, Denmark 9BR log lodge — $720K",
    "price": 720000,
    "lat": 43.99,
    "lon": -70.86,
@@ -4330,14 +4330,14 @@
    "lakeKey": "lake_bomoseen",
    "lakeName": "Lake Bomoseen",
    "state": "VT",
-   "name": "111 Prospect Point Rd \u2014 $2.75M",
+   "name": "111 Prospect Point Rd — $2.75M",
    "price": 2750000,
    "lat": 43.68,
    "lon": -73.23,
    "detail": "60.3 ac lakefront ex-9-hole golf course, clubhouse building, 2 docks",
    "status": "active",
    "url": "https://www.landwatch.com/rutland-county-vermont-lakefront-property-for-sale/pid/425711869",
-   "fit": "60-ac waterfront canvas 3.9h out \u2014 but Bomoseen failed the quiet bar; only if scale beats hush",
+   "fit": "60-ac waterfront canvas 3.9h out — but Bomoseen failed the quiet bar; only if scale beats hush",
    "cls": "listing",
    "new": true
   },
@@ -4345,14 +4345,14 @@
    "lakeKey": "bloomingdale_ponds",
    "lakeName": "Private twin ponds, Bloomingdale NY",
    "state": "NY",
-   "name": "2292 Gillespie Dr, 295 ac \u2014 $2.495M",
+   "name": "2292 Gillespie Dr, 295 ac — $2.495M",
    "price": 2495000,
    "lat": 44.43,
    "lon": -74.05,
    "detail": "295 ac, 2 private lakes, waterfall brook, 3 dwellings, subdividable",
    "status": "active",
    "url": "https://www.landwatch.com/essex-county-new-york-lakefront-property-for-sale/pid/427459501",
-   "fit": "WILDCARD: extraordinary 3-dwelling kingdom; private ponds too small to ski \u2014 pair with big-lake boat storage",
+   "fit": "WILDCARD: extraordinary 3-dwelling kingdom; private ponds too small to ski — pair with big-lake boat storage",
    "cls": "listing",
    "new": true
   }
@@ -4531,7 +4531,7 @@
   "Maine": [
    {
     "name": "Long Lake (Naples)",
-    "reason": "Clarity fine (6.4\u20136.7 m) but Naples causeway wake-boat corridor"
+    "reason": "Clarity fine (6.4–6.7 m) but Naples causeway wake-boat corridor"
    },
    {
     "name": "Sebago Lake (big basin)",
@@ -4551,15 +4551,15 @@
    },
    {
     "name": "Bear Pond (Waterford)",
-    "reason": "~257 ac \u2014 under size bar"
+    "reason": "~257 ac — under size bar"
    },
    {
     "name": "Hancock Pond",
-    "reason": "~232 ac \u2014 under size bar"
+    "reason": "~232 ac — under size bar"
    },
    {
     "name": "Sand Pond",
-    "reason": "~269 ac \u2014 under size bar"
+    "reason": "~269 ac — under size bar"
    },
    {
     "name": "Papoose Pond",
@@ -4571,11 +4571,11 @@
    },
    {
     "name": "Wilson Lake (Acton)",
-    "reason": "308 ac \u2014 under size (oligotrophic but small)"
+    "reason": "308 ac — under size (oligotrophic but small)"
    },
    {
     "name": "Horn Pond (Acton)",
-    "reason": "~214 ac \u2014 under size bar"
+    "reason": "~214 ac — under size bar"
    },
    {
     "name": "Little Ossipee Lake",
@@ -4587,11 +4587,11 @@
    },
    {
     "name": "Bryant Pond",
-    "reason": "276 ac \u2014 under size bar"
+    "reason": "276 ac — under size bar"
    },
    {
     "name": "Varnum Pond",
-    "reason": "~215 ac \u2014 under size bar"
+    "reason": "~215 ac — under size bar"
    },
    {
     "name": "Flying Pond",
@@ -4603,7 +4603,7 @@
    },
    {
     "name": "Lovejoy Pond (Fayette)",
-    "reason": "~320 ac \u2014 under size bar"
+    "reason": "~320 ac — under size bar"
    },
    {
     "name": "Torsey Pond",
@@ -4707,11 +4707,11 @@
    },
    {
     "name": "Dyer Long Pond",
-    "reason": "~359 ac \u2014 under size; shallow"
+    "reason": "~359 ac — under size; shallow"
    },
    {
     "name": "Biscay Pond",
-    "reason": "~357 ac \u2014 under size bar"
+    "reason": "~357 ac — under size bar"
    },
    {
     "name": "Great Moose Lake",
@@ -4719,7 +4719,7 @@
    },
    {
     "name": "Lake Wassookeag (Dexter)",
-    "reason": "Reputedly clear but ~7 h \u2014 outside band"
+    "reason": "Reputedly clear but ~7 h — outside band"
    },
    {
     "name": "Sebec Lake",
@@ -4808,7 +4808,7 @@
     "reason": "236 ac, roadless"
    },
    {
-    "name": "First\u2013Third Lakes (Fulton)",
+    "name": "First–Third Lakes (Fulton)",
     "reason": "Busy Old Forge channel corridor"
    },
    {
@@ -5323,5 +5323,214 @@
    }
   ]
  },
- "updated": "August 18, 2026"
+ "updated": "August 18, 2026",
+ "rentals": [
+  {
+   "lakeKey": "raquette",
+   "name": "Bluff Point Camp — boat-access, sleeps 18",
+   "lat": 43.822,
+   "lon": -74.622,
+   "bedrooms": 6,
+   "baths": 4,
+   "sleeps": 18,
+   "rate": 4500,
+   "rateUnit": "/wk",
+   "rateNote": null,
+   "detail": "Main cabin sleeps 10 plus a guest cottage for 4+; 6BR/4BA, max 18; two private docks that fit six boats; boat-access only; $4,500/wk June–October. 3742 Bluff Point.",
+   "fit": "Six bedrooms and room for six boats on the Great Camp lake for $560 a couple. The boat-in logistics are the whole debate — the same debate as the Big Moose listing in the purchase brief. By-owner listing, no platform fee.",
+   "url": "https://www.adkbyowner.com/listings/VR13038.html",
+   "platform": "Adirondack by Owner",
+   "direct": "https://www.adkbyowner.com/listings/VR13038.html",
+   "kind": "single",
+   "status": "active",
+   "season": "Weekly, June through October",
+   "dock": "two private docks, six boats",
+   "lakeName": null,
+   "new": true
+  },
+  {
+   "lakeKey": "raquette",
+   "name": "Camp Garçon — historic Great Camp, 7 BR but capped at 10",
+   "lat": 43.832,
+   "lon": -74.668,
+   "bedrooms": 7,
+   "baths": 2,
+   "sleeps": 10,
+   "rate": 4545,
+   "rateUnit": "/wk",
+   "rateNote": null,
+   "detail": "Seven bedrooms, two baths, porch, fire pit and dock — but the owner caps occupancy at 10. $4,545/wk, Friday to Friday.",
+   "fit": "Passes the bedroom test and fails the couples test: the occupancy cap is a rule, not a suggestion. Listed so you can ask whether they would consider 16 for a known group; otherwise a benchmark for what a real Great Camp rents for.",
+   "url": "https://www.adkbyowner.com/listings/VR12682.html",
+   "platform": "Adirondack by Owner",
+   "direct": "https://adkcamps.com/en/camp-garcon---historic-great-camp-in-raquette-lake",
+   "kind": "single",
+   "status": "verify",
+   "season": "Weekly, Friday to Friday",
+   "dock": "dock",
+   "lakeName": null,
+   "new": false
+  },
+  {
+   "lakeKey": "bigmoose",
+   "name": "Covewood Lodge — Great Camp inn with 18 cottages",
+   "lat": 43.82,
+   "lon": -74.862,
+   "bedrooms": null,
+   "baths": null,
+   "sleeps": 30,
+   "rate": 2330,
+   "rateUnit": "/wk",
+   "rateNote": "main lodge ~$2,330/wk peak; cottages priced individually",
+   "detail": "Historic 1928 main lodge (two 2BR apartments, rooms; peak weekly ~$2,330) plus 18–19 cottages from 1 to ~6 bedrooms; weekly in peak season; beach, docks, boats. (800) 357-7530.",
+   "fit": "The whole-camp buyout on the hushed classic: take the main lodge and three or four of the big cottages and eight couples have a Great Camp to themselves. Book direct — Covewood has never been on a platform.",
+   "url": null,
+   "platform": null,
+   "direct": "https://www.covewoodlodge.com/",
+   "kind": "buyout",
+   "status": "verify",
+   "season": "Weekly late June to Labor Day; 3-night minimum otherwise",
+   "dock": "lodge docks and beach",
+   "lakeName": null,
+   "new": true
+  },
+  {
+   "lakeKey": "kezar",
+   "name": "Quisisana — 42 cottages, full American plan, music every night",
+   "lat": 44.212,
+   "lon": -70.898,
+   "bedrooms": null,
+   "baths": null,
+   "sleeps": 60,
+   "rate": null,
+   "rateUnit": "/wk",
+   "rateNote": "full American plan; group terms on request",
+   "detail": "Since 1917: 42 private cottages (1–3 BR) and a 7-room lodge on Kezar's shore; rates include three meals a day and nightly chamber music, opera and musical theatre performed by the conservatory-student staff. Owned by the Orans family since 1984.",
+   "fit": "No single house on Kezar sleeps sixteen — the market is too thin — so the eight-couple answer is a block of cottages here. It is also the best way to spend a week on the truest Squam analog while the group decides whether to spend twenty years on it.",
+   "url": null,
+   "platform": null,
+   "direct": "https://www.quisisanaresort.com/",
+   "kind": "buyout",
+   "status": "verify",
+   "season": "Summer season; weekly stays",
+   "dock": "resort waterfront, boats, docks",
+   "lakeName": null,
+   "new": false
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "Seymour Lake Lodge — take all 7 rooms and 3 apartments",
+   "lat": 44.93,
+   "lon": -71.968,
+   "bedrooms": 10,
+   "baths": null,
+   "sleeps": 24,
+   "rate": null,
+   "rateUnit": "/wk",
+   "rateNote": "~$95–155/room/night; whole-lodge rate on request",
+   "detail": "Year-round lodge on the shore at 28 Valley Road: 7 guest rooms plus 3 apartments, communal kitchen, game room, beach, dock, free canoes, kayaks and boats. Rooms $95–155/night. 802-895-2563.",
+   "fit": "A buyout here is ten doors for roughly $1,200 a night for the whole building — cheap enough that the group can test the Northeast Kingdom without commitment. It is an inn, not an estate: shared kitchen, lodge culture. Priced like it.",
+   "url": null,
+   "platform": null,
+   "direct": "http://lakeseymourlodge.com/",
+   "kind": "buyout",
+   "status": "verify",
+   "season": "Year-round",
+   "dock": "lodge dock and beach",
+   "lakeName": null,
+   "new": false
+  },
+  {
+   "lakeKey": "seymour",
+   "name": "Largest private rental on Seymour — 5 BR, sleeps 9",
+   "lat": 44.938,
+   "lon": -71.945,
+   "bedrooms": 5,
+   "baths": 4,
+   "sleeps": 9,
+   "rate": null,
+   "rateUnit": "/wk",
+   "rateNote": "largest found: 5 BR / sleeps 9",
+   "detail": "The biggest single property found: main house (3BR) plus a two-bedroom en-suite guest cottage on 35 acres with 1,000 ft of private shore and a lakeside dock. Sleeps 9.",
+   "fit": "Included so the map is honest: Seymour's private rental stock tops out at five bedrooms. Eight couples here means the lodge buyout above, or two adjacent VRBOs.",
+   "url": "https://www.vrbo.com/3350220",
+   "platform": "VRBO",
+   "direct": null,
+   "kind": "single",
+   "status": "verify",
+   "season": null,
+   "dock": "private lakeside dock",
+   "lakeName": null,
+   "new": false
+  },
+  {
+   "lakeKey": "parker_pond",
+   "name": "Lake Front Life — sleeps 16, dock for 16+, theatre room",
+   "lat": 44.482,
+   "lon": -70.008,
+   "bedrooms": null,
+   "baths": null,
+   "sleeps": 16,
+   "rate": 8500,
+   "rateUnit": "/wk",
+   "rateNote": "from ~$1,215/night",
+   "detail": "Listed as the premium rental on Parker Pond: sleeps 16, private dock sized for the whole group, hot tub, theatre room, six kayaks; from ~$1,215/night. Bedroom count not published in search results.",
+   "fit": "On the clearest of Maine's four standouts. If the bedroom count is seven or more, this is the Northeast's best single-house answer at about $1,060 a couple for the week. Confirm bedrooms before anything else.",
+   "url": "https://www.vacationcottage.com/location/usa/maine/parker-pond",
+   "platform": "VacationCottage (Parker Pond listings)",
+   "direct": null,
+   "kind": "single",
+   "status": "verify",
+   "season": "Summer",
+   "dock": "private dock for 16+",
+   "lakeName": null,
+   "new": true
+  },
+  {
+   "lakeKey": "silver_madison",
+   "name": "Silver Lake — no 7+ BR rental found",
+   "lat": 43.87,
+   "lon": -71.195,
+   "bedrooms": 5,
+   "baths": 2,
+   "sleeps": 12,
+   "rate": null,
+   "rateUnit": "/wk",
+   "rateNote": "largest found: 5 BR / sleeps 12",
+   "detail": "Largest waterfront rental found: a 5BR/2BA that sleeps 12 with a dock (bring your own boat, four kayaks). Nothing at 7+ bedrooms surfaced.",
+   "fit": "Honest answer: Silver Lake's rental stock is family-cottage scale. Eight couples means two adjacent houses, or Purity Spring Resort on the next lake over.",
+   "url": "https://www.vrbo.com/vacation-rentals/usa/new-hampshire/madison/silver-lake",
+   "platform": "VRBO (Silver Lake listings)",
+   "direct": null,
+   "kind": "single",
+   "status": "verify",
+   "season": null,
+   "dock": "dock, bring your own boat",
+   "lakeName": null,
+   "new": false
+  },
+  {
+   "lakeKey": "echo_lake_fayette",
+   "name": "Echo Lake — no group rental found",
+   "lat": 44.438,
+   "lon": -70.004,
+   "bedrooms": 2,
+   "baths": 1,
+   "sleeps": 6,
+   "rate": null,
+   "rateUnit": "/wk",
+   "rateNote": "largest found: 2 BR",
+   "detail": "The only rental found is a 2BR camp with a dock and boat that sleeps 6. Echo is a private-camp lake with almost no rental market.",
+   "fit": "Nothing here for eight couples. Rent on Parker Pond ten minutes away and boat both.",
+   "url": "https://www.rentbyowner.com/property/echo-lake-camp-with-dock-and-boat/AB-21434874",
+   "platform": "Airbnb (via RentByOwner)",
+   "direct": null,
+   "kind": "single",
+   "status": "verify",
+   "season": null,
+   "dock": "dock and boat",
+   "lakeName": null,
+   "new": false
+  }
+ ]
 }
